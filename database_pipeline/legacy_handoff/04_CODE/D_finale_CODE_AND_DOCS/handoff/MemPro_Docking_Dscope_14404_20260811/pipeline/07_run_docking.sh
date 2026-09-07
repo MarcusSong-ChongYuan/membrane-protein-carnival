@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+R="$(cd "$(dirname "$0")/.."&&pwd)";D="${VINA_DIR:-$HOME/Vina-GPU}";B="${VINA_BIN:-$D/Vina-GPU}";T="${TASK_TIMEOUT:-180}";mkdir -p "$R/results" "$R/logs";ln -sfn "$R/receptors_pdbqt_clean" "$D/receptors_pdbqt";ln -sfn "$R/ligands_pdbqt" "$D/ligands_pdbqt";ln -sfn "$R/results" "$D/results";mapfile -t C < <(find "$R/vina_configs" -name '*.conf' -type f|sort);n=0;f=0;s=0;for c in "${C[@]}";do id=$(basename "$c" .conf);[ -s "$R/results/${id}_out.pdbqt" ]&&{ s=$((s+1));continue;};cd "$D";if timeout "$T" "$B" --config "$c">"$R/logs/${id}.log" 2>&1;then n=$((n+1));else f=$((f+1));echo "$id">>"$R/logs/failed.txt";fi;done;echo "done=$n fail=$f skip=$s total=${#C[@]}"

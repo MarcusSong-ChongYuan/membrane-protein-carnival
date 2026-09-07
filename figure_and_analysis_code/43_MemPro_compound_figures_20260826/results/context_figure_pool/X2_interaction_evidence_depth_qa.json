@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "analysis_unit": "one canonical protein-compound pair",
+  "analysis_N": 529168,
+  "pair_id_unique": true,
+  "evidence_depth_field": "independent_experiment_count",
+  "fallback_proxy_used": "none",
+  "minimum_depth": 1,
+  "maximum_depth": 686,
+  "quantiles": {
+    "0.5": 1,
+    "0.75": 2,
+    "0.9": 3,
+    "0.95": 4
+  },
+  "fraction_ge_2": 0.32559225047621926,
+  "fraction_ge_3": 0.12384346748102681,
+  "evidence_record_fields_scanned": {
+    "source": "source_database",
+    "publication": [
+      "pubmed_ids",
+      "doi"
+    ],
+    "lineage": "experiment_lineage_key_v7"
+  }
+}

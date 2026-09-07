@@ -1,0 +1,3 @@
+# M7 caption
+
+**M7. Evidence provenance and source-count semantics.** The legacy field named `independent_source_count` is audited against a literal count of distinct contributing database labels (A); mismatches are retained for review and are not interpreted as biological disagreement. Structure, PubChem assay and literature-proxy lineage keys use different provenance fields and are therefore reported separately (B–C). The complete machine-selected audit universe is not claimed to have been manually reviewed; panel D reports the fixed, source- and tier-stratified validation sample. A literature key is a conservative experiment proxy and may still group or split experiments imperfectly when source metadata are sparse.

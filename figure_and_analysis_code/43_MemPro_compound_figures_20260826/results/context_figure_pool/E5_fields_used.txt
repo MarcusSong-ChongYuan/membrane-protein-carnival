@@ -1,0 +1,9 @@
+canonical pair | pair_id | protein_compound_pair_v72.tsv.gz
+quantitative activity | standard_value_nM | positive_interaction_evidence_v72.tsv.gz | non-empty numeric standard value
+assay context | assay_or_mechanism | positive_interaction_evidence_v72.tsv.gz | non-empty formal context
+publication | pubmed_ids or doi | positive_interaction_evidence_v72.tsv.gz
+multiple sources | distinct_database_count_v72 | protein_compound_pair_v72.tsv.gz
+independent supports | independent_experiment_count | protein_compound_pair_v72.tsv.gz
+structural context | independent_structure_count | protein_compound_pair_v72.tsv.gz
+site annotation / coordinate / S1 | site_record_id / coordinate_mapping_status / site_tier_v72 | interaction_site_v72.tsv.gz
+No formal interaction action/mechanism field was used: evidence_action_v61 is a curation-action field, not biological mechanism.

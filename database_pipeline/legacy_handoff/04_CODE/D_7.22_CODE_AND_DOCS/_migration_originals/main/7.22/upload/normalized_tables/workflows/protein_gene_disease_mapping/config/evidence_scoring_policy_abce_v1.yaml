@@ -1,0 +1,47 @@
+scoring_policy_version: pgd_evidence_level_abce_v1
+default_release_rule: B
+default_release_inclusion: rule_b_pass
+
+levels:
+  low:
+    rank: 1
+    highest_rule: A
+    archive_only: true
+  medium:
+    rank: 2
+    highest_rule: B
+    default_release: true
+  high:
+    rank: 3
+    highest_rule: C
+    default_release: true
+  very_high:
+    rank: 4
+    highest_rule: E
+    default_release: true
+
+rules:
+  A:
+    name: simple_two_raw_datasource_rule
+    definition: At least two Rule-A-qualifying raw datasource IDs; Clinical Precedence and unknown sources do not count.
+  B:
+    name: balanced_two_source_rule_v1
+    definition: Direct disease relation with at least two independent qualifying families, at least one core family, no weak-only evidence, and no unknown source.
+  C:
+    name: strict_two_source_validation_subset
+    definition: Rule B plus one clinical/curated genetic family and a different Rule-C-eligible core or human-genetic family.
+  E:
+    name: corrected_very_high_evidence_rule
+    definition: Rule C plus the original strong multi-source condition and explicit direct, disease, specificity, known-source and non-weak constraints.
+
+rule_e_excluded_specificity_statuses:
+  - ontology_root
+  - therapeutic_area_root
+  - broad_therapeutic_area
+  - non_specific_parent
+  - ontology_root_or_parent
+  - biological_measurement
+
+historical_rule_d:
+  formal_scoring_use: false
+  note: Historical trial only; it lacked the final entity-type/specificity correction and is not used as a formal evidence level.

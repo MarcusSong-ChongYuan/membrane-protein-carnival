@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "run_type": "incremental_supplement_not_rebuild",
+  "generated_at_utc": "2026-07-27T09:01:28.060546+00:00",
+  "scope": "GPCRdb + PDBe + PDBbind only; PubChem and BRENDA pending",
+  "counts": {
+    "PDBbind_default_evidence_rows": 3494,
+    "PDBe_default_evidence_rows": 9086,
+    "add_new_pair": 4200,
+    "gpcrdb_pair_rows": 8430,
+    "output_pair_rows": 12732,
+    "shared_pdbe_pdbbind_structures": 608,
+    "strengthen_existing_pair": 8532
+  },
+  "outputs": {
+    "pair_delta": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\merge_candidate\\pre_pubchem_pair_delta_v3.tsv.gz",
+    "pdbe_pdbbind_structure_overlap": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\merge_candidate\\pdbe_pdbbind_structure_overlap_v3.tsv.gz"
+  }
+}

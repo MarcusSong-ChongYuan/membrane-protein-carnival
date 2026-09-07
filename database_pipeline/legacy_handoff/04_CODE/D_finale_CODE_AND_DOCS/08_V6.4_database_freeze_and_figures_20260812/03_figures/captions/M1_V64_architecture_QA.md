@@ -1,0 +1,1 @@
+V6.4 candidate integration, release-scope separation, controlled PDB/IHC corrections, relational QA, and conservative redistribution status. Counts are derived from frozen candidate tables; Docking outputs are not required.

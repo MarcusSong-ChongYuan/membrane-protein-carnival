@@ -1,0 +1,8 @@
+{
+  "operation": "display-only revision",
+  "statistics_recalculated": false,
+  "main_role_minimum_eligible_proteins": 100,
+  "n_main_roles": 8,
+  "n_supplementary_roles": 14,
+  "n_displayed_categories": 12
+}

@@ -1,0 +1,16 @@
+{
+  "n_compounds": 98603,
+  "n_unique_neighbor_pairs": 1333186,
+  "spearman_rho": 0.5817194268134285,
+  "spearman_p": 0.0,
+  "cluster_bootstrap_replicates": 500,
+  "cluster_bootstrap_ci95": [
+    0.5566108728183057,
+    0.6065728022435465
+  ],
+  "approximate_neighbor_recall_mean": 0.9640000000000001,
+  "approximate_neighbor_recall_min": 0.6,
+  "validation_queries": 50,
+  "fingerprint": "Morgan radius 2, 2048 bits",
+  "neighbors": 20
+}

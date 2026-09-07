@@ -1,0 +1,1 @@
+Canonical compounds are separated from exact forms. Biological-status counts are intersections among annotated compounds, not totals of approved drugs. Descriptor panels summarize identity-QC-passed values and are not drug-likeness conclusions.

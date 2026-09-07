@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "blocking_errors": {},
+  "blocking_error_total": 0,
+  "protein_rows": 10997,
+  "compound_rows": 2016064,
+  "form_rows": 2020898,
+  "official_negative_rows": 7784223,
+  "negative_pair_rows": 6331307,
+  "invalid_negative_compound_foreign_keys": 0,
+  "invalid_negative_form_foreign_keys": 0,
+  "expression_module_status": "passed_with_review_queue",
+  "subunit_module_status": "passed_with_review_queue",
+  "negative_module_status": "passed_with_review_queue",
+  "preflight_qa_status": "PASS",
+  "generated_utc": "2026-07-29T22:14:31.418893+00:00"
+}

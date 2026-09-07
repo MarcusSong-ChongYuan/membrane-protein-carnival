@@ -1,0 +1,6 @@
+n: 7,305 proteins across 11 roles
+filter: mapped+measured normal HPA tissue RNA; role n>=30
+effect size: epsilon-squared=0.061
+overall P: 4.342e-92
+missingness: unmapped/missing expression excluded from Tau and reported separately
+recommendation: MAIN FIGURE 2D

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "run_type": "incremental_supplement_not_rebuild",
+  "release_version": "v6.0",
+  "generated_at_utc": "2026-07-27T11:45:02.461289+00:00",
+  "counts": {
+    "protein_master_rows": 10997,
+    "protein_compound_pair_rows": 576038,
+    "compound_master_rows": 277837,
+    "compound_form_rows": 279870,
+    "protein_gene_disease_rows": 10264,
+    "proteins_with_compounds": 3396,
+    "compounds_with_proteins": 255493
+  },
+  "outputs": {
+    "protein_master": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\human_membrane_protein_master_v6_0.tsv",
+    "protein_gene_disease": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\protein_gene_disease_relations_v6_0.tsv",
+    "small_molecule_master": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\small_molecule_master_v1_1.tsv",
+    "compound_form_hierarchy": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\compound_form_hierarchy_v1_1.tsv",
+    "protein_compound_summary": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\protein_compound_summary_v6_0.tsv.gz"
+  }
+}

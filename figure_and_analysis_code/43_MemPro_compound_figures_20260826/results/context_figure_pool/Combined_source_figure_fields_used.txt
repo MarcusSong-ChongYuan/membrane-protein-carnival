@@ -1,0 +1,14 @@
+Panel A source table: C1_source_module_compound_coverage.tsv
+  source = data_source
+  module = compound_module
+  count = unique_canonical_compounds
+  unit = unique canonical compound
+
+Panel B source tables: E3_source_evidence_type_counts.tsv and E3_source_summary.tsv
+  source = source
+  evidence type = category (formal evidence_modality_v7 classification used by E3)
+  modality count = n_unique_pairs (deduplicated canonical pair within source x modality)
+  source pair total = n_unique_pairs in E3_source_summary.tsv
+  unit = unique canonical protein-compound pair
+
+Panel B formal modalities are non-mutually-exclusive; no primary modality was inferred.

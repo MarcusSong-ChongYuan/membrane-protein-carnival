@@ -1,0 +1,732 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/76kfn7",
+    "id": "76kfn7",
+    "slide": 16,
+    "layoutId": "373abecd-5c99-4853-b721-4f54f74d4403",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "373abecd-5c99-4853-b721-4f54f74d4403",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ju5gv29o",
+      "id": "1",
+      "bbox": [
+        64,
+        684,
+        700,
+        20
+      ],
+      "geometry": "rect",
+      "text": "MemPro V7.2 · NAR analysis narrative",
+      "textPreview": "MemPro V7.2 · NAR analysis narrative",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MemPro V7.2 · NAR analysis narrative"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MemPro V7.2 · NAR analysis narrative",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#69757D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MemPro V7.2 · NAR analysis narrative",
+              "fontSize": 11,
+              "color": "#69757D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4veh47q9",
+      "id": "2",
+      "bbox": [
+        1180,
+        684,
+        36,
+        20
+      ],
+      "geometry": "rect",
+      "text": "16",
+      "textPreview": "16",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "16"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "16",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#69757D",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "16",
+              "fontSize": 11,
+              "color": "#69757D",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wnyxcru",
+      "id": "3",
+      "bbox": [
+        64,
+        36,
+        460,
+        24
+      ],
+      "geometry": "rect",
+      "text": "CLOSE",
+      "textPreview": "CLOSE",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#7B95C6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CLOSE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CLOSE",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#7B95C6",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CLOSE",
+              "fontSize": 13,
+              "color": "#7B95C6",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xwz6h8f",
+      "id": "4",
+      "bbox": [
+        64,
+        62,
+        1152,
+        58
+      ],
+      "geometry": "rect",
+      "text": "The analysis package is ready; the website use case remains the next manuscript figure",
+      "textPreview": "The analysis package is ready; the website use case remains the next manuscript figure",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The analysis package is ready; the website use case remains the next"
+          },
+          {
+            "index": 2,
+            "text": "manuscript figure"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The analysis package is ready; the website use case remains the next manuscript figure",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#26323A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The analysis package is ready; the website use case remains the next manuscript figure",
+              "fontSize": 36,
+              "color": "#26323A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ry5gz290",
+      "id": "5",
+      "bbox": [
+        64,
+        126,
+        82,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#F47254",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szeh87ql",
+      "id": "6",
+      "bbox": [
+        115,
+        185,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#F47254",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tk7y1crq",
+      "id": "7",
+      "bbox": [
+        139,
+        175,
+        1006,
+        84
+      ],
+      "geometry": "rect",
+      "text": "Six main figures, one supplementary chemical atlas and seven concept graphics are reproducible from V7.2.",
+      "textPreview": "Six main figures, one supplementary chemical atlas and seven concept graphics are reproducible from V7.2.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Six main figures, one supplementary chemical atlas and seven concept graphics are reproducible from V7.2."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Six main figures, one supplementary chemical atlas and seven concept graphics are reproducible from V7.2.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#26323A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Six main figures, one supplementary chemical atlas and seven concept graphics are reproducible from V7.2.",
+              "fontSize": 19,
+              "color": "#26323A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/elgzah8b",
+      "id": "8",
+      "bbox": [
+        115,
+        273,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#7B95C6",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fmpg3m9w",
+      "id": "9",
+      "bbox": [
+        139,
+        263,
+        1006,
+        84
+      ],
+      "geometry": "rect",
+      "text": "Every panel has source data, denominator rules, statistical methods and provenance.",
+      "textPreview": "Every panel has source data, denominator rules, statistical methods and provenance.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Every panel has source data, denominator rules, statistical methods and provenance."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Every panel has source data, denominator rules, statistical methods and provenance.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#26323A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Every panel has source data, denominator rules, statistical methods and provenance.",
+              "fontSize": 19,
+              "color": "#26323A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/76xsbi5k",
+      "id": "10",
+      "bbox": [
+        115,
+        361,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#7B95C6",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m5oridoz",
+      "id": "11",
+      "bbox": [
+        139,
+        351,
+        1006,
+        84
+      ],
+      "geometry": "rect",
+      "text": "Figure 7 should be added only after search, download and API functions are accessible.",
+      "textPreview": "Figure 7 should be added only after search, download and API functions are accessible.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Figure 7 should be added only after search, download and API functions are accessible."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Figure 7 should be added only after search, download and API functions are accessible.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#26323A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Figure 7 should be added only after search, download and API functions are accessible.",
+              "fontSize": 19,
+              "color": "#26323A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/t8zadsna",
+      "id": "12",
+      "bbox": [
+        115,
+        449,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#7B95C6",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87q9kn6p",
+      "id": "13",
+      "bbox": [
+        139,
+        439,
+        1006,
+        84
+      ],
+      "geometry": "rect",
+      "text": "Manuscript claims must preserve the boundaries: concordance ≠ causality; docking ≠ validation.",
+      "textPreview": "Manuscript claims must preserve the boundaries: concordance ≠ causality; docking ≠ validation.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Manuscript claims must preserve the boundaries: concordance ≠ causality; docking ≠ validation."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Manuscript claims must preserve the boundaries: concordance ≠ causality; docking ≠ validation.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#26323A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Manuscript claims must preserve the boundaries: concordance ≠ causality; docking ≠ validation.",
+              "fontSize": 19,
+              "color": "#26323A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2xs7y58",
+      "id": "14",
+      "bbox": [
+        115,
+        540,
+        1030,
+        70
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#D0E2C0",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhoredon",
+      "id": "15",
+      "bbox": [
+        145,
+        550,
+        970,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Next deliverable: website/use-case evidence and manuscript Results text aligned to Figures 1–6",
+      "textPreview": "Next deliverable: website/use-case evidence and manuscript Results text aligned to Figures 1–6",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Next deliverable: website/use-case evidence and manuscript Results text aligned to Figures 1–6"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Next deliverable: website/use-case evidence and manuscript Results text aligned to Figures 1–6",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#26323A",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Next deliverable: website/use-case evidence and manuscript Results text aligned to Figures 1–6",
+              "fontSize": 22,
+              "color": "#26323A",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

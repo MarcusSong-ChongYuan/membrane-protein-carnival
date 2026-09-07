@@ -1,0 +1,1 @@
+Composition of 10,997 canonical membrane proteins. Five-axis annotations remain multi-dimensional: structural family, molecular function, biological process, membrane role and specialist classification.

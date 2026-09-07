@@ -1,0 +1,21 @@
+"use client";
+import { useEffect, useMemo, useState } from "react";
+import { ArrowLeft, Database, Download, FileArchive, Search } from "lucide-react";
+type Table={name:string;layer:string;category:string;rows:number;columns:string[];columnCount:number;bytes:number;url:string};
+type Manifest={release:string;tableCount:number;rowCount:number;tables:Table[];excluded:{layer:string;reason:string}[]};
+const n=new Intl.NumberFormat("en-US");
+const groups=["all","protein","compound","interaction","disease","expression","complex","structure","metadata","other"];
+export default function DataAccess(){
+ const[data,setData]=useState<Manifest|null>(null),[query,setQuery]=useState(""),[group,setGroup]=useState("all");
+ useEffect(()=>{fetch("/data/release-tables.json").then(r=>r.json()).then(setData)},[]);
+ const tables=useMemo(()=>!data?[]:data.tables.filter(t=>group==="all"||t.category===group).filter(t=>{const q=query.toLowerCase().trim();return !q||t.name.toLowerCase().includes(q)||t.columns.some(c=>c.toLowerCase().includes(q))}),[data,query,group]);
+ if(!data)return <main className="grid min-h-screen place-items-center bg-[#f5f8fa] text-[#173b6c]">Loading release manifest…</main>;
+ return <main className="min-h-screen bg-[#f5f8fa] text-[#243b47]">
+  <header className="border-b border-[#d9e3e7] bg-white"><div className="mx-auto flex h-15 max-w-[1380px] items-center gap-4 px-5 lg:px-8"><a href="/" className="flex items-center gap-2 text-sm font-semibold text-[#173b6c]"><ArrowLeft className="h-4 w-4"/>Protein browser</a><span className="h-5 w-px bg-[#d9e3e7]"/><b className="text-[#173b6c]">MemPro full release tables</b></div></header>
+   <section className="border-b border-[#dbe5e8] bg-[linear-gradient(120deg,#edf3fa,#f5fbfa_58%,#eff7f2)]"><div className="mx-auto max-w-[1380px] px-5 py-10 lg:px-8"><p className="section-kicker">Formal release</p><h1 className="mt-3 text-4xl font-semibold tracking-[-.035em] text-[#173b6c]">Data access</h1><p className="mt-3 max-w-3xl text-sm leading-7 text-[#5d7480]">Formal tables, companion annotations, positive evidence, negative evidence and positive–negative conflicts are listed with row counts and fields.</p><div className="mt-7 grid max-w-3xl grid-cols-3 gap-3"><div className="release-metric"><b>{data.tableCount}</b><span>public tables</span></div><div className="release-metric"><b>{n.format(data.rowCount)}</b><span>table rows</span></div><div className="release-metric"><b>Formal</b><span>release scope</span></div></div></div></section>
+  <div className="mx-auto max-w-[1380px] px-5 py-8 lg:px-8"><div className="flex flex-wrap gap-3"><div className="relative min-w-[280px] flex-1"><Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[#7d909a]"/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search table or field" className="search-input pl-9"/></div><select value={group} onChange={e=>setGroup(e.target.value)} className="select-input w-48">{groups.map(g=><option key={g} value={g}>{g==="all"?"All modules":g}</option>)}</select></div><p className="mt-4 text-xs text-[#6e818b]">{tables.length} matching tables</p>
+   <div className="mt-4 grid gap-3">{tables.map(t=><details key={`${t.layer}-${t.name}`} className="release-table"><summary><span className="release-file-icon"><FileArchive className="h-4 w-4"/></span><span className="min-w-0"><b>{t.name}</b><small>{t.category} · {t.layer} · {t.columnCount} fields</small></span><span className="release-count"><b>{n.format(t.rows)}</b><small>rows</small></span><a href={t.url} download onClick={e=>e.stopPropagation()} className="download-button"><Download className="h-4 w-4"/>Download</a></summary><div className="release-fields"><p>Fields</p><div>{t.columns.map(c=><code key={c}>{c}</code>)}</div></div></details>)}</div>
+    <div className="mt-8 rounded-2xl border border-[#d8e4e6] bg-white p-5"><div className="flex gap-3"><Database className="mt-0.5 h-5 w-5 text-[#168c8c]"/><div><b className="text-sm text-[#294f5e]">Evidence signs remain separate</b><p className="mt-1 text-xs leading-6 text-[#6b7f89]">Negative observations are reported by assay context and never overwrite positive evidence. Conflicting pairs retain both records.</p></div></div></div>
+  </div>
+ </main>;
+}

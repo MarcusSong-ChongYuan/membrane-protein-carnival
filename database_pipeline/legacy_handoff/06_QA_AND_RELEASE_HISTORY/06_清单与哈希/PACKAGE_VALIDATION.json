@@ -1,0 +1,24 @@
+﻿{
+    "status":  "PASS",
+    "generated_local":  "2026-07-31T12:33:07.0364443+08:00",
+    "package_name":  "finale",
+    "release_validation":  "PASS",
+    "release_blocking_errors":  0,
+    "copied_release_hash_validation":  "PASS",
+    "figure_validation":  "PASS",
+    "docking_validation":  "PASS",
+    "required_directories_missing":  [
+
+                                     ],
+    "figure_counts":  {
+                          "png":  15,
+                          "pdf":  15,
+                          "svg":  15
+                      },
+    "reproducibility_script_count":  115,
+    "notes":  [
+                  "Third-party raw archives are intentionally excluded.",
+                  "Manifest excludes itself to avoid circular hashing.",
+                  "Docking lists require receptor/ligand preparation before HPC submission."
+              ]
+}

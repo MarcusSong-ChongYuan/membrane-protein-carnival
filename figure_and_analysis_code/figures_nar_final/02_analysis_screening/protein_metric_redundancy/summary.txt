@@ -1,0 +1,5 @@
+n: 7,800 canonical proteins
+filter: transparent protein-level metrics
+effect size: Spearman rho
+purpose: detect redundant visual encodings
+recommendation: DIAGNOSTIC/SUPPLEMENTARY

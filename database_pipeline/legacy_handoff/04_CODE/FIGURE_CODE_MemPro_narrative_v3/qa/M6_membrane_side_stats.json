@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "Extra, unresolved": 4390,
+    "Interface/mixed": 1328,
+    "Intramembrane": 773,
+    "Cytoplasmic": 407,
+    "Non-cytoplasmic": 378,
+    "Both/mixed": 3
+  },
+  "kruskal_xlogp_H": 4454.571366991571,
+  "kruskal_xlogp_p": 0.0
+}

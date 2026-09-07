@@ -1,0 +1,89 @@
+{
+  "status": "complete",
+  "started_utc": "2026-07-29T08:56:25.462751+00:00",
+  "updated_utc": "2026-07-29T08:56:53.578452+00:00",
+  "hpa_version": "25.1",
+  "ensembl_version": "109",
+  "files": {
+    "rna_tissue_consensus.tsv.zip": {
+      "status": "complete",
+      "bytes": 5293680,
+      "expected_bytes": 5293680,
+      "sha256": "b001903da23f802c8dfbd1b6b3a8c20b831fedd4932f4bb721b06622d83ae60b",
+      "members": [
+        "rna_tissue_consensus.tsv"
+      ],
+      "path": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\raw\\hpa_v25_1\\rna_tissue_consensus.tsv.zip",
+      "url": "https://www.proteinatlas.org/download/tsv/rna_tissue_consensus.tsv.zip"
+    },
+    "rna_tissue_hpa.tsv.zip": {
+      "status": "complete",
+      "bytes": 6653963,
+      "expected_bytes": 6653963,
+      "sha256": "735d0f5de5374946914e74949a760457f93b9ea4ca6200e0be55f22bb0473565",
+      "members": [
+        "rna_tissue_hpa.tsv"
+      ],
+      "path": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\raw\\hpa_v25_1\\rna_tissue_hpa.tsv.zip",
+      "url": "https://www.proteinatlas.org/download/tsv/rna_tissue_hpa.tsv.zip"
+    },
+    "rna_single_cell_type.tsv.zip": {
+      "status": "complete",
+      "bytes": 16346850,
+      "expected_bytes": 16346850,
+      "sha256": "2ddd3d90fb050a8efea508792ba7741c510fb5aa3d89f352aab99794ec2c9d64",
+      "members": [
+        "rna_single_cell_type.tsv"
+      ],
+      "path": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\raw\\hpa_v25_1\\rna_single_cell_type.tsv.zip",
+      "url": "https://www.proteinatlas.org/download/tsv/rna_single_cell_type.tsv.zip"
+    },
+    "ms_tissue.tsv.zip": {
+      "status": "complete",
+      "bytes": 2215153,
+      "expected_bytes": 2215153,
+      "sha256": "4d66af3fbc521196239d9256773a99e4966b6fcd2aefb97f8c8d94591f4ed5b8",
+      "members": [
+        "ms_tissue.tsv"
+      ],
+      "path": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\raw\\hpa_v25_1\\ms_tissue.tsv.zip",
+      "url": "https://www.proteinatlas.org/download/tsv/ms_tissue.tsv.zip"
+    },
+    "normal_ihc_data.tsv.zip": {
+      "status": "complete",
+      "bytes": 5732831,
+      "expected_bytes": 5732831,
+      "sha256": "fa2315e5a53ecffd9427a5bfe219c8cc41b54089ef6f6be7b5d79b5455e0677f",
+      "members": [
+        "normal_ihc_data.tsv"
+      ],
+      "path": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\raw\\hpa_v25_1\\normal_ihc_data.tsv.zip",
+      "url": "https://www.proteinatlas.org/download/tsv/normal_ihc_data.tsv.zip"
+    },
+    "subcellular_location.tsv.zip": {
+      "status": "complete",
+      "bytes": 252331,
+      "expected_bytes": 252331,
+      "sha256": "a9466882bd3328416bcde77c32a6bcb2a17d70183af90e98d032f6f5f781d504",
+      "members": [
+        "subcellular_location.tsv"
+      ],
+      "path": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\raw\\hpa_v25_1\\subcellular_location.tsv.zip",
+      "url": "https://www.proteinatlas.org/download/tsv/subcellular_location.tsv.zip"
+    },
+    "rna_single_cell_cluster.tsv.zip": {
+      "status": "complete",
+      "bytes": 196793490,
+      "expected_bytes": 196793490,
+      "sha256": "a0de097f3079c6f85e6959cd1bba9978f647b98c755a14d10c82a3b2559de6da",
+      "members": [
+        "rna_single_cell_cluster.tsv"
+      ],
+      "path": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\raw\\hpa_v25_1\\rna_single_cell_cluster.tsv.zip",
+      "url": "https://www.proteinatlas.org/download/tsv/rna_single_cell_cluster.tsv.zip"
+    }
+  },
+  "failed_files": [],
+  "completed_utc": "2026-07-29T08:56:53.579451+00:00",
+  "total_downloaded_bytes": 233288298
+}

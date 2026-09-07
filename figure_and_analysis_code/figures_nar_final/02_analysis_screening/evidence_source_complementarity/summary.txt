@@ -1,0 +1,5 @@
+n: 529,168 formal pairs and 885,945 public evidence records
+filter: V7.2 public evidence; exact source names
+effect size: Jaccard, overlap coefficient and source-specific fractions
+limitation: lineage keys are putative, not manually audited experiments
+recommendation: MAIN FIGURE 4

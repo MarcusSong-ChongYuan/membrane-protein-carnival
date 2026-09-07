@@ -1,0 +1,8 @@
+{
+  "n": 7305,
+  "groups": 11,
+  "kruskal_h": 457.88552657421826,
+  "kruskal_p": 4.3424871562855384e-92,
+  "epsilon_squared": 0.06140465129890571,
+  "posthoc": "Dunn rank-sum z approximation; BH-FDR"
+}

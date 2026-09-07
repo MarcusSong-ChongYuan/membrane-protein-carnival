@@ -1,0 +1,100 @@
+{
+  "status": "passed_with_review_queue",
+  "started_utc": "2026-07-29T09:12:15.015191+00:00",
+  "completed_utc": "2026-07-29T09:22:14.434288+00:00",
+  "module_version": "expression_location_v2_20260729",
+  "inputs": {
+    "protein_master": "D:\\7.22\\evidence_expansion_v2_working\\releases\\release_mempro_v6_1_20260729\\human_membrane_protein_master_v6_1.tsv",
+    "protein_rows": 10997,
+    "protein_master_sha256": "1f5867ef8e99dd274dba075f284631e1a06bb9d3109c48d52d04dd0a396581da",
+    "hpa_version": "HPA 25.1",
+    "hpa_input_hashes": {
+      "ms_tissue.tsv.zip": "4d66af3fbc521196239d9256773a99e4966b6fcd2aefb97f8c8d94591f4ed5b8",
+      "normal_ihc_data.tsv.zip": "fa2315e5a53ecffd9427a5bfe219c8cc41b54089ef6f6be7b5d79b5455e0677f",
+      "rna_single_cell_cluster.tsv.zip": "a0de097f3079c6f85e6959cd1bba9978f647b98c755a14d10c82a3b2559de6da",
+      "rna_single_cell_type.tsv.zip": "2ddd3d90fb050a8efea508792ba7741c510fb5aa3d89f352aab99794ec2c9d64",
+      "rna_tissue_consensus.tsv.zip": "b001903da23f802c8dfbd1b6b3a8c20b831fedd4932f4bb721b06622d83ae60b",
+      "rna_tissue_hpa.tsv.zip": "735d0f5de5374946914e74949a760457f93b9ea4ca6200e0be55f22bb0473565",
+      "subcellular_location.tsv.zip": "a9466882bd3328416bcde77c32a6bcb2a17d70183af90e98d032f6f5f781d504"
+    },
+    "hpa_summary_crosswalk_sha256": "ad401f8519ecdee5b67b0ad3bf28175d402d1ea0ad6c542b90fcab2bee39b470",
+    "ontology_versions": {
+      "UBERON": "uberon/releases/2026-06-19/uberon-basic.owl",
+      "CL": "cl/releases/2026-06-08/cl-basic.owl",
+      "GO": "releases/2026-06-15"
+    },
+    "ontology_hashes": {
+      "UBERON": "b27618d347df171d0dbbfc6178217487b98b96424641b8c8b4ece77256e67a14",
+      "CL": "73996c6349283e7a8cbd8183367a1cb810d0077e9c291ae0c72bd31e869f8c1c",
+      "GO": "c72fc198a86983d55e43aac585d1ffdbeb6e3601475b3f18b6045acdc0a0734c"
+    }
+  },
+  "identifier_mapping": {
+    "mapped_mempro_proteins": 10664,
+    "unmapped_mempro_proteins": 333,
+    "one_to_many_hpa_source_rows": 78685,
+    "source_row_mapping_methods": {
+      "E1_exact_master_Ensembl_one_to_one": 15990614,
+      "E0_unmapped_Ensembl": 13971929,
+      "E3_master_Ensembl_one_to_many": 75804,
+      "E3_master_Ensembl_vs_HPA_UniProt_conflict": 2881,
+      "E1_HPA_Ensembl_UniProt_crosswalk_one_to_one": 20484
+    }
+  },
+  "source_rows": {
+    "rna_tissue_consensus.tsv.zip": 1026292,
+    "rna_tissue_hpa.tsv.zip": 806480,
+    "ms_tissue.tsv.zip": 385940,
+    "rna_single_cell_type.tsv.zip": 3087080,
+    "normal_ihc_data.tsv.zip": 1199675,
+    "rna_single_cell_cluster.tsv.zip": 23542642,
+    "subcellular_location.tsv.zip": 13603
+  },
+  "output_rows": {
+    "tissue": 2060458,
+    "cell_type": 1656976,
+    "ihc": 681469,
+    "cell_cluster": 12641815,
+    "localization": 30831
+  },
+  "summary_rows": 10997,
+  "review_rows": 496,
+  "ontology_mapping_counts": {
+    "cell_type:mapped_broader_contained_official_label": 33,
+    "cell_type:mapped_curated_override": 28,
+    "cell_type:mapped_unique_label_or_synonym": 15,
+    "cell_type:mapped_unique_normalized_official_label": 81,
+    "cell_type:source_histology_compartment_not_CL_cell_type": 3,
+    "cell_type:unmapped": 147,
+    "location:mapped_curated_override": 13,
+    "location:mapped_exact_official_label": 13,
+    "location:mapped_unique_label_or_synonym": 7,
+    "location:mapped_unique_normalized_official_label": 10,
+    "location:unmapped": 6,
+    "tissue:ambiguous_multiple_terms": 4,
+    "tissue:mapped_curated_override": 13,
+    "tissue:mapped_exact_official_label": 79,
+    "tissue:mapped_unique_label_or_synonym": 15,
+    "tissue:mapped_unique_normalized_official_label": 1,
+    "tissue:unmapped": 6
+  },
+  "quality_checks": {
+    "summary_primary_key_unique": true,
+    "summary_foreign_keys_in_master": true,
+    "rna_ihc_ms_units_kept_separate": true,
+    "missing_distinct_from_zero": true,
+    "v61_immutable": true,
+    "formal_release_frozen": false
+  },
+  "outputs": {
+    "tissue": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\expression_location_v2\\protein_tissue_expression_v2.tsv.gz",
+    "cell_type": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\expression_location_v2\\protein_cell_type_expression_v2.tsv.gz",
+    "cell_cluster": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\expression_location_v2\\protein_cell_cluster_expression_v2.tsv.gz",
+    "ihc": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\expression_location_v2\\protein_tissue_cell_ihc_expression_v2.tsv.gz",
+    "localization": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\expression_location_v2\\protein_subcellular_localization_v2.tsv.gz",
+    "mapping": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\expression_location_v2\\anatomy_cell_location_ontology_mapping_v2.tsv",
+    "summary": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\expression_location_v2\\expression_location_summary_v2.tsv.gz",
+    "review": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\expression_location_v2\\expression_location_review_queue_v2.tsv.gz",
+    "preview": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\expression_location_v2\\human_membrane_protein_master_v6_2_expression_preview.tsv.gz"
+  }
+}

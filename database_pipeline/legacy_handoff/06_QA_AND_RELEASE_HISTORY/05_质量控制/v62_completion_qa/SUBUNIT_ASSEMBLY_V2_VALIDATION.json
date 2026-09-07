@@ -1,0 +1,91 @@
+{
+  "status": "passed_with_review_queue",
+  "started_utc": "2026-07-29T09:04:47.085840+00:00",
+  "completed_utc": "2026-07-29T09:05:27.521384+00:00",
+  "module_version": "subunit_assembly_v2_20260729",
+  "inputs": {
+    "protein_master": "D:\\7.22\\evidence_expansion_v2_working\\releases\\release_mempro_v6_1_20260729\\human_membrane_protein_master_v6_1.tsv",
+    "protein_rows": 10997,
+    "protein_master_sha256": "1f5867ef8e99dd274dba075f284631e1a06bb9d3109c48d52d04dd0a396581da",
+    "uniprot_cache": "D:\\7.22\\evidence_expansion_v2_working\\runs\\subunit_assembly_v1_20260728\\staging\\uniprot_subunit_annotations_v1.tsv.gz",
+    "uniprot_cache_sha256": "ac4b45b104fc6e45d8ebf6b448d92ac1b1edc420cd1e6a1067d6c1fcd60d759b",
+    "assembly_cache_export": "D:\\7.22\\evidence_expansion_v2_working\\runs\\subunit_assembly_v1_20260728\\staging\\membrane_protein_biological_assembly_v1.tsv.gz",
+    "assembly_cache_export_sha256": "b03f8a0af0940c8f4b13a048c57af1f5ef66c33812164da7ce40b8661ce6c839"
+  },
+  "outputs": {
+    "uniprot_rows": 10997,
+    "assembly_rows": 105334,
+    "component_rows": 1210125,
+    "summary_rows": 10997,
+    "review_rows": 3348
+  },
+  "state_distribution": {
+    "heterotetramer_complex": 155,
+    "multiple_or_state_dependent": 1618,
+    "unknown": 5385,
+    "homooligomer_count_unknown": 109,
+    "homodimer": 898,
+    "heterooligomer_count_unknown": 20,
+    "monomer": 1758,
+    "homotetramer": 103,
+    "heterodimer": 377,
+    "heterotetramer": 87,
+    "hexamer_unspecified": 47,
+    "dimer_unspecified": 67,
+    "heterotrimer": 51,
+    "homotrimer": 105,
+    "trimer_unspecified": 20,
+    "tetramer_unspecified": 36,
+    "heteropentamer": 26,
+    "homohexamer": 17,
+    "heteromeric_complex_count_unknown": 15,
+    "heterohexamer": 35,
+    "homooctamer": 17,
+    "pentamer_unspecified": 9,
+    "homo40-mer": 1,
+    "homopentamer": 13,
+    "octamer_unspecified": 5,
+    "homoheptamer": 5,
+    "decamer_unspecified": 3,
+    "homo24-mer": 3,
+    "homo32-mer": 2,
+    "heptamer_unspecified": 3,
+    "homononamer": 1,
+    "heterooctamer": 1,
+    "dodecamer_unspecified": 1,
+    "homoundecamer": 1,
+    "homodecamer": 1,
+    "homododecamer": 2
+  },
+  "evidence_grade_distribution": {
+    "SA2_curated_annotation": 771,
+    "SA1_direct_experimental": 2501,
+    "SA0_unresolved": 5385,
+    "SA2_author_defined_structure": 2292,
+    "SA3_software_inferred_assembly": 48
+  },
+  "cache_reconciliation": {
+    "expected_v61_protein_pdb_pairs": 81490,
+    "observed_pairs_with_assembly": 81271,
+    "pairs_without_assembly_export": 219,
+    "stale_v1_assembly_rows_excluded": 0
+  },
+  "quality_checks": {
+    "summary_primary_key_unique": true,
+    "summary_foreign_keys_in_master": true,
+    "pdb_asymmetric_unit_not_used_as_native_state": true,
+    "heteromer_target_copy_not_inferred_without_component_mapping": true,
+    "pdb_experimental_structure_not_equal_direct_stoichiometry": true,
+    "large_complexes_review_flagged": true,
+    "v61_immutable": true,
+    "formal_release_frozen": false
+  },
+  "output_files": {
+    "uniprot": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\subunit_assembly_v2\\uniprot_subunit_annotations_v2.tsv.gz",
+    "assembly": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\subunit_assembly_v2\\protein_biological_assembly_v2.tsv.gz",
+    "components": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\subunit_assembly_v2\\biological_assembly_components_v2.tsv.gz",
+    "summary": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\subunit_assembly_v2\\protein_subunit_summary_v2.tsv.gz",
+    "review": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\subunit_assembly_v2\\subunit_conflict_review_v2.tsv.gz",
+    "preview": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\subunit_assembly_v2\\human_membrane_protein_master_v6_2_subunit_preview.tsv.gz"
+  }
+}

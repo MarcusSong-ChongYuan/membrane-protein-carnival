@@ -1,0 +1,3 @@
+# M5E caption
+
+**M5E. Full-release Bemis-Murcko scaffold diversity of canonical compounds.** All core, QC-passed canonical compounds in the frozen V6.2 small-molecule master were processed without random sampling. Ring-containing molecules were reduced to Bemis-Murcko frameworks with RDKit; acyclic molecules, missing SMILES and invalid SMILES are reported separately rather than assigned artificial scaffolds. The rank-frequency and cumulative-coverage panels quantify scaffold reuse, while the structure gallery shows the twelve most frequent frameworks. Scaffold frequency describes chemical redundancy and diversity; it is not a measure of bioactivity, approval status or docking suitability.

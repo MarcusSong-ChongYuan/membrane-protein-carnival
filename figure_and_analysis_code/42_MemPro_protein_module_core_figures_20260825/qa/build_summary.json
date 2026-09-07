@@ -1,0 +1,13 @@
+{
+  "formal_protein_denominator": 7800,
+  "radial_rows": 9,
+  "coverage_rows": 140,
+  "enrichment_cells": 108,
+  "significant_enrichment_cells": 28,
+  "exports": [
+    "SVG (editable text)",
+    "PDF (editable TrueType text)",
+    "PNG 600 dpi",
+    "TIFF 600 dpi"
+  ]
+}

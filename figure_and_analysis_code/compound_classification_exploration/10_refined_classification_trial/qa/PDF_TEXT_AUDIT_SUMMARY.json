@@ -1,0 +1,32 @@
+[
+  {
+    "file": "R1_refined_ring_topology.pdf",
+    "auditable": true,
+    "minimum_found_pt": 6.0,
+    "below_minimum_count": 0
+  },
+  {
+    "file": "R2_heldout_role_discrimination.pdf",
+    "auditable": true,
+    "minimum_found_pt": 6.0,
+    "below_minimum_count": 0
+  },
+  {
+    "file": "R3_refined_ring_role_profile.pdf",
+    "auditable": true,
+    "minimum_found_pt": 7.0,
+    "below_minimum_count": 0
+  },
+  {
+    "file": "R4_functional_group_role_enrichment.pdf",
+    "auditable": true,
+    "minimum_found_pt": 7.0,
+    "below_minimum_count": 0
+  },
+  {
+    "file": "R5_resolution_vs_role_association.pdf",
+    "auditable": true,
+    "minimum_found_pt": 7.0,
+    "below_minimum_count": 0
+  }
+]

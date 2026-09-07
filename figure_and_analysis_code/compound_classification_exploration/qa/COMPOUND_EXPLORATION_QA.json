@@ -1,0 +1,49 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_EXPLORATORY_EXEMPTIONS",
+  "scope": "compound classification exploration; not final manuscript Figure 3",
+  "backend": "Python only",
+  "denominators": {
+    "compound_registry": 646670,
+    "interaction_linked_compounds": 240055,
+    "structure_valid_interaction_linked_compounds": 240054,
+    "formal_pairs": 529168
+  },
+  "source_preflight": {
+    "ready": true,
+    "strict": false,
+    "counts": {
+      "PASS": 15,
+      "WARN": 5,
+      "FAIL": 0
+    }
+  },
+  "source_warnings_reviewed": {
+    "no_tiff": "Accepted for exploration; final selected manuscript panels will be re-exported at 600 dpi TIFF.",
+    "350_dpi": "Accepted for exploration previews; vector PDF/SVG are supplied for V1-V9.",
+    "width": "Candidate plots are independent views, not assembled final-size manuscript panels.",
+    "simulated_data_warning": "False positive: deterministic RNG is used only for reproducible sampling/bootstrap mechanics, not fabricated observations.",
+    "rotated_text": "Visually inspected; labels remain within canvas. Final selected panel will use anchored rotation or horizontal labels."
+  },
+  "pdf_text_audit": {
+    "pdf_count": 22,
+    "below_5pt_count": 0,
+    "unauditable_count": 1,
+    "unauditable_files": [
+      "D:\\finale\\compound_classification_exploration\\03_scaffold\\V3_top_scaffold_gallery.pdf"
+    ],
+    "note": "The RDKit scaffold gallery PDF is raster-backed and contains no auditable PDF text operators; its source table and high-resolution PNG are supplied."
+  },
+  "visual_review": {
+    "contact_sheet_inspected": true,
+    "V8B_inspected": true,
+    "V9B_inspected": true,
+    "blocking_overlap_or_clipping": 0,
+    "observations": [
+      "UMAP forms a dominant continuous cloud with limited local islands; retained as exploratory only.",
+      "3D physicochemical plot is compressed by extreme values; retained as interactive/exploratory only.",
+      "Target-breadth class view is coverage-dependent and not interpreted as intrinsic promiscuity."
+    ]
+  },
+  "classification_boundary": "chemical_regime_local is a transparent deterministic local taxonomy, not ClassyFire or ChEBI ontology.",
+  "blocking_errors": 0
+}

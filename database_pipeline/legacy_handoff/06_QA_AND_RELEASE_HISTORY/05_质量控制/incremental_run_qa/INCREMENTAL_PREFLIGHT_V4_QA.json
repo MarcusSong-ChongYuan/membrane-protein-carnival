@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "run_type": "incremental_supplement_not_rebuild",
+  "generated_at_utc": "2026-07-27T11:26:16.050602+00:00",
+  "baseline_policy": "read_only_no_overwrite",
+  "pubchem_progress": {
+    "status": "passed",
+    "run_type": "incremental_supplement_not_rebuild",
+    "generated_at_utc": "2026-07-27T10:46:46.411247+00:00",
+    "download_completed_targets": 10556,
+    "download_ok_targets": 3593,
+    "download_no_data_targets": 6963,
+    "normalized_ok_targets": 3593,
+    "run_counts": {
+      "rows_normalized_this_process": 14156800,
+      "targets_normalized_this_process": 3593
+    },
+    "output_directory": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\pubchem\\by_target",
+    "progress_checkpoint": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\pubchem\\normalization_progress_v3.jsonl"
+  },
+  "sources": [
+    {
+      "source": "PubChem BioAssay",
+      "path": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\pubchem\\by_target",
+      "file_count": 3593,
+      "counts": {
+        "bucket_default_candidate": 473221,
+        "bucket_negative": 10400952,
+        "bucket_nondefault": 3282627,
+        "default_rows": 473221,
+        "mapping_mapped_core": 896369,
+        "mapping_mapped_extended": 15946,
+        "mapping_unresolved": 13244485,
+        "nondefault_rows": 13683579,
+        "outcome_active": 1829796,
+        "outcome_inactive": 10400952,
+        "outcome_inconclusive": 398531,
+        "outcome_probe": 3,
+        "outcome_unspecified": 1527518,
+        "rows": 14156800,
+        "tier_BE2": 482071,
+        "tier_BE3": 2875246,
+        "tier_negative": 10400952,
+        "tier_nondefault": 398531
+      },
+      "unique_targets": 3593,
+      "unique_pubchem_cids": 2666819,
+      "unique_mapped_compounds": 99568
+    },
+    {
+      "source": "GPCRdb curated source records",
+      "path": "D:\\7.22\\evidence_expansion_v2_working\\intermediate\\gpcrdb_default_new_evidence_v2.tsv",
+      "counts": {
+        "default_rows": 13631,
+        "mapping_mapped_core": 13631,
+        "outcome_active": 13631,
+        "rows": 13631
+      },
+      "unique_targets": 185,
+      "unique_mapped_compounds": 2096
+    },
+    {
+      "source": "PDBe",
+      "path": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\pdbe\\pdbe_normalized_evidence_v3.tsv.gz",
+      "counts": {
+        "default_rows": 9086,
+        "mapping_excluded": 5,
+        "mapping_mapped_core": 9136,
+        "mapping_mapped_extended": 13821,
+        "mapping_unresolved": 148262,
+        "nondefault_rows": 162138,
+        "outcome_observed": 171224,
+        "rows": 171224
+      },
+      "unique_targets": 3663,
+      "unique_mapped_compounds": 634
+    },
+    {
+      "source": "PDBbind",
+      "path": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\pdbbind\\pdbbind_normalized_evidence_v3.tsv.gz",
+      "counts": {
+        "default_rows": 3494,
+        "mapping_mapped_core": 3761,
+        "mapping_mapped_extended": 85,
+        "mapping_unresolved": 3668,
+        "nondefault_rows": 4020,
+        "outcome_observed": 7514,
+        "rows": 7514
+      },
+      "unique_targets": 915,
+      "unique_mapped_compounds": 3182
+    },
+    {
+      "source": "BRENDA",
+      "path": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\brenda\\brenda_normalized_evidence_v3.tsv.gz",
+      "counts": {
+        "mapping_unresolved": 112456,
+        "nondefault_rows": 112456,
+        "outcome_observed": 112456,
+        "rows": 112456
+      },
+      "unique_targets": 1393,
+      "unique_mapped_compounds": 0
+    }
+  ],
+  "blocking_findings": []
+}

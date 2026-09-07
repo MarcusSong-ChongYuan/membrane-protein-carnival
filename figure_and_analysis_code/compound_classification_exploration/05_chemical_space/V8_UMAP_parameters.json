@@ -1,0 +1,10 @@
+{
+  "sample_n": 20000,
+  "sample": "deterministic stratified by local chemical regime",
+  "morgan_radius": 2,
+  "morgan_bits": 2048,
+  "n_neighbors": 20,
+  "min_dist": 0.15,
+  "metric": "jaccard",
+  "random_seed": 42
+}

@@ -1,0 +1,11 @@
+{
+  "figure": "Combined_external_source_contributions",
+  "panel_a_unit": "unique canonical compound",
+  "panel_b_unit": "unique canonical protein-compound pair",
+  "evidence_types_mutually_exclusive": false,
+  "panel_b_visualization": "grouped lollipop profile",
+  "n_sources_panel_a": 8,
+  "n_sources_panel_b": 10,
+  "n_modules_panel_a": 5,
+  "n_evidence_types_panel_b": 5
+}

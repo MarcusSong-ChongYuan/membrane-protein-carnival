@@ -1,0 +1,5 @@
+n: V7.2 frozen release denominators
+filter: formal/public V7.2 layers
+effect size: not applicable
+missingness: reported as separate states
+recommendation: MAIN FIGURE 1

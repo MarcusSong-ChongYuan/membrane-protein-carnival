@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "stage": "complete",
+  "started_utc": "2026-07-29T20:56:17.663533+00:00",
+  "completed_utc": "2026-07-29T21:54:04.534680+00:00",
+  "report": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\qa\\NEGATIVE_EVIDENCE_RESOLUTION_V62_VALIDATION.json",
+  "negative_table_counts": {
+    "source_rows": 10246948,
+    "mapped_release_rows": 7630659,
+    "unmapped_review_rows": 2615046,
+    "positive_negative_conflict_rows": 42231,
+    "duplicates_removed": 1243
+  }
+}

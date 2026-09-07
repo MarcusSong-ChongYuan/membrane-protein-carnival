@@ -1,0 +1,5 @@
+n: 240,055 interaction-linked compounds
+filter: compounds with at least one formal membrane-protein target
+effect size: normalized membrane-role entropy
+missingness: none after formal target filtering
+recommendation: MAIN FIGURE 3C

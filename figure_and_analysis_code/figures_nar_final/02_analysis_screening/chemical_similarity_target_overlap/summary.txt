@@ -1,0 +1,6 @@
+n: 98,603 compounds and 1,333,186 unique neighbour pairs
+filter: both compounds have >=2 formal protein targets
+effect size: Spearman rho=0.582; anchor-cluster bootstrap 95% CI 0.557 to 0.607
+approximate top-20 recall: mean 0.964, minimum 0.600
+missingness: invalid SMILES excluded and logged
+recommendation: MAIN FIGURE 3D if neighbour recall >=0.80; otherwise supplementary pending index refinement

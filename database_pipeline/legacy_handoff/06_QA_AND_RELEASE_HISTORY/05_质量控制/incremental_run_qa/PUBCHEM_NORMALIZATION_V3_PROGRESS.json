@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "run_type": "incremental_supplement_not_rebuild",
+  "generated_at_utc": "2026-07-27T10:46:46.411247+00:00",
+  "download_completed_targets": 10556,
+  "download_ok_targets": 3593,
+  "download_no_data_targets": 6963,
+  "normalized_ok_targets": 3593,
+  "run_counts": {
+    "rows_normalized_this_process": 14156800,
+    "targets_normalized_this_process": 3593
+  },
+  "output_directory": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\pubchem\\by_target",
+  "progress_checkpoint": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\pubchem\\normalization_progress_v3.jsonl"
+}

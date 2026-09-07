@@ -1,0 +1,9 @@
+priority	source_id	source_name	planned_version	role	access_url	default_candidate_rule	status
+P0	PUBCHEM_BIOASSAY	PubChem BioAssay	current_2026-07	target-linked active and quantitative bioassay evidence	https://pubchem.ncbi.nlm.nih.gov/docs/pug-rest	unique human protein target; active or quantitative concise result; canonical compound mapping	exact_concise_fetch_in_progress
+P0	BRENDA	BRENDA	2026.1	human membrane-enzyme substrates products inhibitors activators cofactors and kinetics	https://www.brenda-enzymes.org/download.php	exact human enzyme mapping; small-molecule ligand; role retained	normalized_staged_compound_identity_pending
+P0	GPCRDB_PDSP	GPCRdb and PDSP Ki	current_2026-07	GPCR ligand bioactivity and affinity evidence	https://docs.gpcrdb.org/ligands.html	exact human receptor mapping; source activity absent from current release	normalized_qa_passed_candidate_merge_ready
+P0	PDBE_STRUCTURES	PDBe/PDB	current_2026-07	protein-ligand structures and residue contacts	https://www.ebi.ac.uk/pdbe/pdbe-rest-api	human UniProt-mapped chain; non-polymer ligand; non-artifact contact set	normalized_staged_identity_and_dedupe_pending
+P0	STRUCTURE_SPECIALISTS	BioLiP PDBbind sc-PDB	current_2026-07	structural specialist-source refresh	source_specific	human UniProt mapping; versioned source provenance	pdbbind_normalized_qa_passed_biolip_scpdb_pending
+P1	TTD	Therapeutic Target Database	current_2026-07	clinical and experimental drug-target mechanism relations	https://ttd.idrblab.cn/	exact human target; mechanism relation kept distinct from quantitative binding	deferred
+P1	DRUGCENTRAL	DrugCentral	current_2026-07	full drug-target mechanism refresh	https://drugcentral.org/download	exact human target; curated relation	deferred
+P1	DRUGBANK	DrugBank	current_2026-07	licensed drug-target mechanism relations	https://go.drugbank.com/	license and redistribution permission required	excluded_by_user_license_scope

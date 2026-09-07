@@ -1,0 +1,15 @@
+{
+  "universe": "all formal canonical compounds with direct source provenance",
+  "N": 646670,
+  "sources_top8": [
+    "PubChem BioAssay",
+    "ChEMBL",
+    "BindingDB",
+    "PDBe",
+    "IUPHAR/BPS Guide to PHARMACOLOGY",
+    "PDBbind",
+    "BRENDA",
+    "sc-PDB"
+  ],
+  "source_field": "source_databases; direct membership only"
+}

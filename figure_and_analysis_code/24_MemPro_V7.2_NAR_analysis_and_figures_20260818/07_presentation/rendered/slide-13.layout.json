@@ -1,0 +1,356 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ifaopa",
+    "id": "ifaopa",
+    "slide": 13,
+    "layoutId": "373abecd-5c99-4853-b721-4f54f74d4403",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "373abecd-5c99-4853-b721-4f54f74d4403",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29k3e90r",
+      "id": "1",
+      "bbox": [
+        64,
+        684,
+        700,
+        20
+      ],
+      "geometry": "rect",
+      "text": "MemPro V7.2 · NAR analysis narrative",
+      "textPreview": "MemPro V7.2 · NAR analysis narrative",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MemPro V7.2 · NAR analysis narrative"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MemPro V7.2 · NAR analysis narrative",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#69757D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MemPro V7.2 · NAR analysis narrative",
+              "fontSize": 11,
+              "color": "#69757D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pcb294j2",
+      "id": "2",
+      "bbox": [
+        1180,
+        684,
+        36,
+        20
+      ],
+      "geometry": "rect",
+      "text": "13",
+      "textPreview": "13",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "13"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "13",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#69757D",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "13",
+              "fontSize": 11,
+              "color": "#69757D",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ob2lgzih",
+      "id": "3",
+      "bbox": [
+        64,
+        36,
+        460,
+        24
+      ],
+      "geometry": "rect",
+      "text": "FIGURE 5 · MAIN RESULT",
+      "textPreview": "FIGURE 5 · MAIN RESULT",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#7B95C6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FIGURE 5 · MAIN RESULT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FIGURE 5 · MAIN RESULT",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#7B95C6",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FIGURE 5 · MAIN RESULT",
+              "fontSize": 13,
+              "color": "#7B95C6",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f69k3u10",
+      "id": "4",
+      "bbox": [
+        64,
+        62,
+        1152,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Ontology mapping makes disease context interpretable",
+      "textPreview": "Ontology mapping makes disease context interpretable",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ontology mapping makes disease context interpretable"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ontology mapping makes disease context interpretable",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#26323A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ontology mapping makes disease context interpretable",
+              "fontSize": 36,
+              "color": "#26323A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e50jap0f",
+      "id": "5",
+      "bbox": [
+        64,
+        126,
+        82,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#F47254",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/4jelwfql",
+      "id": "6",
+      "bbox": [
+        160,
+        132,
+        960,
+        535
+      ],
+      "alt": "Figure 5 disease anatomy context",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "720902d9-354a-4513-b640-ef16e8199c11",
+        "contentType": "image/png",
+        "byteLength": 1817766
+      }
+    }
+  ],
+  "composeRuns": []
+}

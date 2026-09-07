@@ -1,0 +1,28 @@
+{
+  "denominator": 240054,
+  "old_ring": {
+    "feature_set": "Old ring class",
+    "balanced_accuracy": 0.08069118579581483,
+    "macro_f1": 0.004054032573873563,
+    "feature_count": 4,
+    "train_n": 192043,
+    "test_n": 48011
+  },
+  "refined_ring": {
+    "feature_set": "Refined ring topology",
+    "balanced_accuracy": 0.1012298218204168,
+    "macro_f1": 0.018467445851464825,
+    "feature_count": 7,
+    "train_n": 192043,
+    "test_n": 48011
+  },
+  "best_feature_set": {
+    "feature_set": "Local chemical regime",
+    "balanced_accuracy": 0.17377790848244962,
+    "macro_f1": 0.07354286221515102,
+    "feature_count": 8,
+    "train_n": 192043,
+    "test_n": 48011
+  },
+  "interpretation": "A method is considered more useful only if held-out scores and role association improve, not merely category count."
+}

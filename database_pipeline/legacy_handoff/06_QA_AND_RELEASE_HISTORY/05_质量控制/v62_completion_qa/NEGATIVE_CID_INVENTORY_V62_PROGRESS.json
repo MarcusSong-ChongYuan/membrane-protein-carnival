@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "stage": "inventory_and_cache_reuse_complete",
+  "started_utc": "2026-07-29T08:56:25.405635+00:00",
+  "completed_utc": "2026-07-29T08:59:51.168387+00:00",
+  "negative_review_file": "D:\\7.22\\evidence_expansion_v2_working\\releases\\release_mempro_v6_1_20260729\\negative_binding_evidence_unmapped_review_v1_1.tsv.gz",
+  "negative_evidence_rows_scanned": 10246948,
+  "unique_cid_expected_from_prior_audit": 1622591,
+  "counts": {
+    "pending": 1348278,
+    "resolved_cache": 274313,
+    "total": 1622591
+  },
+  "reused_property_rows_by_file": {
+    "pubchem_properties_p1_v61.tsv.gz": 4607,
+    "pubchem_properties_p2_v61.tsv.gz": 78201,
+    "pubchem_properties_p3_v61.tsv.gz": 191505
+  },
+  "database": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\negative_identity\\negative_cid_identity_v62.sqlite",
+  "unique_cid_count_matches_expected": true
+}

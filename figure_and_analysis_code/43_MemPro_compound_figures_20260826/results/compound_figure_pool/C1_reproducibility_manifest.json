@@ -1,0 +1,13 @@
+{
+  "figure": "C1_source_module_compound_coverage",
+  "analysis_unit": "unique canonical compound",
+  "analysis_universe": "all formal canonical compounds",
+  "analysis_universe_n": 646670,
+  "inputs": [
+    "D:\\finale\\FORMAL\\01_core_v72\\01_release_tables\\compound_master_v72.tsv.gz",
+    "D:\\finale\\FORMAL\\01_core_v72\\01_release_tables\\positive_interaction_evidence_v72.tsv.gz",
+    "D:\\finale\\FORMAL\\02_companion_v721\\02_companion_tables\\evidence_source_contribution_v721.tsv.gz",
+    "D:\\finale\\FORMAL\\02_companion_v721\\02_companion_tables\\compound_chemical_classification_v721.tsv.gz"
+  ],
+  "source_attribution": "compound registry source_databases for identity; evidence_source_contribution_v721 for evidence modules; derived fields only in MemPro-derived row"
+}

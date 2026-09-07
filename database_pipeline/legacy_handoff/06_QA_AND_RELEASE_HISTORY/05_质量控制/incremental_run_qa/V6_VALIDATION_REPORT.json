@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "release": "MemProDB V6.0",
+  "generated_at_utc": "2026-07-27T11:46:29.921036+00:00",
+  "counts": {
+    "baseline_files_rehashed": 9,
+    "binding_allowed_nondefault_unresolved_compound": 7281,
+    "binding_default_rows": 991847,
+    "binding_rows": 1435373,
+    "compound_rows": 277837,
+    "disease_rows": 10264,
+    "form_rows": 279870,
+    "negative_rows": 10400952,
+    "pair_rows": 576038,
+    "protein_rows": 10997,
+    "review_rows": 3290514,
+    "site_allowed_unresolved_baseline_compound": 169,
+    "site_rows": 21912
+  },
+  "row_reconciliation": {
+    "input_source_rows": 14461625,
+    "assigned_source_rows": 14461625,
+    "difference": 0
+  },
+  "baseline_integrity": "all frozen input hashes unchanged",
+  "blocking_findings": [],
+  "frozen": true,
+  "final_release_dir": "D:\\7.22\\evidence_expansion_v2_working\\releases\\release_mempro_v6_0_20260727",
+  "manifest_file_count": 22
+}

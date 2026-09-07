@@ -1,0 +1,12 @@
+C1 source-by-module compound coverage QC
+Analysis universe: 646,670 all formal canonical compounds.
+Analysis unit: one compound_internal_id (unique canonical compound).
+Identity/chemical-structure cells use compound_master.source_databases only (direct registry provenance).
+PubChem CID mapping was not used as PubChem direct provenance: PASS.
+ChEMBL ID mapping was not used as ChEMBL direct provenance: PASS.
+Evidence modules use evidence_source_contribution_v721 explicit evidence-to-source junction: PASS.
+Physicochemical descriptors and scaffolds are shown only in the MemPro-derived row: PASS.
+Status annotation is MemPro-harmonized because field-level source-of-status provenance is unavailable: PASS.
+All-compound and interaction-linked universes are not mixed; interaction modules are subsets within the all-compound universe: PASS.
+Displayed external direct sources: PubChem BioAssay, ChEMBL, BindingDB, PDBe, IUPHAR/BPS Guide to PHARMACOLOGY, PDBbind, BRENDA, sc-PDB.
+Non-zero equal-count source/module cells requiring visual review: 0.

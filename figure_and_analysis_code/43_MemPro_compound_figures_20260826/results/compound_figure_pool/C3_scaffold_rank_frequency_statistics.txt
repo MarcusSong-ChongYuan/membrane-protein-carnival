@@ -1,0 +1,8 @@
+Figure	C3 — Bemis–Murcko scaffold rank–frequency
+Analysis N	641,784 canonical formal small molecules with an existing exact cyclic Murcko scaffold
+Unique exact scaffolds	227,420
+Gini	0.579424
+Population rule	Existing formal scope classes core_small_molecule and structure_resolved_small_molecule; extended_chemical_entity excluded.
+Scaffold rule	Existing exact_murcko_scaffold_smiles only; no scaffold regeneration.
+Quarantine rule	Existing ineligible structure records excluded from structure/scaffold analysis and reported in summary TSV.
+Pair mapping	Unique proteins and pairs were left-joined from formal canonical protein–compound pair records.

@@ -1,0 +1,70 @@
+{
+  "protein": {
+    "role_function": {
+      "chi2": 23960.20282204065,
+      "p": 0.0,
+      "dof": 88,
+      "n": 7800,
+      "cramers_v_bias_corrected": 0.6188376216294598
+    },
+    "role_process": {
+      "chi2": 9839.953743440497,
+      "p": 0.0,
+      "dof": 176,
+      "n": 7800,
+      "cramers_v_bias_corrected": 0.33584567434826873
+    }
+  },
+  "tau": {
+    "kruskal_h": 457.88552657421826,
+    "kruskal_p": 4.3424871562855384e-92,
+    "groups_n_ge_30": 11
+  },
+  "compound_pair_evidence": {
+    "class_role": {
+      "chi2": 8002.787093422548,
+      "p": 0.0,
+      "dof": 70,
+      "n": 529168,
+      "cramers_v_bias_corrected": 0.04627750765993505
+    },
+    "pair_evidence_gini": 0.36105894194812405,
+    "top_sources": [
+      "ChEMBL",
+      "PubChem BioAssay",
+      "BindingDB",
+      "PDBe",
+      "IUPHAR/BPS Guide to PHARMACOLOGY",
+      "PDSP KiDatabase"
+    ],
+    "interaction_linked_compounds": 240055
+  },
+  "site": {
+    "site_rows": 55610,
+    "unknown_membrane_side": 48331
+  },
+  "disease": {
+    "therapeutic_anatomy": {
+      "chi2": 23095.136157868776,
+      "p": 0.0,
+      "dof": 320,
+      "n": 12017,
+      "cramers_v_bias_corrected": 0.34439873848794583
+    },
+    "network_edges_retained": 500
+  },
+  "anatomical_expression_concordance": {
+    "observed_mean": 0.4866257345293891,
+    "null_mean": 0.32728896712845307,
+    "null_sd": 0.0036067526783459783,
+    "z_score": 44.1773477725693,
+    "empirical_p": 0.004975124378109453,
+    "permutations": 200,
+    "observed_edges_with_score": 5464
+  },
+  "integrated": {
+    "disease_evidence_q75": 4.0,
+    "chemical_pair_q25_among_nonzero": 2.0,
+    "candidate_count": 58
+  }
+}

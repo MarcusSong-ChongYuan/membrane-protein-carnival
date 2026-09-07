@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "analysis_unit": "one canonical protein",
+  "mapped_measured_expression_records_in_formal_rna_layer": 377361,
+  "protein_tissue_rows_after_aggregation": 374638,
+  "unique_proteins_with_usable_rna": 7496,
+  "displayed_roles": [
+    "membrane_associated_enzyme",
+    "receptor",
+    "family_defined_membrane_role_unresolved",
+    "transporter",
+    "ion_channel",
+    "signaling_regulator",
+    "membrane_scaffold_or_linker",
+    "adhesion_recognition",
+    "Other low-frequency roles"
+  ],
+  "displayed_tissues": [
+    "adipose tissue",
+    "adrenal gland",
+    "bone marrow",
+    "breast",
+    "cerebral cortex",
+    "choroid plexus",
+    "colon",
+    "duodenum",
+    "endometrium",
+    "epididymis",
+    "esophagus",
+    "fallopian tube"
+  ],
+  "color_metric": "detected_fraction",
+  "cell_annotation_metric": "n_with_expression_data",
+  "uses_existing_detected_status": true,
+  "uses_expression_record_counts_as_display_unit": false,
+  "blank_is_zero_expression": false,
+  "tau_used": false
+}

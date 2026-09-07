@@ -1,0 +1,9 @@
+figure	stem	missing_formats	png_width_px	png_height_px	aspect_ratio	nonwhite_fraction	dark_fraction	pdf_pages	pdf_width_pt	pdf_height_pt	outside_word_count	overlap_count	bad_encoding_tokens	status
+M1	M1_source_overlap_and_marginal_gain		6414	4392	1.46	0.1387	0.0241	1	1025.77	702.75	0	0	[]	PASS
+M2	M2_multi_axis_annotation_space_cleanfinal		6446	4117	1.566	0.0933	0.0152	1	1030.76	658.75	0	0	[]	PASS
+M3	M3_expression_space_and_RNA_IHC_cleanfinal		6324	4160	1.52	0.1781	0.0151	1	1011.49	665.67	0	0	[]	PASS
+M4	M4_disease_expression_concordance_cleanfinal		6110	4203	1.454	0.2232	0.0176	1	977.22	672.51	0	0	[]	PASS
+M5	M5_chemical_space_embedding_comparison_cleanfinal		6419	3956	1.623	0.0901	0.0087	1	1026.58	633.12	0	0	[]	PASS
+M6	M6_polypharmacology_and_membrane_side_cleanfinal		6545	3989	1.641	0.0829	0.0114	1	1046.97	638.31	0	0	[]	PASS
+M7	M7_evidence_profiles_and_lineage_cleanfinal		6373	4246	1.501	0.2374	0.0193	1	1019.3	679.35	0	0	[]	PASS
+M8	M8_value_readiness_and_knowledge_gaps		6608	4117	1.605	0.1298	0.0113	1	1055.38	658.83	0	0	[]	PASS

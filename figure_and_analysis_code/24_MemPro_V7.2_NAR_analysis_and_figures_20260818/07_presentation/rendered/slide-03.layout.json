@@ -1,0 +1,1201 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/l0ebts",
+    "id": "l0ebts",
+    "slide": 3,
+    "layoutId": "373abecd-5c99-4853-b721-4f54f74d4403",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "373abecd-5c99-4853-b721-4f54f74d4403",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7a1w7e5",
+      "id": "1",
+      "bbox": [
+        64,
+        684,
+        700,
+        20
+      ],
+      "geometry": "rect",
+      "text": "MemPro V7.2 · NAR analysis narrative",
+      "textPreview": "MemPro V7.2 · NAR analysis narrative",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MemPro V7.2 · NAR analysis narrative"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MemPro V7.2 · NAR analysis narrative",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#69757D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MemPro V7.2 · NAR analysis narrative",
+              "fontSize": 11,
+              "color": "#69757D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b610n2dk",
+      "id": "2",
+      "bbox": [
+        1180,
+        684,
+        36,
+        20
+      ],
+      "geometry": "rect",
+      "text": "3",
+      "textPreview": "3",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#69757D",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3",
+              "fontSize": 11,
+              "color": "#69757D",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a5szuxwz",
+      "id": "3",
+      "bbox": [
+        64,
+        36,
+        460,
+        24
+      ],
+      "geometry": "rect",
+      "text": "MANUSCRIPT LOGIC",
+      "textPreview": "MANUSCRIPT LOGIC",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#7B95C6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MANUSCRIPT LOGIC"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MANUSCRIPT LOGIC",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#7B95C6",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MANUSCRIPT LOGIC",
+              "fontSize": 13,
+              "color": "#7B95C6",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4jilsve",
+      "id": "4",
+      "bbox": [
+        64,
+        62,
+        1152,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Six figures build one cumulative argument",
+      "textPreview": "Six figures build one cumulative argument",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Six figures build one cumulative argument"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Six figures build one cumulative argument",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#26323A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Six figures build one cumulative argument",
+              "fontSize": 36,
+              "color": "#26323A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o3ahsnet",
+      "id": "5",
+      "bbox": [
+        64,
+        126,
+        82,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#F47254",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n210jid8",
+      "id": "6",
+      "bbox": [
+        72,
+        175,
+        340,
+        125
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#A1D8E8",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2h8zqxwn",
+      "id": "7",
+      "bbox": [
+        94,
+        193,
+        296,
+        42
+      ],
+      "geometry": "rect",
+      "text": "1 · Traceable integration",
+      "textPreview": "1 · Traceable integration",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1 · Traceable integration"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1 · Traceable integration",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#26323A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "1 · Traceable integration",
+              "fontSize": 21,
+              "color": "#26323A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1gzihsvi",
+      "id": "8",
+      "bbox": [
+        94,
+        239,
+        296,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Who entered and why?",
+      "textPreview": "Who entered and why?",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Who entered and why?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Who entered and why?",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#69757D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Who entered and why?",
+              "fontSize": 16,
+              "color": "#69757D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0fqhonex",
+      "id": "9",
+      "bbox": [
+        464,
+        175,
+        340,
+        125
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#D0E2C0",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/alsre5wj",
+      "id": "10",
+      "bbox": [
+        486,
+        193,
+        296,
+        42
+      ],
+      "geometry": "rect",
+      "text": "2 · Five-axis protein organization",
+      "textPreview": "2 · Five-axis protein organization",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2 · Five-axis protein"
+          },
+          {
+            "index": 2,
+            "text": "organization"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2 · Five-axis protein organization",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#26323A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2 · Five-axis protein organization",
+              "fontSize": 21,
+              "color": "#26323A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bm18nad4",
+      "id": "11",
+      "bbox": [
+        486,
+        239,
+        296,
+        40
+      ],
+      "geometry": "rect",
+      "text": "How are proteins organized?",
+      "textPreview": "How are proteins organized?",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "How are proteins organized?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "How are proteins organized?",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#69757D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "How are proteins organized?",
+              "fontSize": 16,
+              "color": "#69757D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cna9gfep",
+      "id": "12",
+      "bbox": [
+        856,
+        175,
+        340,
+        125
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FDED95",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xojapkva",
+      "id": "13",
+      "bbox": [
+        878,
+        193,
+        296,
+        42
+      ],
+      "geometry": "rect",
+      "text": "3 · Chemical and target preference",
+      "textPreview": "3 · Chemical and target preference",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3 · Chemical and target"
+          },
+          {
+            "index": 2,
+            "text": "preference"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3 · Chemical and target preference",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#26323A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3 · Chemical and target preference",
+              "fontSize": 21,
+              "color": "#26323A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hsra5wn",
+      "id": "14",
+      "bbox": [
+        878,
+        239,
+        296,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Which chemotypes prefer which targets?",
+      "textPreview": "Which chemotypes prefer which targets?",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Which chemotypes prefer which targets?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Which chemotypes prefer which targets?",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#69757D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Which chemotypes prefer which targets?",
+              "fontSize": 16,
+              "color": "#69757D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ni18jad8",
+      "id": "15",
+      "bbox": [
+        72,
+        365,
+        340,
+        125
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFC1A6",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oja9cfet",
+      "id": "16",
+      "bbox": [
+        94,
+        383,
+        296,
+        42
+      ],
+      "geometry": "rect",
+      "text": "4 · Evidence independence",
+      "textPreview": "4 · Evidence independence",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4 · Evidence independence"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4 · Evidence independence",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#26323A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4 · Evidence independence",
+              "fontSize": 21,
+              "color": "#26323A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkjqlkvy",
+      "id": "17",
+      "bbox": [
+        94,
+        429,
+        296,
+        40
+      ],
+      "geometry": "rect",
+      "text": "How much support is genuinely distinct?",
+      "textPreview": "How much support is genuinely distinct?",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "How much support is genuinely distinct?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "How much support is genuinely distinct?",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#69757D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "How much support is genuinely distinct?",
+              "fontSize": 16,
+              "color": "#69757D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/et8r6lwb",
+      "id": "18",
+      "bbox": [
+        464,
+        365,
+        340,
+        125
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F47254",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fuh8fqdw",
+      "id": "19",
+      "bbox": [
+        486,
+        383,
+        296,
+        42
+      ],
+      "geometry": "rect",
+      "text": "5 · Disease and anatomy",
+      "textPreview": "5 · Disease and anatomy",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5 · Disease and anatomy"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5 · Disease and anatomy",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#26323A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5 · Disease and anatomy",
+              "fontSize": 21,
+              "color": "#26323A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jyxonmto",
+      "id": "20",
+      "bbox": [
+        486,
+        429,
+        296,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Where do disease links sit in the body?",
+      "textPreview": "Where do disease links sit in the body?",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Where do disease links sit in the body?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Where do disease links sit in the body?",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#69757D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Where do disease links sit in the body?",
+              "fontSize": 16,
+              "color": "#69757D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ix4ne1c3",
+      "id": "21",
+      "bbox": [
+        856,
+        365,
+        340,
+        125
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#C85E62",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/50f6pwbu",
+      "id": "22",
+      "bbox": [
+        878,
+        383,
+        296,
+        42
+      ],
+      "geometry": "rect",
+      "text": "6 · Cross-module hypotheses",
+      "textPreview": "6 · Cross-module hypotheses",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "6 · Cross-module hypotheses"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "6 · Cross-module hypotheses",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#26323A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "6 · Cross-module hypotheses",
+              "fontSize": 21,
+              "color": "#26323A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4z65gru9",
+      "id": "23",
+      "bbox": [
+        878,
+        429,
+        296,
+        40
+      ],
+      "geometry": "rect",
+      "text": "Which targets deserve follow-up?",
+      "textPreview": "Which targets deserve follow-up?",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Which targets deserve follow-up?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Which targets deserve follow-up?",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#69757D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Which targets deserve follow-up?",
+              "fontSize": 16,
+              "color": "#69757D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

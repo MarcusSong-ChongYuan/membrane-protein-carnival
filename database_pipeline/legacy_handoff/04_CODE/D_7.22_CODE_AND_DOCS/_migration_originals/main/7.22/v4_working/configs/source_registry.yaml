@@ -1,0 +1,47 @@
+registry_version: source-registry-v1
+sources:
+  uniprot:
+    role: membrane_reference_and_annotation
+    required: true
+    species_taxonomy_id: 9606
+    reference_proteome: UP000005640
+  gene_ontology:
+    role: membrane_cellular_component
+    required: true
+  interpro:
+    role: protein_family_and_domain
+    required: true
+  human_protein_atlas:
+    role: subcellular_location_support
+    required: false
+  gpcrdb:
+    role: gpcr_classification
+    required: false
+  tcdb:
+    role: transporter_classification
+    required: false
+  chembl:
+    role: bioactivity_and_curated_target_relations
+    required: true
+  bindingdb:
+    role: quantitative_binding
+    required: true
+  guidetopharmacology:
+    role: curated_pharmacological_targets
+    required: true
+  pubchem_bioassay:
+    role: bioassay_activity
+    required: true
+  drugcentral:
+    role: drug_target_relations
+    required: true
+  rcsb_pdb:
+    role: structure_ligand_observations
+    required: true
+  biolip:
+    role: curated_structure_ligand_observations
+    required: true
+  pdbbind:
+    role: structure_affinity
+    required: true
+

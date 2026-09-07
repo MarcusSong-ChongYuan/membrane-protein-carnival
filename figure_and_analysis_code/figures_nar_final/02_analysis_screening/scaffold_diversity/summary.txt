@@ -1,0 +1,5 @@
+n: 240,055 interaction-linked compounds
+filter: RDKit-parsed V7.2 standard SMILES
+effect size: scaffold Gini=0.551
+missingness: two SMILES parse failures remain in audit
+recommendation: MAIN FIGURE 3A

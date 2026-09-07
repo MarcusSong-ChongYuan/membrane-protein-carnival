@@ -1,0 +1,6 @@
+{
+  "n_pairs": 529168,
+  "multi_label_statuses": true,
+  "test": "two-sided Fisher exact",
+  "correction": "BH-FDR across all status-role cells"
+}

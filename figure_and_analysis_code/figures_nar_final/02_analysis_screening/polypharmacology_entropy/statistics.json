@@ -1,0 +1,4 @@
+{
+  "n_compounds": 240055,
+  "normalization": "H/log(min(k,R)); k=1 -> 0"
+}

@@ -1,0 +1,5 @@
+n: 6,753 formal protein-disease relations
+filter: V7.2 formal disease relations
+effect size: descriptive composition
+missingness: unmapped anatomy/TA reported separately
+recommendation: MAIN FIGURE 5C

@@ -1,0 +1,6 @@
+n: 7,800 canonical proteins
+filter: V7.2 formal proteins; primary top-level annotations
+effect size: bias-corrected Cramer's V=0.619
+multiple testing: two-sided Fisher exact with BH-FDR
+missingness: unresolved categories retained
+recommendation: MAIN FIGURE 2B

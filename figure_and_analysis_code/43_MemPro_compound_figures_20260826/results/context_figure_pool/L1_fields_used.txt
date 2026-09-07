@@ -1,0 +1,11 @@
+concept	actual_field_name	table/file	definition used
+canonical protein ID	target_uniprot_id	subcellular_localization_v72.tsv.gz	mapped HPA localization target accession
+formal canonical protein	canonical_uniprot_accession	protein_master_v72.tsv.gz	public_inclusion_v7 = 1
+primary membrane-protein role	formal_primary_membrane_role	protein_membrane_role_FORMAL.tsv	formal publication role; no reclassification
+standardized localization category	location_term	subcellular_localization_v72.tsv.gz	formal HPA standardized localization term, retained exactly
+localization ontology ID	go_id	subcellular_localization_v72.tsv.gz	linked GO cellular-component ID where supplied
+localization ontology label	go_label	subcellular_localization_v72.tsv.gz	linked GO label where supplied
+localization source	source_dataset	subcellular_localization_v72.tsv.gz	HPA_subcellular_IF
+source version	source_version	subcellular_localization_v72.tsv.gz	HPA 25.1
+mapping status	mapping_status_v71	subcellular_localization_v72.tsv.gz	MAPPED required for eligible localization
+observation semantics	observation_semantics_v71	subcellular_localization_v72.tsv.gz	preserved as provenance; not used as a new classification

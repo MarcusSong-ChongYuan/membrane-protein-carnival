@@ -1,0 +1,1 @@
+HPA expression and localization coverage. RNA and IHC layers are not combined into a single quantitative scale; mapping missingness is separated from biological non-detection.

@@ -1,0 +1,5 @@
+n: 7,800 canonical proteins
+filter: formal V7.2 proteins and module-specific valid IDs
+effect size: within-role coverage fraction
+limitation: measures research/database coverage
+recommendation: SUPPLEMENTARY

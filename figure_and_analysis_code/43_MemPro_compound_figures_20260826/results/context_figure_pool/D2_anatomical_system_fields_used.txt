@@ -1,0 +1,21 @@
+Disease anatomical-system figure fields used
+
+Protein–disease relation: protein_disease_relation_v72.tsv.gz
+- target_uniprot_id
+- canonical_disease_id
+- default_relation_inclusion (all 6,753 public relations are 1)
+
+Role overlay: protein_membrane_role_FORMAL.tsv
+- canonical_uniprot_accession
+- formal_primary_membrane_role
+
+Formal anatomy mapping: disease_anatomical_system_v72.tsv.gz
+- canonical_disease_id
+- anatomical_system_id
+- anatomical_system_name
+- mapping_method
+
+Analysis unit for heatmap: unique canonical protein × anatomical system, derived after deduplicating protein × disease × system.
+Each displayed cell is a 2×2 Fisher exact test against the same mapped disease-associated protein universe. Colour = Haldane–Anscombe-corrected log₂ odds ratio; black dot = BH-FDR < 0.05 with observed support ≥20.
+Anatomical systems are formal Uberon-derived multi-label mappings and may have hierarchical overlap; they are not mutually exclusive and totals do not sum to 100%.
+Bar chart shows raw unique canonical disease-associated proteins by anatomical system; labels show unique diseases.

@@ -1,0 +1,13 @@
+{
+  "figure": "L1_role_subcellular_localization_enrichment",
+  "analysis_unit": "unique canonical protein",
+  "eligible_protein_universe": "formal canonical proteins with >=1 mapped, non-empty formal location_term",
+  "n_eligible_proteins": 4604,
+  "n_roles": 14,
+  "n_formal_localization_categories": 48,
+  "n_displayed_localization_categories": 12,
+  "localization_annotations_multi_label": true,
+  "test": "two-sided Fisher exact test",
+  "multiple_testing": "Benjamini-Hochberg over all role x formal location-term comparisons",
+  "display_effect": "Haldane-Anscombe-corrected log2 odds ratio, clipped to +/-3"
+}

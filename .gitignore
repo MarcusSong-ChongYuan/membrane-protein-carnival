@@ -1,0 +1,53 @@
+# Dependencies and generated builds
+node_modules/
+.next/
+dist/
+.vinext/
+.wrangler/
+.tools/
+outputs/
+coverage/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Formal/raw database data and generated site data
+01_database_FORMAL/
+data/
+raw/
+derived/
+public/data/
+public/downloads/
+*.tsv.gz
+*.csv.gz
+*.parquet
+*.pkl
+*.h5
+*.hdf5
+*.sdf
+*.sdf.gz
+*.zip
+*.tar.gz
+*.7z
+
+# Generated figures and static render products
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.pdf
+*.svg
+
+# Credentials / environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/

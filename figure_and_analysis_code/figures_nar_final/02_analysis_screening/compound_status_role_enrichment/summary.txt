@@ -1,0 +1,6 @@
+n: 529,168 formal protein-compound pairs
+filter: V7.2 formal pairs; five overlapping binary compound-status flags
+effect size: Haldane-corrected log2 odds ratio
+P/q: two-sided Fisher exact; global BH-FDR
+missingness: absent status flags treated as false only when explicit 0/1 fields are present
+recommendation: MAIN FIGURE 3B

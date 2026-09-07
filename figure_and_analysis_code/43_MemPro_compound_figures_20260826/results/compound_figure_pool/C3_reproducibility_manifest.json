@@ -1,0 +1,22 @@
+{
+  "analysis_unit": "one canonical compound",
+  "figure": "C3_scaffold_rank_frequency",
+  "inputs": [
+    "D:\\finale\\FORMAL\\01_core_v72\\01_release_tables\\compound_master_v72.tsv.gz",
+    "D:\\finale\\FORMAL\\02_companion_v721\\02_companion_tables\\compound_chemical_classification_v721.tsv.gz",
+    "D:\\finale\\FORMAL\\01_core_v72\\01_release_tables\\protein_compound_pair_v72.tsv.gz",
+    "D:\\finale\\FORMAL\\03_publication_repairs\\COMPOUND_STRUCTURE_REPAIR_AND_QUARANTINE.tsv"
+  ],
+  "exact_scaffold_field": "exact_murcko_scaffold_smiles",
+  "outputs": [
+    "C3_scaffold_rank_frequency.svg",
+    "C3_scaffold_rank_frequency.pdf",
+    "C3_scaffold_rank_frequency.png",
+    "C3_scaffold_rank_frequency.tsv",
+    "C3_scaffold_diversity_summary.tsv"
+  ],
+  "log_axes": [
+    "scaffold_rank",
+    "unique_compound_count"
+  ]
+}

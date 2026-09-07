@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "analysis_unit": "one canonical protein-compound pair",
+  "analysis_N": 529168,
+  "pair_id_unique": true,
+  "pair_level_tier_field": "best_evidence_tier",
+  "pair_level_tier_counts": {
+    "BE1": 15773,
+    "BE2": 320771,
+    "BE3": 192624,
+    "unresolved": 0
+  },
+  "formal_role_field": "formal_primary_membrane_role",
+  "formal_role_missing_pairs": 0,
+  "role_count_with_pairs": 12,
+  "expected_cells_below_5": 5,
+  "chi_square": 22508.891565607923,
+  "chi_square_p": 0.0,
+  "bias_corrected_cramers_v": 0.1457651649975955
+}

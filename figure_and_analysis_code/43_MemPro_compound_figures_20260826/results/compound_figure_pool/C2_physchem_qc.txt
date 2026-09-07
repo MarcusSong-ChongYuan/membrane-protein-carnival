@@ -1,0 +1,2 @@
+Population	644,240 existing formal small molecules
+Invalid-value rule	NaN and ±Inf excluded only property-wise; no numerical outliers removed

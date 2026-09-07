@@ -1,0 +1,11 @@
+{
+  "protein_master_v5_5": "D:\\7.22\\small_molecule_v1_working\\releases\\release_small_molecule_v1_0\\human_membrane_audit_master_v5_5.tsv",
+  "binding_evidence_v4_2": "D:\\7.22\\small_molecule_v1_working\\releases\\release_small_molecule_v1_0\\binding_evidence_master_v4_2.tsv",
+  "binding_sites_v4_2": "D:\\7.22\\small_molecule_v1_working\\releases\\release_small_molecule_v1_0\\binding_site_instances_v4_2.tsv",
+  "protein_compound_summary_v4_2": "D:\\7.22\\small_molecule_v1_working\\releases\\release_small_molecule_v1_0\\protein_compound_summary_v4_2.tsv",
+  "compound_master_v1_0": "D:\\7.22\\small_molecule_v1_working\\releases\\release_small_molecule_v1_0\\small_molecule_master_v1_0.tsv",
+  "compound_forms_v1_0": "D:\\7.22\\small_molecule_v1_working\\releases\\release_small_molecule_v1_0\\compound_form_hierarchy_v1_0.tsv",
+  "protein_gene_disease_v5_4": "D:\\7.22\\membrane_master_v5_working\\releases\\release_v5_4_pgd_binding\\protein_gene_disease_relations_v5_4.tsv",
+  "small_molecule_validation_v1_0": "D:\\7.22\\small_molecule_v1_working\\releases\\release_small_molecule_v1_0\\SMALL_MOLECULE_V1_VALIDATION_REPORT.json",
+  "protein_binding_validation_v5_4": "D:\\7.22\\membrane_master_v5_working\\releases\\release_v5_4_pgd_binding\\V54_VALIDATION_REPORT.json"
+}

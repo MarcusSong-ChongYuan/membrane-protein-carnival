@@ -1,0 +1,8 @@
+source	input_version	original_machine_path_or_requirement	included_in_finale
+BRENDA	2026.1	D:\7.22\evidence_expansion_v2_working\raw\manual_downloads\brenda_2026_1\brenda_2026_1.json.tar.gz	no_raw_archive; derived release and QA included
+PDBbind	2020.R1 reprocessed with 2024 workflow	D:\7.22\evidence_expansion_v2_working\raw\manual_downloads\pdbbind_2020r1\P-L.tar.gz	no_raw_archive; derived release and QA included
+PDBbind index	2020.R1	D:\7.22\evidence_expansion_v2_working\raw\manual_downloads\pdbbind_2020r1\extracted_index\index\INDEX_general_PL.2020R1.lst	no_raw_archive; QA included
+HPA	25.1	reacquire from HPA for a clean rebuild	no_raw_snapshot; frozen normalized tables included
+PubChem BioAssay	2026-07	reacquire by API/checkpointed fetch scripts for a clean rebuild	no_full_raw_cache; frozen positive/negative tables included
+PDBe	2026-07	reacquire by API for a clean rebuild	no_full_raw cache; frozen structure/site tables included
+

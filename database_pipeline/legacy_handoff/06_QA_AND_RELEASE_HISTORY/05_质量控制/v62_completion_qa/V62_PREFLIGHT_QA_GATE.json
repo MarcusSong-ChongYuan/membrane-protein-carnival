@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "completed_utc": "2026-07-29T21:54:43.279751+00:00",
+  "blocking_errors": {},
+  "blocking_error_total": 0,
+  "checks": {
+    "negative_source_rows": 10246948,
+    "negative_accounted_rows": 10246948,
+    "cid_crosswalk_rows": 1622591,
+    "heteromer_target_copy_overclaims": 0,
+    "direct_stoichiometry_overclaims": 0,
+    "unsafe_identity_resolutions": 0,
+    "stratified_sample_rows": 500
+  },
+  "sample_file": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\qa\\V62_STRATIFIED_VALIDATION_SAMPLE.tsv",
+  "review_scope": "agent-assisted stratified rule audit; unresolved scientific conflicts remain explicitly flagged"
+}

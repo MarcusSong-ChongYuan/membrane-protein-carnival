@@ -1,0 +1,4 @@
+canonical pair | pair_id | protein_compound_pair_v72.tsv.gz
+external source multiplicity | distinct_database_count_v72 | protein_compound_pair_v72.tsv.gz
+independent support count | independent_experiment_count | protein_compound_pair_v72.tsv.gz
+lineage provenance | experiment_lineage_key_v7 | positive_interaction_evidence_v72.tsv.gz

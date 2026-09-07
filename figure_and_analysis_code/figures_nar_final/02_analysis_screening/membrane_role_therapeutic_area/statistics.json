@@ -1,0 +1,9 @@
+{
+  "permutations": 10000,
+  "random_seed": 42,
+  "null_model": "primary membrane-role labels permuted within exact protein disease-degree strata; protein-disease edges and disease therapeutic-area labels fixed",
+  "protein_nodes": 2347,
+  "disease_edges": 6753,
+  "minimum_empirical_p": 9.999000099990002e-05,
+  "degree_preserved": true
+}

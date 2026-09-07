@@ -1,0 +1,64 @@
+project:
+  repository: "minyutong/mempro1"
+  version: "protein_gene_disease_v1"
+
+inputs:
+  protein_table: "upload/normalized_tables/releases/partner_handoff_v3_1/v3_1/protein_database_v3_1.tsv"
+  uniprot_cache: "upload/normalized_tables/releases/partner_handoff_v3_1/v3_1/uniprot_v3_1_enrichment_cache.json"
+
+outputs:
+  workflow_dir: "upload/normalized_tables/workflows/protein_gene_disease_mapping"
+  release_dir: "upload/normalized_tables/releases/protein_gene_disease_v1"
+
+species:
+  taxonomy_id: 9606
+
+uniprot:
+  base_url: "https://rest.uniprot.org"
+  use_existing_cache: true
+  allow_api_fallback: true
+  cache_new_responses: true
+  max_workers: 8
+
+opentargets:
+  graphql_url: "https://api.platform.opentargets.org/api/v4/graphql"
+  release: "26.06"
+  association_scope: "direct"
+  include_indirect: false
+  include_measurements: true
+  access_mode: "graphql"
+  cache_responses: true
+  page_size: 500
+  max_workers: 3
+  # The association API does not expose evidence-string counts per row. Exact
+  # counts can be enabled via target.evidences; this is much slower at scale.
+  fetch_exact_evidence_counts: false
+  evidence_count_batch_size: 40
+
+disease_normalization:
+  enable_mondo: false
+  allow_fuzzy_mapping: false
+
+primary_disease:
+  top_n: 3
+  prefer_disease_over_phenotype: true
+  exclude_measurements: true
+  exclude_ontology_roots: true
+  exclude_literature_only_from_primary: true
+  close_score_delta: 0.02
+
+runtime:
+  resume: true
+  max_retries: 5
+  request_timeout_seconds: 60
+  retry_backoff_seconds: 1.5
+
+storage:
+  schema_version: "protein_gene_disease_v1.normalized.1"
+  generate_legacy_full_tsv: false
+  generate_legacy_full_excel: false
+  parquet_compression: "zstd"
+  parquet_row_group_size: 100000
+  gzip_max_bytes: 1073741824
+  gzip_target_bytes: 805306368
+  recommended_release_tag: "protein-gene-disease-v1.0.0"

@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "run_type": "incremental_supplement_not_rebuild",
+  "generated_at_utc": "2026-07-27T08:53:37.456974+00:00",
+  "raw_directory": "D:\\7.22\\evidence_expansion_v2_working\\raw\\pdbe_202607\\ligand_sites",
+  "baseline_policy": "read_only",
+  "counts": {
+    "artifact_audit_rows": 73164,
+    "artifact_common_ion_nondefault": 19673,
+    "artifact_none": 98060,
+    "artifact_solvent_or_buffer_curated": 6950,
+    "artifact_solvent_pdbe": 34744,
+    "artifact_very_small_component_nondefault": 11797,
+    "default_0": 162138,
+    "default_1": 9086,
+    "evidence_rows": 171224,
+    "files_parsed": 3663,
+    "mapping_excluded": 5,
+    "mapping_mapped_core": 9136,
+    "mapping_mapped_extended": 13821,
+    "mapping_unresolved": 148262,
+    "residue_contacts": 839184
+  },
+  "unique_targets": 3663,
+  "unique_ligand_het_ids": 15513,
+  "unique_pdb_ids": 36364,
+  "unique_mapped_compounds": 634,
+  "unique_mapped_target_compound_pairs": 3538,
+  "unambiguous_frozen_het_crosswalk_size": 937,
+  "ambiguous_frozen_het_ids": 1,
+  "parse_errors_sample": [],
+  "outputs": {
+    "normalized_evidence": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\pdbe\\pdbe_normalized_evidence_v3.tsv.gz",
+    "excluded_artifacts": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\pdbe\\pdbe_excluded_artifacts_v3.tsv.gz"
+  }
+}

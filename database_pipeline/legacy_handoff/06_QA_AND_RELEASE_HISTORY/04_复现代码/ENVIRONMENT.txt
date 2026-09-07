@@ -1,0 +1,12 @@
+﻿MemPro finale environment snapshot
+Generated local time: 
+2026-07-31 12:31:26 +08:00
+OS: 
+Microsoft Windows NT 10.0.26200.0
+PowerShell: 
+5.1.26100.8875
+Plotting Python: 
+Python 3.12.13
+Original project root: D:\7.22
+Frozen release: D:\7.22\evidence_expansion_v2_working\releases\release_mempro_v6_2_20260730
+Note: scripts contain original absolute Windows paths and must be adapted on a new machine.

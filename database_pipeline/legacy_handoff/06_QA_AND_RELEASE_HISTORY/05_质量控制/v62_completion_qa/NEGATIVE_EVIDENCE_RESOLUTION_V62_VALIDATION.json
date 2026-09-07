@@ -1,0 +1,67 @@
+{
+  "status": "passed_with_review_queue",
+  "started_utc": "2026-07-29T20:56:17.663533+00:00",
+  "completed_utc": "2026-07-29T21:54:04.230287+00:00",
+  "module_version": "negative_identity_v62_20260729",
+  "inputs": {
+    "v61_compound_rows": 924023,
+    "v61_form_rows": 928857,
+    "negative_review_sha256": "c460baf16f4b85b4610a52cad8d61fac6863fa8c4612fa23e4720772954e29c8",
+    "property_database": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\negative_identity\\negative_cid_identity_v62.sqlite"
+  },
+  "exact_structures": 1621892,
+  "exact_match_stats": {
+    "unique_exact_form_matches": 85207,
+    "ambiguous_exact_form_matches": 0
+  },
+  "canonicalization": {
+    "canonicalization_failures": {
+      "ValueError": 80,
+      "KekulizeException": 26
+    }
+  },
+  "identity_resolution_counts": {
+    "canonical_parent_full_inchikey_unique": 335,
+    "canonicalization_failed": 106,
+    "charged_or_protonation_review": 264,
+    "exact_full_inchikey_unique_form": 85207,
+    "new_unique_canonical_parent": 1092041,
+    "salt_or_multicomponent_review": 25511,
+    "unassigned_stereochemistry_review": 418428
+  },
+  "cid_identity_counts": {
+    "unassigned_stereochemistry_review": 418551,
+    "exact_full_inchikey_unique_form": 85272,
+    "new_unique_canonical_parent": 1092488,
+    "canonical_parent_full_inchikey_unique": 336,
+    "salt_or_multicomponent_review": 25574,
+    "charged_or_protonation_review": 264,
+    "canonicalization_failed": 106
+  },
+  "negative_table_counts": {
+    "source_rows": 10246948,
+    "mapped_release_rows": 7630659,
+    "unmapped_review_rows": 2615046,
+    "positive_negative_conflict_rows": 42231,
+    "duplicates_removed": 1243
+  },
+  "new_unique_canonical_compounds": 1092041,
+  "new_unique_forms": 1092041,
+  "quality_checks": {
+    "full_inchikey_required_for_exact_form_merge": true,
+    "unassigned_stereochemistry_not_auto_merged": true,
+    "uncurated_salt_or_charge_parent_not_auto_merged": true,
+    "dedup_key_target_canonical_aid_sid": true,
+    "positive_negative_conflicts_flagged": true,
+    "unmapped_records_retained": true,
+    "v61_immutable": true
+  },
+  "outputs": {
+    "mapped_negative": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\negative_identity\\negative_binding_evidence_newly_mapped_delta_v62.tsv.gz",
+    "unmapped_review": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\negative_identity\\negative_binding_evidence_unmapped_review_v1_2.tsv.gz",
+    "cid_crosswalk": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\negative_identity\\negative_cid_identity_crosswalk_v62.tsv.gz",
+    "new_compound_delta": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\negative_identity\\negative_new_compound_delta_v62.tsv.gz",
+    "new_form_delta": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\negative_identity\\negative_new_form_delta_v62.tsv.gz",
+    "duplicate_audit": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\negative_identity\\negative_evidence_duplicate_audit_v62.tsv.gz"
+  }
+}

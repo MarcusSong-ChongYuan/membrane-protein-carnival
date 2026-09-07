@@ -1,0 +1,12 @@
+{
+  "figure": "C10_compound_role_breadth",
+  "analysis_unit": "one canonical compound",
+  "inputs": [
+    "D:\\finale\\FORMAL\\01_core_v72\\01_release_tables\\protein_compound_pair_v72.tsv.gz",
+    "D:\\finale\\FORMAL\\03_publication_repairs\\protein_membrane_role_FORMAL.tsv"
+  ],
+  "deduplication_key": [
+    "compound_internal_id",
+    "target_uniprot_id"
+  ]
+}

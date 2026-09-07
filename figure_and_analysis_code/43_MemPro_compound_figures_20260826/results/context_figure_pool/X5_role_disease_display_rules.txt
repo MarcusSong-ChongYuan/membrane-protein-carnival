@@ -1,0 +1,9 @@
+Analysis unit: one unique canonical protein × disease-category combination.
+Input relations: formal PUBLIC_EXACT_CANONICAL protein_disease_relation_v72 records only.
+Disease category: disease_therapeutic_area_v72.therapeutic_area_name, preserving its multi-label mapping.
+Primary roles: formal_primary_membrane_role from protein_membrane_role_FORMAL.tsv.
+Displayed roles: top 8 roles by number of unique proteins represented in the role × category universe; all remaining roles are grouped as 'Other roles'.
+Displayed mapped disease categories: top 8 by unique protein coverage; remaining mapped categories are grouped as 'Other mapped disease areas'.
+'Unmapped therapeutic area' is separate, not silently excluded, for formal disease relations without a therapeutic-area mapping.
+All non-zero display flows are drawn; no individual flow was manually removed for appearance.
+Flow width is descriptive association coverage and does not imply disease causality or independent experiment count.

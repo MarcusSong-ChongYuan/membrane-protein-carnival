@@ -1,0 +1,217 @@
+policy_version: evidence-source-policy-trial-v1
+status: trial_only_not_for_formal_release
+
+unknown_source_defaults:
+  source_family: UNKNOWN
+  source_level: unknown
+  counts_toward_two_source_rule: false
+  allowed_as_only_core_source: false
+  rule_a_qualifies: false
+  clinical_or_curated_genetic: false
+  second_core_or_human_genetic: false
+  high_authority_source: false
+  source_note: Unknown datasource; excluded from all thresholds pending manual review.
+
+# This map covers every datasource_id observed in the validated v1 evidence
+# summary. Families, rather than raw datasource IDs, are the independent units.
+source_families:
+  cancer_biomarkers:
+    source_family: CANCER_BIOMARKERS
+    source_level: supporting
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: false
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: false
+    high_authority_source: false
+    source_note: Curated cancer biomarker/pathway support; not treated as an independent clinical-genetic anchor.
+  cancer_gene_census:
+    source_family: CANCER_GENE_CENSUS
+    source_level: core_cancer
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: true
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: true
+    second_core_or_human_genetic: true
+    high_authority_source: true
+    source_note: Curated cancer gene census source; raw evidence grading is still required for a single-source exception.
+  clingen:
+    source_family: CLINGEN
+    source_level: core
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: true
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: true
+    second_core_or_human_genetic: true
+    high_authority_source: true
+    source_note: Curated clinical gene-disease validity source.
+  clinical_precedence:
+    source_family: CLINICAL_PRECEDENCE
+    source_level: drug_derived
+    counts_toward_two_source_rule: false
+    allowed_as_only_core_source: false
+    rule_a_qualifies: false
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: false
+    high_authority_source: false
+    source_note: Drug-derived clinical precedence; excluded from all source thresholds.
+  crispr:
+    source_family: CRISPR
+    source_level: supporting
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: false
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: false
+    high_authority_source: false
+    source_note: Functional CRISPR screening; merged with crispr_screen as one independent CRISPR family.
+  crispr_screen:
+    source_family: CRISPR
+    source_level: supporting
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: false
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: false
+    high_authority_source: false
+    source_note: Functional CRISPR screening; merged with crispr as one independent CRISPR family.
+  europepmc:
+    source_family: EUROPE_PMC
+    source_level: non_qualifying
+    counts_toward_two_source_rule: false
+    allowed_as_only_core_source: false
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: false
+    high_authority_source: false
+    source_note: Literature/text-mining source; counted only by Rule A, which excludes only Clinical Precedence.
+  eva:
+    source_family: EVA
+    source_level: core
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: true
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: true
+    high_authority_source: false
+    source_note: Human genetic EVA aggregate; not relabelled as ClinVar without row-level provenance.
+  eva_somatic:
+    source_family: EVA
+    source_level: core_cancer
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: true
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: true
+    high_authority_source: false
+    source_note: Somatic EVA channel; merged with eva as one independent family.
+  expression_atlas:
+    source_family: EXPRESSION_ATLAS
+    source_level: supporting_only
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: false
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: false
+    high_authority_source: false
+    source_note: Expression support; may be a second family in Rule B but cannot anchor a relation.
+  gene2phenotype:
+    source_family: GENE2PHENOTYPE
+    source_level: core
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: true
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: true
+    second_core_or_human_genetic: true
+    high_authority_source: true
+    source_note: Curated clinical gene-disease source.
+  gene_burden:
+    source_family: GENE_BURDEN
+    source_level: core
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: true
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: true
+    high_authority_source: false
+    source_note: Human genetic burden evidence.
+  genomics_england:
+    source_family: GEL_PANELAPP
+    source_level: core
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: true
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: true
+    second_core_or_human_genetic: true
+    high_authority_source: true
+    source_note: Genomics England PanelApp curated source.
+  gwas_credible_sets:
+    source_family: GWAS
+    source_level: core
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: true
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: true
+    high_authority_source: false
+    source_note: Human genetic credible-set evidence.
+  impc:
+    source_family: IMPC
+    source_level: supporting_only
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: false
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: false
+    high_authority_source: false
+    source_note: Animal-model evidence; may be a second family in Rule B but cannot anchor a relation.
+  intogen:
+    source_family: INTOGEN
+    source_level: core_cancer
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: true
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: true
+    high_authority_source: false
+    source_note: Somatic cancer driver evidence.
+  orphanet:
+    source_family: ORPHANET
+    source_level: core
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: true
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: true
+    second_core_or_human_genetic: true
+    high_authority_source: true
+    source_note: Curated rare-disease gene association source.
+  reactome:
+    source_family: REACTOME
+    source_level: supporting
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: false
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: false
+    second_core_or_human_genetic: false
+    high_authority_source: false
+    source_note: Curated pathway support; not a clinical/human-genetic anchor.
+  uniprot_literature:
+    source_family: UNIPROT
+    source_level: core_curated
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: true
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: true
+    second_core_or_human_genetic: true
+    high_authority_source: true
+    source_note: UniProt curated literature channel; merged with uniprot_variants as one independent family.
+  uniprot_variants:
+    source_family: UNIPROT
+    source_level: core_curated
+    counts_toward_two_source_rule: true
+    allowed_as_only_core_source: true
+    rule_a_qualifies: true
+    clinical_or_curated_genetic: true
+    second_core_or_human_genetic: true
+    high_authority_source: true
+    source_note: UniProt curated variant channel; merged with uniprot_literature as one independent family.

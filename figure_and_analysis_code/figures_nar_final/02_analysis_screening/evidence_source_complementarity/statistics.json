@@ -1,0 +1,13 @@
+{
+  "top_sources": [
+    "ChEMBL",
+    "PubChem BioAssay",
+    "BindingDB",
+    "PDBe",
+    "IUPHAR/BPS Guide to PHARMACOLOGY",
+    "PDSP KiDatabase"
+  ],
+  "site_rows": 55610,
+  "unknown_membrane_side": 48331,
+  "lineage_label": "putative experiment lineage"
+}

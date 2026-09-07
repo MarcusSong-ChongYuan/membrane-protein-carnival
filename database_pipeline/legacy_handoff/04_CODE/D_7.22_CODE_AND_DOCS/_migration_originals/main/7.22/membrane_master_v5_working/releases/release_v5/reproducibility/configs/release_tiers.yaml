@@ -1,0 +1,50 @@
+policy_version: membrane-master-v5-tier-policy-v1
+record_unit: canonical_uniprot_accession
+species:
+  scientific_name: Homo sapiens
+  taxonomy_id: 9606
+  reference_proteome: UP000005640
+
+release_tiers:
+  A:
+    label: core_integral_membrane
+    included_scopes:
+      - integral_membrane
+    public_default: true
+  B:
+    label: core_extended_membrane
+    included_scopes:
+      - integral_monotopic
+      - lipid_anchored
+    public_default: true
+  C:
+    label: peripheral_membrane_associated
+    included_scopes:
+      - peripheral_membrane_associated
+    public_default: false
+  R:
+    label: review
+    included_scopes:
+      - uncertain_membrane_scope
+      - conflicting_membrane_evidence
+    public_default: false
+  E:
+    label: excluded
+    included_scopes:
+      - non_membrane
+    public_default: false
+
+evidence_priority:
+  - experimental_membrane_structure
+  - curated_uniprot_transmembrane_feature
+  - specialist_database_curated_classification
+  - multiple_independent_predictions
+  - single_prediction
+  - membrane_location_only
+  - name_or_function_inference
+
+website_views:
+  integral: [A]
+  core: [A, B]
+  all_membrane_related: [A, B, C]
+

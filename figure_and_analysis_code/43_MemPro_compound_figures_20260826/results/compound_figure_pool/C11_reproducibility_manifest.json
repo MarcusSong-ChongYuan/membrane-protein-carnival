@@ -1,0 +1,9 @@
+{
+  "figure": "C11_scaffold_role_enrichment",
+  "inputs": [
+    "D:\\finale\\43_MemPro_compound_figures_20260826\\results\\compound_figure_pool\\C3_scaffold_rank_frequency.tsv",
+    "D:\\finale\\FORMAL\\01_core_v72\\01_release_tables\\protein_compound_pair_v72.tsv.gz",
+    "D:\\finale\\FORMAL\\03_publication_repairs\\protein_membrane_role_FORMAL.tsv"
+  ],
+  "test": "two-sided Fisher exact; Haldane\u2013Anscombe log2 odds ratio; BH-FDR across all tested cells"
+}

@@ -1,0 +1,14 @@
+{
+  "observed_mean": 0.4866257607936859,
+  "null_mean": 0.37831713285148144,
+  "null_sd": 0.004098405592961037,
+  "z_score": 26.427015454064197,
+  "empirical_p": 9.999000099990002e-05,
+  "permutations": 10000,
+  "minimum_empirical_p": 9.999000099990002e-05,
+  "observed_edges_with_score": 5464,
+  "null_model": "disease anatomy-label sets permuted among diseases with identical disease degree and anatomy-label count; protein-disease network fixed",
+  "protein_degree_preserved": true,
+  "disease_degree_preserved": true,
+  "anatomy_label_count_preserved": true
+}

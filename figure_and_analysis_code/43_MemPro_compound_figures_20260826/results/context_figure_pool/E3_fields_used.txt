@@ -1,0 +1,8 @@
+canonical pair ID | pair_id | protein_compound_pair_v72.tsv.gz | formal canonical pair
+canonical protein ID | target_uniprot_id | positive_interaction_evidence_v72.tsv.gz | formal target accession
+canonical compound ID | compound_internal_id | positive_interaction_evidence_v72.tsv.gz | formal compound identifier
+evidence record ID | evidence_id | positive_interaction_evidence_v72.tsv.gz | formal positive evidence record
+source | source_database | positive_interaction_evidence_v72.tsv.gz | only atomic external source labels used
+evidence type | evidence_modality_v7 | positive_interaction_evidence_v72.tsv.gz | formal high-level modality
+source record ID | source_record_id | positive_interaction_evidence_v72.tsv.gz | source-level provenance
+Excluded composite source-labelled evidence records: 1689

@@ -1,0 +1,4 @@
+Analysis unit	one canonical compound
+N	240,055
+Input canonical protein–compound pairs	529,168
+Role mapping missing	0 pair rows

@@ -1,0 +1,89 @@
+{
+  "figures": {
+    "1": {
+      "figure": 1,
+      "png_px": [
+        2102,
+        2303
+      ],
+      "page_mm": [
+        178,
+        195
+      ],
+      "min_explicit_text_pt": 5.0,
+      "automated_pass": true,
+      "secondary_visual_review": "PASS"
+    },
+    "2": {
+      "figure": 2,
+      "png_px": [
+        2102,
+        2657
+      ],
+      "page_mm": [
+        178,
+        225
+      ],
+      "min_explicit_text_pt": 5.0,
+      "automated_pass": true,
+      "secondary_visual_review": "PASS"
+    },
+    "3": {
+      "figure": 3,
+      "png_px": [
+        2102,
+        2480
+      ],
+      "page_mm": [
+        178,
+        210
+      ],
+      "min_explicit_text_pt": 5.0,
+      "automated_pass": true,
+      "secondary_visual_review": "PASS"
+    },
+    "4": {
+      "figure": 4,
+      "png_px": [
+        2102,
+        2657
+      ],
+      "page_mm": [
+        178,
+        225
+      ],
+      "min_explicit_text_pt": 5.0,
+      "automated_pass": true,
+      "secondary_visual_review": "PASS"
+    },
+    "5": {
+      "figure": 5,
+      "png_px": [
+        2102,
+        2692
+      ],
+      "page_mm": [
+        178,
+        228
+      ],
+      "min_explicit_text_pt": 5.0,
+      "automated_pass": true,
+      "secondary_visual_review": "PASS"
+    }
+  },
+  "graphical_abstract": {
+    "size_mm": [
+      150,
+      60
+    ],
+    "tif_px": [
+      3543,
+      1417
+    ],
+    "effective_dpi": 600,
+    "editable_pdf": true,
+    "secondary_visual_review": "PASS"
+  },
+  "blocking_errors": 0,
+  "two_stage_review": "automated specification audit plus rendered visual inspection"
+}

@@ -1,0 +1,17 @@
+{
+  "figure": "C8_targets_per_compound_ecdf",
+  "analysis_unit": "one canonical compound",
+  "input": "D:\\finale\\FORMAL\\01_core_v72\\01_release_tables\\protein_compound_pair_v72.tsv.gz",
+  "deduplication_key": [
+    "compound_internal_id",
+    "target_uniprot_id"
+  ],
+  "output": [
+    "C8_targets_per_compound_ecdf.svg",
+    "C8_targets_per_compound_ecdf.pdf",
+    "C8_targets_per_compound_ecdf.png",
+    "C8_targets_per_compound.tsv",
+    "C8_targets_per_compound_summary.tsv"
+  ],
+  "x_scale": "logarithmic native target count"
+}

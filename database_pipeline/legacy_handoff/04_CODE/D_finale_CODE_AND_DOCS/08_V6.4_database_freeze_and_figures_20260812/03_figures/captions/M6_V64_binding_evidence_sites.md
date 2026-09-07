@@ -1,0 +1,1 @@
+Cleaned protein–small-molecule evidence and binding-site landscape. All-evidence and default-release scopes are shown separately; Docking readiness is not equivalent to experimental evidence strength.

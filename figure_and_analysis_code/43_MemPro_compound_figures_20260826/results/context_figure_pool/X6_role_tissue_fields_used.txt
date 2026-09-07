@@ -1,0 +1,12 @@
+X6 actual formal fields used
+canonical protein: expression_measurement_v72.target_uniprot_id; role table canonical_uniprot_accession
+primary role: protein_membrane_role_FORMAL.formal_primary_membrane_role
+standardized tissue key: expression_measurement_v72.tissue_ontology_id
+standardized tissue label: expression_measurement_v72.tissue_ontology_label
+tissue mapping state: expression_measurement_v72.tissue_mapping_status
+expression modality selector: source_dataset=HPA_consensus_tissue_RNA; measurement_layer=RNA; measurement_type=nTPM
+normalized expression: expression_measurement_v72.value (nTPM); recorded only as a secondary output
+detected/not detected: expression_measurement_v72.detection_status_v711 values DETECTED/NOT_DETECTED
+measurement eligibility: measurement_status_v711=MEASURED and mapped_measured_denominator_eligible_v71=1
+tissue-specificity Tau: no formal per-protein Tau field was found in the release tables; not used in this figure.
+No tissue names were created or manually normalized: tissue_ontology_id and tissue_ontology_label are the grouping fields.

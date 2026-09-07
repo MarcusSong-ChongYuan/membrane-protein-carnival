@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "run_type": "incremental_supplement_not_rebuild",
+  "release_version": "v6.0",
+  "generated_at_utc": "2026-07-27T11:40:58.822864+00:00",
+  "baseline_policy": "read_only_no_overwrite",
+  "counts": {
+    "baseline_binding_rows": 665214,
+    "baseline_site_rows": 9399,
+    "exact_mirror_rows": 9123,
+    "negative_rows": 10400952,
+    "new_binding_rows": 770159,
+    "new_default_binding_rows": 490320,
+    "new_pair_rows": 159272,
+    "new_site_rows": 12513,
+    "pair_summary_rows": 576038,
+    "pubchem_exact_context_conflicts": 5037,
+    "quantitative_heterogeneity_rows": 3567,
+    "review_rows": 3290514,
+    "strengthened_pair_rows": 116813
+  },
+  "source_counts": {
+    "BRENDA": {
+      "input_rows": 112456,
+      "review_rows": 112456
+    },
+    "GPCRdb": {
+      "binding_rows": 13631,
+      "default_binding_rows": 13457,
+      "exact_mirror_rows": 174,
+      "input_rows": 13631
+    },
+    "PDBbind": {
+      "binding_rows": 3752,
+      "default_binding_rows": 3477,
+      "exact_mirror_rows": 17,
+      "input_rows": 7514,
+      "review_rows": 3762
+    },
+    "PDBe": {
+      "binding_rows": 9087,
+      "default_binding_rows": 9086,
+      "input_rows": 171224,
+      "review_rows": 162137
+    },
+    "PubChem BioAssay": {
+      "binding_rows": 743689,
+      "default_binding_rows": 464300,
+      "exact_mirror_rows": 8932,
+      "input_rows": 14156800,
+      "negative_rows": 10400952,
+      "review_rows": 3012159
+    }
+  },
+  "row_reconciliation": {
+    "input_source_rows": 14461625,
+    "assigned_source_rows": 14461625,
+    "difference": 0
+  },
+  "identity_policy": "only canonical A/B/C proteins and uniquely mapped V1.0 compounds enter the binding master; unresolved identities remain in review",
+  "duplicate_policy": "exact target-compound-activity-value mirrors are retained for provenance but excluded from default pair counting",
+  "conflict_policy": "negative results are separated; same-assay active/inactive contexts and cross-source quantitative heterogeneity are audited without averaging",
+  "outputs": {
+    "binding_evidence": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\binding_evidence_master_v6_0.tsv.gz",
+    "negative_evidence": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\negative_binding_evidence_v1_0.tsv.gz",
+    "review_queue": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\binding_evidence_review_queue_v6_0.tsv.gz",
+    "binding_sites": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\binding_site_instances_v6_0.tsv.gz",
+    "protein_compound_summary": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\protein_compound_summary_v6_0.tsv.gz",
+    "pubchem_context_conflicts": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\pubchem_context_conflicts_v1_0.tsv.gz",
+    "quantitative_heterogeneity": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\quantitative_heterogeneity_audit_v1_0.tsv.gz",
+    "source_coverage": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\release_candidate_v6_0\\incremental_source_coverage_v6_0.tsv",
+    "merge_database": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\merge_candidate\\incremental_merge_v6.sqlite"
+  },
+  "blocking_findings": []
+}

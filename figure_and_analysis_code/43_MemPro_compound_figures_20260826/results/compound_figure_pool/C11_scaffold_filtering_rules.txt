@@ -1,0 +1,6 @@
+Analysis unit	unique canonical protein–compound pair
+Exact scaffold	existing exact_murcko_scaffold_smiles from C3
+Candidate rule	≥150 unique canonical compounds AND ≥70 unique proteins (high-support joint tail, selected before Fisher testing for final-size readability)
+Candidate scaffolds	29
+Hypotheses	348 scaffold × role Fisher tests
+Display rule	all candidate scaffolds with at least one BH-FDR <0.05 cell and observed pair support ≥20; no manual scaffold selection

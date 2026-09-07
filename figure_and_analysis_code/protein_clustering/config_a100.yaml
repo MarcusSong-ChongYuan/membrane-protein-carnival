@@ -1,0 +1,22 @@
+input:
+  protein_master: "inputs/protein_master_v72.tsv.gz"
+  classification_summary: "inputs/protein_cross_classification_summary_v72.tsv.gz"
+  formal_role_overlay: "inputs/protein_membrane_role_FORMAL.tsv"
+output_dir: results
+random_state: 42
+embedding:
+  model_name: esm2_t12_35M_UR50D
+  representation_layer: 12
+  pooling_method: residue_mean; non-overlapping sequence chunks for proteins >1022 residues
+  max_residues_per_chunk: 1022
+  batch_size: 4
+pca:
+  max_components: 50
+clustering:
+  min_cluster_size: [5, 10, 20, 30, 50]
+  min_samples: [null, 5, 10]
+umap:
+  final_n_neighbors: 15
+  n_neighbors_sensitivity: [10, 15, 30, 50]
+  min_dist: 0.1
+  metric: cosine

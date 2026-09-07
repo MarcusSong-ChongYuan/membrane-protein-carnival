@@ -1,0 +1,15 @@
+{
+  "method": "K-means on L2-normalized frozen 50D graph input",
+  "n_proteins": 7800,
+  "target_k": 35,
+  "kmeans_n_init": 50,
+  "max_iter": 500,
+  "leiden_communities": 28,
+  "silhouette_cosine_sample_n2000": 0.38318872451782227,
+  "ARI_vs_Leiden28": 0.20749910643848338,
+  "NMI_vs_Leiden28": 0.6872779096603093,
+  "best_one_to_one_overlap_fraction": 0.4712820512820513,
+  "min_cluster_n": 28,
+  "max_cluster_n": 667,
+  "note": "K-means is a sensitivity analysis. The 3D PCA display is not the clustering space."
+}

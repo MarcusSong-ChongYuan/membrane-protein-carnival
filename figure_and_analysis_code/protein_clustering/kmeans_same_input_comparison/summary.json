@@ -1,0 +1,12 @@
+{
+  "method": "KMeans on L2-normalized frozen 50D graph input",
+  "n_proteins": 7800,
+  "kmeans_n_init": 50,
+  "target_k": 28,
+  "leiden_communities": 28,
+  "ARI_vs_Leiden28": 0.2409450990450554,
+  "NMI_vs_Leiden28": 0.6958234841128238,
+  "best_one_to_one_overlap_fraction": 0.45782051282051284,
+  "silhouette_cosine_sample_n2000": 0.3720420300960541,
+  "note": "K-means is a sensitivity analysis, not a replacement for graph-based Leiden communities. Cluster labels are arbitrary."
+}

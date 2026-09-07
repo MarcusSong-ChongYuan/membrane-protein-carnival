@@ -1,0 +1,8 @@
+canonical protein ID | target_uniprot_id | interaction_site_v72.tsv.gz
+canonical compound ID | compound_internal_id | interaction_site_v72.tsv.gz
+site assertion ID | site_record_id | interaction_site_v72.tsv.gz
+binding-site source | source_database | interaction_site_v72.tsv.gz
+site tier | site_tier_v72 | interaction_site_v72.tsv.gz
+coordinate mapping | coordinate_mapping_status | interaction_site_v72.tsv.gz
+PDB structure | selected_pdb_id | interaction_site_v72.tsv.gz
+evidence provenance | evidence_id | interaction_site_v72.tsv.gz

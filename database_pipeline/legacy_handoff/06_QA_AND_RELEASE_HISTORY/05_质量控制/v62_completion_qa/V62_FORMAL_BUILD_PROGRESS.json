@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "stage": "frozen",
+  "started_utc": "2026-07-29T21:54:43.476704+00:00",
+  "completed_utc": "2026-07-29T22:14:39.374052+00:00",
+  "release": "D:\\7.22\\evidence_expansion_v2_working\\releases\\release_mempro_v6_2_20260730",
+  "stats": {
+    "positive_pair_index_rows": 1502456,
+    "negative": {
+      "source_rows": 7784663,
+      "official_negative_rows": 7784223,
+      "positive_negative_conflict_rows": 78548,
+      "duplicates_removed": 440
+    },
+    "baseline_compounds": 924023,
+    "new_compounds": 1092041,
+    "baseline_forms": 928857,
+    "new_forms": 1092041,
+    "protein_rows": 10997,
+    "positive_evidence_rows": 3003306,
+    "disease_rows": 10264,
+    "positive_pair_rows": 1502456,
+    "binding_site_rows": 95598,
+    "negative_pair_rows": 6331307
+  },
+  "validation": {
+    "status": "PASS",
+    "blocking_errors": {},
+    "blocking_error_total": 0,
+    "protein_rows": 10997,
+    "compound_rows": 2016064,
+    "form_rows": 2020898,
+    "official_negative_rows": 7784223,
+    "negative_pair_rows": 6331307,
+    "invalid_negative_compound_foreign_keys": 0,
+    "invalid_negative_form_foreign_keys": 0,
+    "expression_module_status": "passed_with_review_queue",
+    "subunit_module_status": "passed_with_review_queue",
+    "negative_module_status": "passed_with_review_queue",
+    "preflight_qa_status": "PASS",
+    "generated_utc": "2026-07-29T22:14:31.418893+00:00"
+  }
+}

@@ -1,0 +1,3 @@
+# M4 caption
+
+**M4. Canonical disease identities and ontology-derived context.** Source disease identifiers are merged only through direct MONDO identifiers or official one-to-one exact/equivalent mappings; non-disease MONDO nodes, obsolete targets and unmapped records remain review/source-only entities (A). Open Targets Platform 26.06 therapeutic-area assignments are shown as multi-label memberships (B). Anatomical associations derive from asserted or logically inherited DO/MONDO axioms pointing to Uberon, with inference provenance retained (C–D). A protein–disease relation can contribute to more than one therapeutic area or anatomical system; bars therefore must not be summed as mutually exclusive totals. Only V6.3 default relations are plotted.

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "analysis_unit": "one canonical protein",
+  "total_canonical_proteins": 7800,
+  "experimental_pdb_linked_proteins": 1690,
+  "predicted_model_only_proteins": 6070,
+  "no_usable_structure_proteins": 40,
+  "model_available_proteins": 7751,
+  "experimental_structure_rule": "interaction_site_v72.source_pdb_ids non-null",
+  "predicted_structure_rule": "protein_structure_model_v721.model_availability_status == MODEL_AVAILABLE",
+  "pdbtm_opm_status": "No formal per-protein PDBTM/OPM mapping table was used; no structural context was inferred from registry-level metadata.",
+  "displayed_roles": 14
+}

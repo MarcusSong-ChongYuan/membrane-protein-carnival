@@ -1,0 +1,4 @@
+{
+  "method": "Spearman",
+  "high_redundancy_threshold": 0.9
+}

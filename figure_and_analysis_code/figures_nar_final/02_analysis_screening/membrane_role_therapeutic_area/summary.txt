@@ -1,0 +1,6 @@
+n: 6,753 unique protein-disease edges
+filter: formal disease relations with ontology therapeutic-area labels
+effect size: degree-preserving permutation Z
+P/q: 10,000 permutations; empirical P; BH-FDR
+missingness: therapeutic-area-unmapped diseases retained in coverage audit but excluded from cell tests
+recommendation: MAIN FIGURE 5B

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "R1_refined_ring_topology.pdf",
+    "audit": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\10_refined_classification_trial\\\\figures\\\\R1_refined_ring_topology.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 6.0,\n  \"text_run_count\": 23,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "R2_heldout_role_discrimination.pdf",
+    "audit": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\10_refined_classification_trial\\\\figures\\\\R2_heldout_role_discrimination.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 6.0,\n  \"text_run_count\": 20,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "R3_refined_ring_role_profile.pdf",
+    "audit": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\10_refined_classification_trial\\\\figures\\\\R3_refined_ring_role_profile.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.0,\n  \"text_run_count\": 28,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "R4_functional_group_role_enrichment.pdf",
+    "audit": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\10_refined_classification_trial\\\\figures\\\\R4_functional_group_role_enrichment.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.0,\n  \"text_run_count\": 46,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "R5_resolution_vs_role_association.pdf",
+    "audit": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\10_refined_classification_trial\\\\figures\\\\R5_resolution_vs_role_association.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.0,\n  \"text_run_count\": 37,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  }
+]

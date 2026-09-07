@@ -1,0 +1,14 @@
+T1 anatomical-expression coverage audit
+Expression table: formal expression_measurement_v72
+Canonical protein key: target_uniprot_id
+Standardized tissue fields: tissue_ontology_id; tissue_ontology_label
+Tissue mapping-status field: tissue_mapping_status
+Formal detection field: detection_status_v711 (DETECTED / NOT_DETECTED / unresolved states)
+Formal measurement field: measurement_status_v711
+Analysis eligibility field: mapped_measured_denominator_eligible_v71
+Result: no formal tissue-to-organ or organ-hierarchy mapping table was located in the current formal release.
+Therefore the requested organ-level map was not generated: assigning anatomy from tissue names would violate the task rules.
+Eligible measured expression records: 2,921,389
+Eligible detected expression records: 2,198,528
+Distinct standardized tissue labels among eligible records: 63
+Rows carrying ambiguous tissue mapping status: 17,946

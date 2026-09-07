@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "analysis_unit": "one unique canonical protein \u00d7 disease category",
+  "formal_protein_disease_relations": 6753,
+  "disease_associated_protein_universe": 2347,
+  "displayed_roles": [
+    "receptor",
+    "transporter",
+    "ion_channel",
+    "membrane_associated_enzyme",
+    "signaling_regulator",
+    "membrane_scaffold_or_linker",
+    "adhesion_recognition",
+    "family_defined_membrane_role_unresolved",
+    "Other roles"
+  ],
+  "displayed_categories": [
+    "genetic, familial or congenital disease",
+    "nervous system disorder",
+    "phenotype",
+    "nutritional or metabolic disease",
+    "musculoskeletal or connective tissue disease",
+    "cancer or benign tumor",
+    "gastrointestinal disease",
+    "endocrine system disorder",
+    "Other mapped disease areas",
+    "Unmapped therapeutic area"
+  ],
+  "tested_mapped_cells": 81,
+  "unmapped_cells_not_tested": 9,
+  "bh_significant_support_20_cells": 19,
+  "sankey_group_compatibility_verified": true
+}

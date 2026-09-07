@@ -1,0 +1,13 @@
+D3 bilateral expression-versus-disease coverage: fields used
+
+Expression table (read-only formal V7.2): expression_measurement_v72.tsv.gz
+- target_uniprot_id, source_dataset, measurement_layer, tissue, tissue_ontology_id, tissue_ontology_label
+- tissue_mapping_status, measurement_status_v711, mapped_measured_denominator_eligible_v71, detection_status_v711
+Filter: HPA_tissue_RNA; RNA; MEASURED; denominator eligible = 1; mapped tissue; DETECTED for left-bar protein count.
+
+Disease table: D2_top_level_anatomical_system_summary.tsv
+- top_level_uberon_id, n_unique_diseases
+
+Shared visualization snapshot: Uberon uberon/releases/2026-06-19/uberon-basic.owl; same terminal anchors as D2.
+Unit: left = unique canonical proteins with detected HPA tissue RNA in a system; right = unique canonical diseases in a system.
+No raw expression rows, IHC, MS or cell-type RNA records were counted as left-bar proteins.

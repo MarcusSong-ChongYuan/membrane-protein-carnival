@@ -1,0 +1,10 @@
+T1 NOT RUN — Anatomical expression coverage
+
+No formal tissue-to-organ / organ-hierarchy mapping was present in the current MemPro formal release. The expression table provides standardized Uberon tissue identifiers and tissue-level mapping states, but no release-owned crosswalk that permits deduplication from protein × tissue to protein × organ.
+
+The formal expression-detection criterion exists (`detection_status_v711 = DETECTED`) and was not the blocker. The requested body map nevertheless cannot be created without introducing an external or manually inferred tissue-to-organ mapping. Per task instructions, no such mapping was created and no figure was rendered.
+
+Required next input for a valid rerun:
+- a versioned, formal tissue_ontology_id → organ/system mapping table, including handling of multi-organ, systemic, and ambiguous Uberon terms.
+
+No frozen biological facts or expression thresholds were modified.

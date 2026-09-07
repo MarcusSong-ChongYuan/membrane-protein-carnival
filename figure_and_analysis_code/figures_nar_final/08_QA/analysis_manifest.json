@@ -1,0 +1,57 @@
+{
+  "release": "MemPro V7.2",
+  "random_seed": 42,
+  "permutations": 10000,
+  "software": {
+    "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5",
+    "scipy": "1.18.0",
+    "rdkit": "2026.03.5"
+  },
+  "chemical_fingerprint": {
+    "type": "Morgan",
+    "radius": 2,
+    "bits": 2048,
+    "nearest_neighbors": 20
+  },
+  "multiple_testing": "Benjamini-Hochberg FDR",
+  "inputs": [
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\FINAL\\MemPro_V7.2\\01_release_tables\\positive_interaction_evidence_v72.tsv.gz",
+      "sha256": "050dfda5f824653b52bb6af6c9c3687d3b7ad484eec7dd7b2a42904618e9c8cb",
+      "size": 82597260
+    },
+    {
+      "path": "C:\\Users\\Administrator\\Desktop\\FINAL\\MemPro_V7.2\\01_release_tables\\expression_measurement_v72.tsv.gz",
+      "sha256": "18e38f01d1cf65980c6feeab7e38990e737e471d98b9899a4b8d1c2db57f4ea6",
+      "size": 100815934
+    },
+    {
+      "path": "D:\\finale\\24_MemPro_V7.2_NAR_analysis_and_figures_20260818\\02_analysis_data\\protein_analysis.tsv.gz",
+      "sha256": "0bdf9d1d308a345e75f50f92757551a852ce415c0cdce1238f7b93de72ab25f6",
+      "size": 4253830
+    },
+    {
+      "path": "D:\\finale\\24_MemPro_V7.2_NAR_analysis_and_figures_20260818\\02_analysis_data\\compound_features.tsv.gz",
+      "sha256": "304ad7d7da0aac98dbbc0dc16335872fb010860e1947c9b30e6bb69710f87620",
+      "size": 40337444
+    },
+    {
+      "path": "D:\\finale\\24_MemPro_V7.2_NAR_analysis_and_figures_20260818\\02_analysis_data\\pair_analysis.tsv.gz",
+      "sha256": "4a11ac6c9de5b1ca9862d861b5e50efd85abf3d87bda66ef7da135bbdc62b551",
+      "size": 9919048
+    },
+    {
+      "path": "D:\\finale\\24_MemPro_V7.2_NAR_analysis_and_figures_20260818\\02_analysis_data\\disease_relation_analysis.tsv.gz",
+      "sha256": "27745db2318bd84346d0fd9677b112a1af616d632eb439148e103b08d4885ada",
+      "size": 628749
+    },
+    {
+      "path": "D:\\finale\\24_MemPro_V7.2_NAR_analysis_and_figures_20260818\\02_analysis_data\\site_analysis.tsv.gz",
+      "sha256": "bc112ed4e665b8b5594a005135f249bbc7708af09020667fa068740e0bb12adb",
+      "size": 1727042
+    }
+  ]
+}

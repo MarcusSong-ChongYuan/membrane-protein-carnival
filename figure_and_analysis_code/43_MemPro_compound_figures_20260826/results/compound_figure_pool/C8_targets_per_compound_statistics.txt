@@ -1,0 +1,8 @@
+Figure	C8 — Target breadth per canonical compound
+Analysis N	240,055 canonical compounds
+Input pair rows	529,168
+Unique canonical pairs	529,168
+Single-target compounds	145,434 (60.5836%)
+Median / P75 / P90 / P95	1 / 2 / 3 / 4
+Maximum	738
+Missingness	No pair-table compounds were excluded; compounds without formal positive pairs are outside the defined analysis denominator.

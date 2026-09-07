@@ -1,0 +1,3 @@
+# M2 caption
+
+**M2. Orthogonal classification of the 10,997-protein membrane catalog.** The V5 legacy label is retained only for provenance (A). V6.3 does not replace family identity with function: each protein receives separate structural-family, molecular-function, biological-process, membrane-role and specialist-classification fields (B–C), with Reactome recorded as an additional pathway layer. Panel D shows the predeclared 2,426-protein E1/E2 priority set. A specific role is proposed only when a specialist annotation, GO ancestry, a prior functional class or a conservative family rule supports it; otherwise the protein remains explicitly family-defined with unresolved membrane role. Counts describe annotation coverage, not experimental proof of function.

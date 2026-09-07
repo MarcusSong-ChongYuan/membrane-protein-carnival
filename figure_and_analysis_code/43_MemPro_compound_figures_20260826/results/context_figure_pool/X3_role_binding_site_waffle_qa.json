@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "analysis_unit": "one canonical protein",
+  "total_canonical_proteins": 7800,
+  "site_records": 55610,
+  "proteins_with_site_assertion": 1690,
+  "proteins_with_coordinate_mapped_site": 1668,
+  "formal_site_tier_field": "site_tier_v72",
+  "coordinate_mapping_status_field": "coordinate_mapping_status",
+  "site_tier_values": [
+    "S1_EXACT_COCRYSTAL_COORDINATE_COMPLETE",
+    "S2_COORDINATE_COMPLETE_LIGAND_UNRESOLVED",
+    "S3_SOURCE_OR_PARTIAL"
+  ],
+  "display_roles": [
+    "membrane_associated_enzyme",
+    "receptor",
+    "family_defined_membrane_role_unresolved",
+    "transporter",
+    "ion_channel",
+    "signaling_regulator",
+    "membrane_scaffold_or_linker",
+    "adhesion_recognition",
+    "Other"
+  ],
+  "full_roles_in_source_data": 14
+}

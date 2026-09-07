@@ -1,0 +1,17 @@
+metric	count	scope
+protein_rows	10997	all membrane-protein audit rows; not all are default high-confidence
+compound_rows	2016064	canonical small-molecule master v1.3
+compound_form_rows	2020898	form/parent hierarchy v1.3
+positive_evidence_rows	3003306	positive evidence master
+positive_pair_rows	1502456	protein–canonical compound summary
+binding_site_rows	95598	structure-resolved site instances
+disease_relation_rows	10264	protein–gene–disease relations
+official_negative_rows	7784223	mapped and deduplicated formal negative evidence
+negative_pair_rows	6331307	protein–canonical compound negative summary
+positive_negative_conflict_rows	78548	positive/negative target-compound conflicts retained for audit
+negative_duplicates_removed	440	exact duplicate removal in V6.2 negative layer
+docking_pilot_pairs	6019	HPC pilot set
+docking_standard_pairs	14713	HPC standard set
+docking_standard_targets	1773	unique targets in standard set
+docking_full_nonconflict_pairs	186625	all recommended non-conflict docking pairs
+docking_conflict_review_pairs	5967	excluded from default HPC submission

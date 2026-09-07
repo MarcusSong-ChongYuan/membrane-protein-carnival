@@ -1,0 +1,680 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/p1miop",
+    "id": "p1miop",
+    "slide": 12,
+    "layoutId": "373abecd-5c99-4853-b721-4f54f74d4403",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "373abecd-5c99-4853-b721-4f54f74d4403",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sbulwbmt",
+      "id": "1",
+      "bbox": [
+        64,
+        684,
+        700,
+        20
+      ],
+      "geometry": "rect",
+      "text": "MemPro V7.2 · NAR analysis narrative",
+      "textPreview": "MemPro V7.2 · NAR analysis narrative",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MemPro V7.2 · NAR analysis narrative"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MemPro V7.2 · NAR analysis narrative",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#69757D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MemPro V7.2 · NAR analysis narrative",
+              "fontSize": 11,
+              "color": "#69757D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ralkn6l8",
+      "id": "2",
+      "bbox": [
+        1180,
+        684,
+        36,
+        20
+      ],
+      "geometry": "rect",
+      "text": "12",
+      "textPreview": "12",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "12"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "12",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#69757D",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "12",
+              "fontSize": 11,
+              "color": "#69757D",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q9c3u14n",
+      "id": "3",
+      "bbox": [
+        64,
+        36,
+        460,
+        24
+      ],
+      "geometry": "rect",
+      "text": "FIGURE 5 · TECHNICAL BACKGROUND",
+      "textPreview": "FIGURE 5 · TECHNICAL BACKGROUND",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#7B95C6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FIGURE 5 · TECHNICAL BACKGROUND"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FIGURE 5 · TECHNICAL BACKGROUND",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#7B95C6",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FIGURE 5 · TECHNICAL BACKGROUND",
+              "fontSize": 13,
+              "color": "#7B95C6",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/10n2tg3a",
+      "id": "4",
+      "bbox": [
+        64,
+        62,
+        1152,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Disease identity and anatomy require ontology boundaries",
+      "textPreview": "Disease identity and anatomy require ontology boundaries",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Disease identity and anatomy require ontology boundaries"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Disease identity and anatomy require ontology boundaries",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#26323A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Disease identity and anatomy require ontology boundaries",
+              "fontSize": 36,
+              "color": "#26323A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0ful0bm5",
+      "id": "5",
+      "bbox": [
+        64,
+        126,
+        82,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#F47254",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/elkzu1gb",
+      "id": "6",
+      "bbox": [
+        72,
+        155,
+        500,
+        440
+      ],
+      "alt": "Disease ontology section graphic",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "7d76accb-d74e-45b4-81c5-af1fd226f083",
+        "contentType": "image/png",
+        "byteLength": 156954
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/edc3yl4z",
+      "id": "7",
+      "bbox": [
+        610,
+        175,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#F47254",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4j2hw36",
+      "id": "8",
+      "bbox": [
+        634,
+        165,
+        531,
+        79
+      ],
+      "geometry": "rect",
+      "text": "Only official exact/equivalent cross-references merge disease identity.",
+      "textPreview": "Only official exact/equivalent cross-references merge disease identity.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Only official exact/equivalent cross-references merge disease"
+          },
+          {
+            "index": 2,
+            "text": "identity."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Only official exact/equivalent cross-references merge disease identity.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#26323A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Only official exact/equivalent cross-references merge disease identity.",
+              "fontSize": 19,
+              "color": "#26323A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gja1orml",
+      "id": "9",
+      "bbox": [
+        610,
+        258,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#7B95C6",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/21836p4r",
+      "id": "10",
+      "bbox": [
+        634,
+        248,
+        531,
+        79
+      ],
+      "geometry": "rect",
+      "text": "A disease can map to multiple anatomical systems; fractional counts avoid double counting.",
+      "textPreview": "A disease can map to multiple anatomical systems; fractional counts avoid double counting.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A disease can map to multiple anatomical systems; fractional"
+          },
+          {
+            "index": 2,
+            "text": "counts avoid double counting."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A disease can map to multiple anatomical systems; fractional counts avoid double counting.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#26323A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A disease can map to multiple anatomical systems; fractional counts avoid double counting.",
+              "fontSize": 19,
+              "color": "#26323A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n2h4fulw",
+      "id": "11",
+      "bbox": [
+        610,
+        341,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#7B95C6",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o3ql8fmh",
+      "id": "12",
+      "bbox": [
+        634,
+        331,
+        531,
+        79
+      ],
+      "geometry": "rect",
+      "text": "Therapeutic area and anatomy are different ontology dimensions.",
+      "textPreview": "Therapeutic area and anatomy are different ontology dimensions.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Therapeutic area and anatomy are different ontology dimensions."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Therapeutic area and anatomy are different ontology dimensions.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#26323A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Therapeutic area and anatomy are different ontology dimensions.",
+              "fontSize": 19,
+              "color": "#26323A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4zmhk32",
+      "id": "13",
+      "bbox": [
+        610,
+        424,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#7B95C6",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a583ap4n",
+      "id": "14",
+      "bbox": [
+        634,
+        414,
+        531,
+        79
+      ],
+      "geometry": "rect",
+      "text": "Unmapped formal diseases remain visible in every denominator audit.",
+      "textPreview": "Unmapped formal diseases remain visible in every denominator audit.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Unmapped formal diseases remain visible in every denominator"
+          },
+          {
+            "index": 2,
+            "text": "audit."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Unmapped formal diseases remain visible in every denominator audit.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#26323A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Unmapped formal diseases remain visible in every denominator audit.",
+              "fontSize": 19,
+              "color": "#26323A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

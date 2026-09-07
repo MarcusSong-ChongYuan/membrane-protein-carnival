@@ -1,0 +1,501 @@
+sample_id	module	primary_id	secondary_id	status_or_grade	review_flags	automated_audit_result	audit_rule
+V62-QA-0001	expression_location	P49146	ENSG00000185149	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0002	expression_location	Q07954	ENSG00000123384	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0003	expression_location	Q9H7M9	ENSG00000107738	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0004	expression_location	A0A075B6I0	ENSG00000211638	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0005	expression_location	Q92982	ENSG00000131669	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0006	expression_location	O43529	ENSG00000115526	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0007	expression_location	Q15506	ENSG00000064199	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0008	expression_location	O96024	ENSG00000235863	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0009	expression_location	Q96FM1	ENSG00000161395	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0010	expression_location	Q14318	ENSG00000105701	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0011	expression_location	Q16186	ENSG00000130706	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0012	expression_location	Q8IWV2	ENSG00000144619	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0013	expression_location	Q5VVB8	ENSG00000203756	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0014	expression_location	Q9UNA3	ENSG00000118017	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0015	expression_location	Q99679	ENSG00000188394	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0016	expression_location	Q8TB36	ENSG00000104381	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0017	expression_location	P03950	ENSG00000214274	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0018	expression_location	Q05C16	ENSG00000173988	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0019	expression_location	Q9BQD7	ENSG00000103254	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0020	expression_location	Q8N3V7	ENSG00000171992	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0021	expression_location	P04054	ENSG00000170890	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0022	expression_location	Q6UXG2	ENSG00000116299	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0023	expression_location	Q8IZT8	ENSG00000249853	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0024	expression_location	Q8TDI8	ENSG00000165091	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0025	expression_location	Q8NFP4	ENSG00000112139	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0026	expression_location	Q9UBI6	ENSG00000172380	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0027	expression_location	O95868	ENSG00000244355	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0028	expression_location	A1L390	ENSG00000126822	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0029	expression_location	P0DPA2	ENSG00000243284	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0030	expression_location	Q6NSI3	ENSG00000174137	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0031	expression_location	P58107	ENSG00000261150	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0032	expression_location	Q2VPB7	ENSG00000254470	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0033	expression_location	Q96CN4	ENSG00000142459	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0034	expression_location	Q14210	ENSG00000167656	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0035	expression_location	A0A1B0GVH4	ENSG00000253649	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0036	expression_location	Q6ZS30	ENSG00000144426	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0037	expression_location	O60423	ENSG00000130270	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0038	expression_location	O43157	ENSG00000164050	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0039	expression_location	Q9Y5F9	ENSG00000253305	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0040	expression_location	Q8IZD2	ENSG00000005483	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0041	expression_location	P0DJ93	ENSG00000224531	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0042	expression_location	Q9Y4P3	ENSG00000106638	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0043	expression_location	Q8TAG5	ENSG00000170419	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0044	expression_location	Q9H2M9	ENSG00000118873	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0045	expression_location	Q9GZN6	ENSG00000063127	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0046	expression_location	Q7Z443	ENSG00000277481	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0047	expression_location	A5PLK6	ENSG00000121446	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0048	expression_location	P13591	ENSG00000149294	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0049	expression_location	P15311	ENSG00000092820	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0050	expression_location	Q9NUU6	ENSG00000145569	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0051	expression_location	Q9Y2E4	ENSG00000151240	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0052	expression_location	P30954	ENSG00000196184	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0053	expression_location	Q9H158	ENSG00000248383	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0054	expression_location	Q13332	ENSG00000105426	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0055	expression_location	P53041	ENSG00000011485	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0056	expression_location	Q9H4F1	ENSG00000136840	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0057	expression_location	Q9NRG9	ENSG00000094914	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0058	expression_location	Q9HCS2	ENSG00000186204	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0059	expression_location	Q9UGJ1	ENSG00000137822	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0060	expression_location	Q14449	ENSG00000115290	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0061	expression_location	Q6UXC1	ENSG00000177943	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0062	expression_location	P23528	ENSG00000172757	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0063	expression_location	Q9H1X3	ENSG00000059769;ENSG00000244115	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0064	expression_location	Q96JJ6	ENSG00000092051	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0065	expression_location	P07988	ENSG00000168878	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0066	expression_location	P54284	ENSG00000167535	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0067	expression_location	Q969F9	ENSG00000163755	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0068	expression_location	Q969S8	ENSG00000100429	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0069	expression_location	Q96P65	ENSG00000186867	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0070	expression_location	O15162	ENSG00000188313	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0071	expression_location	Q14112	ENSG00000087303	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0072	expression_location	C9J069	ENSG00000232434	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0073	expression_location	O60683	ENSG00000157911	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0074	expression_location	Q8NHC8	ENSG00000198104	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0075	expression_location	A0A0A0MS02	ENSG00000211701	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0076	expression_location	P35527	ENSG00000171403	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0077	expression_location	O14610	ENSG00000167083	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0078	expression_location	P51532	ENSG00000127616	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0079	expression_location	Q9BYT9	ENSG00000134343	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0080	expression_location	Q8TDU6	ENSG00000179921	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0081	expression_location	O00151	ENSG00000107438	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0082	expression_location	Q6IEE8		no_HPA_Ensembl_match		pass	protein_key_present_and_summary_typed
+V62-QA-0083	expression_location	Q96RA2	ENSG00000188000	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0084	expression_location	Q8WW34	ENSG00000198326	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0085	expression_location	Q15027	ENSG00000072818	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0086	expression_location	Q8IUI8	ENSG00000176390	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0087	expression_location	Q6P5S7	ENSG00000219200	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0088	expression_location	Q9NS68	ENSG00000127863	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0089	expression_location	A8K855	ENSG00000203965	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0090	expression_location	Q8N4L8	ENSG00000159214	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0091	expression_location	O00329	ENSG00000171608	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0092	expression_location	P56880	ENSG00000171217	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0093	expression_location	Q9UJ14	ENSG00000131067	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0094	expression_location	Q96T37	ENSG00000162775	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0095	expression_location	Q9Y5X5	ENSG00000056291	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0096	expression_location	Q7L576	ENSG00000273749	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0097	expression_location	P0C2S0	ENSG00000233932	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0098	expression_location	Q6A1A2		no_HPA_Ensembl_match		pass	protein_key_present_and_summary_typed
+V62-QA-0099	expression_location	Q76KP1	ENSG00000182272	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0100	expression_location	Q9H583	ENSG00000119285	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0101	expression_location	O00141	ENSG00000118515	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0102	expression_location	Q9UQ16	ENSG00000197959	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0103	expression_location	O60296	ENSG00000115993	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0104	expression_location	Q8NA82	ENSG00000173838	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0105	expression_location	Q14232	ENSG00000111361	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0106	expression_location	Q96EU7	ENSG00000171155	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0107	expression_location	Q86UL8	ENSG00000187391	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0108	expression_location	O60397		no_HPA_Ensembl_match		pass	protein_key_present_and_summary_typed
+V62-QA-0109	expression_location	Q8WY91	ENSG00000176946	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0110	expression_location	Q9HC44	ENSG00000159592	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0111	expression_location	O00631	ENSG00000170290	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0112	expression_location	P05771	ENSG00000166501	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0113	expression_location	O95976	ENSG00000140749	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0114	expression_location	Q9UNN8	ENSG00000101000	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0115	expression_location	P55289	ENSG00000154162	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0116	expression_location	Q4L235	ENSG00000157426	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0117	expression_location	P62191	ENSG00000100764	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0118	expression_location	O95070	ENSG00000174851	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0119	expression_location	A0A0B4J240	ENSG00000211784	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0120	expression_location	P78363	ENSG00000198691	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0121	expression_location	Q9UG63	ENSG00000033050;ENSG00000285292	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0122	expression_location	Q9NX20	ENSG00000166902	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0123	expression_location	Q05901	ENSG00000147432	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0124	expression_location	Q99527	ENSG00000164850	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0125	expression_location	Q6UXB4	ENSG00000182566	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0126	expression_location	Q8N9X5		no_HPA_Ensembl_match		pass	protein_key_present_and_summary_typed
+V62-QA-0127	expression_location	Q5T0L3	ENSG00000171722	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0128	expression_location	Q14061	ENSG00000138495	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0129	expression_location	Q13621	ENSG00000074803	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0130	expression_location	Q9NRD9	ENSG00000137857	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0131	expression_location	Q02221	ENSG00000156885	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0132	expression_location	O15394	ENSG00000154654	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0133	expression_location	Q6NSJ2	ENSG00000176531	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0134	expression_location	Q9UJS0	ENSG00000004864	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0135	expression_location	P61289	ENSG00000131467	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0136	expression_location	Q9BSU1	ENSG00000125149	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0137	expression_location	P55061	ENSG00000139644	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0138	expression_location	P48507	ENSG00000023909	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0139	expression_location	H3BR10	ENSG00000256162	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0140	expression_location	Q9UN67	ENSG00000120324	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0141	expression_location	Q9NQS3	ENSG00000177707	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0142	expression_location	O60478	ENSG00000077585	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0143	expression_location	Q9BSK0	ENSG00000155254	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0144	expression_location	Q8TDV5	ENSG00000147262	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0145	expression_location	Q5VT06	ENSG00000135837	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0146	expression_location	P35225	ENSG00000169194	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0147	expression_location	O14625	ENSG00000169248	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0148	expression_location	A0A1B0GX68	ENSG00000226660	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0149	expression_location	Q13177	ENSG00000180370	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0150	expression_location	Q9NQ86	ENSG00000152503	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0151	expression_location	A6NNT2	ENSG00000205832	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0152	expression_location	Q16617	ENSG00000105374	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0153	expression_location	A1A5B4	ENSG00000185101	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0154	expression_location	Q92504	ENSG00000112473	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0155	expression_location	A0A1B0GX95	ENSG00000253409	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0156	expression_location	Q9Y5R5	ENSG00000173253	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0157	expression_location	Q96E22	ENSG00000153989	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0158	expression_location	Q0ZLH3	ENSG00000204311	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0159	expression_location	Q8N9I5	ENSG00000172782	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0160	expression_location	Q9P035	ENSG00000074696	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0161	expression_location	Q9BZZ2	ENSG00000088827	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0162	expression_location	Q9NY46	ENSG00000153253	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0163	expression_location	P80748	ENSG00000211662	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0164	expression_location	P43405	ENSG00000165025	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0165	expression_location	P17405	ENSG00000166311	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0166	expression_location	P61225	ENSG00000181467	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0167	expression_location	Q9H1Z4	ENSG00000101940	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0168	expression_location	Q14790	ENSG00000064012	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0169	expression_location	B9EJG8	ENSG00000249242	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0170	expression_location	Q4L180	ENSG00000168386	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0171	expression_location	O43915	ENSG00000165197	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0172	expression_location	A0A0G2JS06		no_HPA_Ensembl_match		pass	protein_key_present_and_summary_typed
+V62-QA-0173	expression_location	Q9BZG1	ENSG00000109113	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0174	expression_location	O75436	ENSG00000122958	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0175	expression_location	Q9NTI2	ENSG00000132932	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0176	expression_location	Q8N5G2	ENSG00000204178	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0177	expression_location	P78316	ENSG00000087269	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0178	expression_location	Q99590	ENSG00000139218	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0179	expression_location	Q8WWP7	ENSG00000213203	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0180	expression_location	O15173	ENSG00000164040	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0181	expression_location	Q9HCM3	ENSG00000122778	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0182	expression_location	Q8TED1	ENSG00000164294	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0183	expression_location	Q14654	ENSG00000187486	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0184	expression_location	Q9H0U4	ENSG00000174903	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0185	expression_location	Q9Y2G1	ENSG00000124920	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0186	expression_location	Q9NR77	ENSG00000176894	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0187	expression_location	Q16540	ENSG00000214026	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0188	expression_location	O75643	ENSG00000144028	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0189	expression_location	Q14865	ENSG00000150347	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0190	expression_location	Q9ULH4	ENSG00000156564	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0191	expression_location	O43586	ENSG00000140368	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0192	expression_location	Q15833	ENSG00000076944	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0193	expression_location	Q8IYB5	ENSG00000112305	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0194	expression_location	Q9NSY2	ENSG00000172345	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0195	expression_location	A5D6W6	ENSG00000139914	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0196	expression_location	Q16518	ENSG00000116745	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0197	expression_location	Q9ULW6	ENSG00000186462	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0198	expression_location	A2RUB6	ENSG00000180376	mapped		pass	protein_key_present_and_summary_typed
+V62-QA-0199	expression_location	P20338	ENSG00000168118	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0200	expression_location	Q8N4G2	ENSG00000179674	mapped	consensus_RNA_detected_but_no_IHC_detection	pass	protein_key_present_and_summary_typed
+V62-QA-0201	subunit_assembly	P48163	2aw5:1;2aw5:2;3wja:1;7x11:1;7x12:1	SA1_direct_experimental	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0202	subunit_assembly	P12272	1bzg:1;1m5n:1;3ffd:1;3h3g:1;7uzo:1;7uzp:1;7vvj:1;8d51:1;8d52:1;8flr:1;8haf:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0203	subunit_assembly	Q9UI42	2bo9:1;2boa:1;2boa:2;2pcu:1;4a94:1;4a94:2;4bd9:1	SA1_direct_experimental	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0204	subunit_assembly	H3BQJ8		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0205	subunit_assembly	Q96EY1	2ctt:1;2dn9:1;6iws:1;7x89:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0206	subunit_assembly	P03897	5xtc:1;5xtd:1;9cwt:1;9i4i:1;9ti4:1	SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0207	subunit_assembly	Q5DID0		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0208	subunit_assembly	Q9Y5Q0		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0209	subunit_assembly	Q9ULE6		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0210	subunit_assembly	Q5SVS4		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0211	subunit_assembly	P18405		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0212	subunit_assembly	P55822		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0213	subunit_assembly	P17544		SA1_direct_experimental	multiple_UniProt_states_or_contexts	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0214	subunit_assembly	P35968	1vr2:1;1y6a:1;1y6b:1;1ywn:1;2m59:1;2met:1;2meu:1;2oh4:1;2p2h:1;2p2i:1;2p2i:2;2qu5:1;2qu6:1;2qu6:2;2rl5:1;2x1w:1;2x1w:2;2x1x:1;2xir:1;3b8q:1;3b8q:2;3b8r:1;3b8r:2;3be2:1;3c7q:1;3cjf:1;3cjg:1;3cp9:1;3cp9:2;3cpb:1;3cpb:2;3cpc:1;3cpc:2;3dtw:1;3dtw:2;3efl:1;3efl:2;3ewh:1;3kvq:1;3s35:1;3s36:1;3s37:1;3u6j:1;3v2a:1;3v6b:1;3vhe:1;3vhk:1;3vid:1;3vnt:1;3vo3:1;3wzd:1;3wze:1;4ag8:1;4agc:1;4agd:1;4asd:1;4ase:1;5ew3:1;5ew3:2;5oyj:1;6gqo:1;6gqp:1;6gqq:1;6xvj:1;6xvk:1	SA1_direct_experimental	multiple_PDBe_target_states;multiple_UniProt_states_or_contexts	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0215	subunit_assembly	Q6JQN1		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0216	subunit_assembly	Q3KP22	6gnx:1;6gny:1;6j08:1;6j08:2;6j08:3	SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0217	subunit_assembly	P17927	1gkg:1;1gkn:1;1ppq:1;2mcy:1;2mcz:1;2q7z:1;5fo9:1;5fo9:2	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0218	subunit_assembly	Q99720	5hk1:1;5hk2:1;6djz:1;6dk0:1;6dk1:1	SA1_direct_experimental		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0219	subunit_assembly	Q11130		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0220	subunit_assembly	Q9Y450	5lzw:1;5lzx:1;5lzy:1;5lzz:1;9g8m:1;9g8n:1;9g8o:1;9g8p:1;9g8r:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0221	subunit_assembly	Q5TGZ0		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0222	subunit_assembly	Q6ZVL6		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0223	subunit_assembly	Q8NCL8		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0224	subunit_assembly	Q9BRR3		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0225	subunit_assembly	Q13368		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0226	subunit_assembly	Q8TF40	8je2:1	SA1_direct_experimental	multiple_UniProt_states_or_contexts	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0227	subunit_assembly	P63146	1jas:1;2y4w:1;2yb6:1;2ybf:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0228	subunit_assembly	Q9ULK0	8blj:1;8blj:2;8blj:3;8bn2:1;8bn5:1	SA1_direct_experimental		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0229	subunit_assembly	P56696	2ovc:1;4gow:1;6b8l:1;6b8l:2;6b8l:3;6b8l:4;6b8m:1;6b8m:2;6b8m:3;6b8m:4;6b8n:1;6b8n:2;6b8n:3;6b8n:4;6b8p:1;6b8p:2;6b8p:3;6b8p:4;6n5w:1;7byl:1;7bym:1;7byn:1;7vnp:1;7vnq:1;7vnr:1	SA1_direct_experimental	multiple_PDBe_target_states;multiple_UniProt_states_or_contexts	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0230	subunit_assembly	P21757	7dpx:1	SA1_direct_experimental	UniProt_vs_author_defined_PDBe	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0231	subunit_assembly	Q9P225	8j07:1	SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0232	subunit_assembly	H3BV60		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0233	subunit_assembly	A0ZSE6		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0234	subunit_assembly	Q96PZ7	2ehf:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0235	subunit_assembly	Q9Y2T6	8zx4:1;8zx5:1;9ge2:1;9ge3:1;9iy8:1;9iya:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0236	subunit_assembly	A0A1B0GTW7		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0237	subunit_assembly	Q63HN8	8s24:1;9g08:1;9g09:1;9jta:1	SA1_direct_experimental		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0238	subunit_assembly	Q9BRX9		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0239	subunit_assembly	Q9Y5K6	2fei:1;2j6f:1;2j6k:1;2j6k:10;2j6k:11;2j6k:12;2j6k:2;2j6k:3;2j6k:4;2j6k:5;2j6k:6;2j6k:7;2j6k:8;2j6k:9;2j6o:1;2j7i:1;2j7i:2;3aa6:1;3lk4:1;3lk4:10;3lk4:11;3lk4:12;3lk4:2;3lk4:3;3lk4:4;3lk4:5;3lk4:6;3lk4:7;3lk4:8;3lk4:9;3u23:1;4wci:1;4wci:2;4wci:3;4x1v:1;7ds6:1;7ds8:1	SA1_direct_experimental	UniProt_vs_author_defined_PDBe	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0240	subunit_assembly	Q63HQ2	7zc9:1;7zc9:2;7zcb:1;7zcb:2;8d1b:1	SA2_author_defined_structure	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0241	subunit_assembly	A6NKX4		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0242	subunit_assembly	Q9BR77		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0243	subunit_assembly	P20813	3ibd:1;3qoa:1;3qu8:1;3qu8:2;3qu8:3;3qu8:4;3qu8:5;3qu8:6;3ua5:1;3ua5:2;3ua5:3;4i91:1;4rql:1;4rql:2;4rrt:1;4rrt:2;4zv8:1;5uap:1;5uap:2;5uda:1;5uda:2;5uec:1;5ufg:1;5wbg:1;5wbg:2;5wbg:3;5wbg:4;5wbg:5;5wbg:6	SA2_author_defined_structure	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0244	subunit_assembly	C9JDP6		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0245	subunit_assembly	P06733	2psn:1;2psn:2;3b97:1;3b97:2;5jlz:1;5jlz:2;5lax:1;5lax:2;5ni9:1;5nig:1;5ock:1;8trl:1;8trl:2	SA2_author_defined_structure	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0246	subunit_assembly	Q86UF2		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0247	subunit_assembly	Q8WV93		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0248	subunit_assembly	Q5SQ64		SA1_direct_experimental		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0249	subunit_assembly	Q9NS62		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0250	subunit_assembly	Q7Z2W4	2x5y:1;4x52:1;4x52:2;4x52:3;4x52:4;6uei:1;6uej:1;7kzh:1;7tgq:1;9bgl:1	SA1_direct_experimental	UniProt_vs_author_defined_PDBe	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0251	subunit_assembly	Q9HBI1	4edl:1;4edl:2;4edl:3;4edl:4;4edl:5;4edl:6;4edm:1;4edm:2;4edn:1;4edn:10;4edn:2;4edn:3;4edn:4;4edn:5;4edn:6;4edn:7;4edn:8;4edn:9	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0252	subunit_assembly	O15126		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0253	subunit_assembly	Q86YR5		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0254	subunit_assembly	Q7Z444		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0255	subunit_assembly	Q8N4L8		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0256	subunit_assembly	Q14CN2		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0257	subunit_assembly	Q8N6K0		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0258	subunit_assembly	O95352		SA1_direct_experimental		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0259	subunit_assembly	Q86VD7		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0260	subunit_assembly	Q9H9K5		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0261	subunit_assembly	Q96D03		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0262	subunit_assembly	P48960	2bou:1;7do4:1;7ydh:1;7ydj:1;7ydm:1;7ydp:1;8ikj:1;8ikl:1;9mqr:1	SA1_direct_experimental	UniProt_vs_author_defined_PDBe	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0263	subunit_assembly	Q9NW97		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0264	subunit_assembly	Q8TD07		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0265	subunit_assembly	Q6NUI2		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0266	subunit_assembly	Q9HBU6		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0267	subunit_assembly	A6NGU5		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0268	subunit_assembly	Q8NGU1		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0269	subunit_assembly	Q14839	1mm2:1;1mm3:1;2ee1:1;2l5u:1;2l75:1;2n5n:1;4o9i:1;6bgg:1;6q3m:1;6q3m:2;6q3m:3;6q3m:4;6ryr:1;6ryu:1;8d4y:1;8d4y:2	SA1_direct_experimental		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0270	subunit_assembly	Q15070	6zm5:1;7a5k:1	SA1_direct_experimental	multiple_UniProt_states_or_contexts	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0271	subunit_assembly	Q8NGD2		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0272	subunit_assembly	O15466		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0273	subunit_assembly	Q9BT22		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0274	subunit_assembly	Q96JJ7		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0275	subunit_assembly	P40926	2dfd:1;2dfd:2;2dfd:3;4wle:1;4wlf:1;4wln:1;4wlo:1;4wlu:1;4wlv:1	SA1_direct_experimental	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0276	subunit_assembly	P0C7X2		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0277	subunit_assembly	A0A1B0GVG4		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0278	subunit_assembly	Q86U02		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0279	subunit_assembly	Q8WUM0	1xks:1;3cqc:1;3cqg:1;3i4r:1;5a9q:1;7peq:1;7r5j:1;7r5k:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0280	subunit_assembly	O95843	2ggz:1;2ggz:2	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0281	subunit_assembly	Q8IZ96		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0282	subunit_assembly	P21730	2k3u:1;5o9h:1;6c1q:1;6c1r:1;7y64:1;7y65:1;7y66:1;7y67:1;8go8:1;8goo:1;8hk5:1;8i0n:1;8i0z:1;8ia2:1;8jzp:1;8jzz:1;9kug:1;9umr:1;9umx:1	SA1_direct_experimental	UniProt_vs_author_defined_PDBe;multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0283	subunit_assembly	P48751	8y85:1;8y86:1;8y8k:1;8zle:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0284	subunit_assembly	Q9Y2H9	2m9x:1;3ps4:1;3ps4:2	SA2_author_defined_structure	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0285	subunit_assembly	Q96AT9	3ovp:1;3ovq:1;3ovr:1;3qc3:1	SA1_direct_experimental		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0286	subunit_assembly	Q96JA4		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0287	subunit_assembly	P08172	3uon:1;4mqs:1;4mqt:1;5yc8:1;5zk3:1;5zk8:1;5zkb:1;5zkc:1;6oik:1;6u1n:1;7t8x:1;7t90:1;7t94:1;7t96:1;8j8r:1;8j97:1;8jaf:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0288	subunit_assembly	Q8N4Q1	2k3j:1;2l0y:1;8vgy:1;8vgy:2;9gqz:1	SA1_direct_experimental	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0289	subunit_assembly	P42081	1i85:1;1ncn:1;1ncn:2;5yxk:1;5yxk:2;8fxx:1;8fxy:1;8hxb:1;8hxc:1	SA1_direct_experimental	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0290	subunit_assembly	Q93063	7sch:1;7scj:1;7sck:1;7uqx:1;7uqy:1;7zay:1	SA1_direct_experimental	UniProt_vs_author_defined_PDBe;multiple_UniProt_states_or_contexts	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0291	subunit_assembly	P54315	2ppl:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0292	subunit_assembly	Q9NVL8		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0293	subunit_assembly	Q96QV1	2wft:1;2wft:2;2wfx:1;2wg3:1;2wg3:2;2wg4:1;3ho3:1;3ho4:1;3ho4:2;3ho5:1;3ho5:2;7pgk:1;7pgl:1;7pgm:1;7pgn:1;7pgn:2	SA2_author_defined_structure	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0294	subunit_assembly	O95382		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0295	subunit_assembly	Q99795		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0296	subunit_assembly	Q15382	1xtq:1;1xtr:1;1xts:1;3sea:1;3sea:2;3sea:3;3t5g:1;5yxh:1;5yxh:2;5yxh:3;5yxh:4;6bcu:1;6bsx:1;6bsx:2;6bsx:3;6bsx:4;6bt0:1;6bt0:2;6bt0:3;6bt0:4;7bta:1;7bta:2;7btc:1;7btc:2;7btc:3;7btc:4;7btd:1;9ed4:1;9ed7:1;9ed8:1	SA2_author_defined_structure	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0297	subunit_assembly	Q9NYP7		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0298	subunit_assembly	A0A0A6YYK6		SA2_curated_annotation	multiple_UniProt_states_or_contexts	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0299	subunit_assembly	Q0VDE8		SA2_curated_annotation	multiple_UniProt_states_or_contexts	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0300	subunit_assembly	P29323	1b4f:1;1b4f:2;1f0m:1;2qbx:1;2qbx:2;2qbx:3;3zfm:1;8ebl:1;8ebl:2	SA1_direct_experimental	UniProt_vs_author_defined_PDBe;multiple_PDBe_target_states;multiple_UniProt_states_or_contexts	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0301	subunit_assembly	Q9NPH3	3o4o:1;4dep:1;4dep:2;7fcc:1	SA1_direct_experimental	UniProt_vs_author_defined_PDBe	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0302	subunit_assembly	Q9Y3S1	6elm:1;6fbk:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0303	subunit_assembly	P22303	1b41:1;1f8u:1;1f8u:2;1vzj:1;1vzj:2;2x8b:1;3lii:1;4bdt:1;4bdt:2;4bdt:3;4ey4:1;4ey5:1;4ey6:1;4ey7:1;4ey8:1;4m0e:1;4m0f:1;4pqe:1;5foq:1;5fpq:1;5fpq:2;5hf5:1;5hf6:1;5hf8:1;5hf9:1;5hfa:1;5hq3:1;6cqt:1;6cqu:1;6cqv:1;6cqw:1;6cqx:1;6cqy:1;6cqz:1;6f25:1;6nea:1;6ntg:1;6nth:1;6ntk:1;6ntl:1;6ntm:1;6ntn:1;6nto:1;6o4w:1;6o4x:1;6o50:1;6o52:1;6o5r:1;6o5s:1;6o5s:2;6o5v:1;6o5v:2;6o66:1;6o69:1;6u34:1;6u37:1;6u3p:1;6wuv:1;6wuy:1;6wuz:1;6wv1:1;6wvc:1;6wvo:1;6wvp:1;6wvq:1;6zwe:1;7d9o:1;7d9p:1;7d9q:1;7e3d:1;7e3h:1;7p1n:1;7p1p:1;7rb5:1;7rb6:1;7rb7:1;7xn1:1;8aen:1;8aev:1;8dt2:1;8dt4:1;8dt5:1;8dt7:1;9f6r:1;9oms:1;9omt:1	SA1_direct_experimental	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0304	subunit_assembly	Q96FE5	2id5:1;4oqt:1;4oqt:2	SA1_direct_experimental	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0305	subunit_assembly	Q02750	1s9j:1;2p55:1;3dv3:1;3dv3:2;3dy7:1;3e8n:1;3e8n:2;3eqb:1;3eqc:1;3eqc:2;3eqd:1;3eqd:2;3eqf:1;3eqf:2;3eqg:1;3eqg:2;3eqh:1;3eqh:2;3eqi:1;3eqi:2;3mbl:1;3mbl:2;3orn:1;3orn:2;3os3:1;3os3:2;3pp1:1;3sls:1;3sls:2;3v01:1;3v04:1;3vvh:1;3vvh:2;3vvh:3;3w8q:1;3wig:1;3wig:2;3zls:1;3zlw:1;3zlx:1;3zly:1;3zm4:1;4an2:1;4an3:1;4an9:1;4anb:1;4ark:1;4lmn:1;4lmn:2;4mne:1;4mne:2;4u7z:1;4u80:1;4u81:1;5bx0:1;5eym:1;5eym:2;5hze:1;5yt3:1;5yt3:2;6nyb:1;6pp9:1;6q0j:1;6q0t:1;6u2g:1;6v2w:1;6x2p:1;6x2s:1;6x2x:1;7b3m:1;7b3m:2;7b7r:1;7b7r:2;7b94:1;7b94:2;7b9l:1;7b9l:2;7f2x:1;7m0t:1;7m0u:1;7m0v:1;7m0w:1;7m0x:1;7m0y:1;7m0z:1;7mfd:1;7pqv:1;7umb:1;7xlp:1;7xnc:1;8chf:1;8dgs:1;8dgt:1;8yp4:1;8yp4:2;9axa:1;9axc:1;9axh:1;9axm:1;9axx:1;9axy:1;9ay7:1;9aya:1;9ecu:1;9mmp:1;9mmq:1;9mmr:1;9mms:1;9o0u:1;9o0u:2;9o0u:3;9o0u:4;9o0v:1;9o0v:2;9o0v:3;9o0v:4;9o2z:1	SA1_direct_experimental	UniProt_vs_author_defined_PDBe;multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0306	subunit_assembly	Q8TAF8		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0307	subunit_assembly	Q9P2G3		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0308	subunit_assembly	Q96R54		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0309	subunit_assembly	A0A0B4J1X5		SA2_curated_annotation		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0310	subunit_assembly	Q8N7C0		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0311	subunit_assembly	Q92484	5ebb:1;5ebb:2;5ebb:3;5ebe:1;5ebe:2;5ebe:3	SA1_direct_experimental	multiple_UniProt_states_or_contexts	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0312	subunit_assembly	Q9Y251	5e8m:1;5e97:1;5e98:1;5e9b:1;5e9c:1;5l9y:1;5l9z:1;5la4:1;5la7:1;6zdm:1;7pr7:1;7pr8:1;7prt:1;7rg8:1;7yi7:1;7yjc:1;8b0b:1;8b0c:1;8bac:1;8cqi:1;8e07:1;8e08:1;8jyg:1;8ohq:1;8ohr:1;9s8w:1	SA1_direct_experimental	UniProt_vs_author_defined_PDBe	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0313	subunit_assembly	Q5SR56		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0314	subunit_assembly	P0CG39		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0315	subunit_assembly	O42043		SA2_curated_annotation		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0316	subunit_assembly	Q13796	5f4y:1;5f5p:1;5f5p:2	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0317	subunit_assembly	O95164	2gow:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0318	subunit_assembly	A8K8P3	2k2i:1	SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0319	subunit_assembly	P59551		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0320	subunit_assembly	O75051	3q3j:1	SA1_direct_experimental	multiple_UniProt_states_or_contexts	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0321	subunit_assembly	A4D0T7		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0322	subunit_assembly	O00161	1nhl:1;1nhl:2;3zus:1;3zus:2;3zus:3;3zus:4	SA1_direct_experimental	UniProt_vs_author_defined_PDBe;multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0323	subunit_assembly	Q9Y5H0		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0324	subunit_assembly	P0C874		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0325	subunit_assembly	Q16584	5k26:1;5k28:1;5k28:2;6aqb:1;6cq7:1;6cq7:2	SA1_direct_experimental	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0326	subunit_assembly	Q6PH85	4gao:1;4gao:2;4gao:3;4gao:4	SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0327	subunit_assembly	Q9H972		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0328	subunit_assembly	Q9Y5I7		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0329	subunit_assembly	Q68D91		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0330	subunit_assembly	Q7L5A8		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0331	subunit_assembly	P51636		SA2_curated_annotation	multiple_UniProt_states_or_contexts	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0332	subunit_assembly	Q6PL45		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0333	subunit_assembly	Q9H1Z4		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0334	subunit_assembly	Q5H913		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0335	subunit_assembly	P60900	4r3o:1;4r67:1;4r67:2;5a0q:1;5gjq:1;5gjr:1;5l4g:1;5le5:1;5lex:1;5ley:1;5lez:1;5lf0:1;5lf1:1;5lf3:1;5lf4:1;5lf6:1;5lf7:1;5ln3:1;5m32:1;5t0c:1;5t0g:1;5t0h:1;5t0i:1;5t0j:1;5vfo:1;5vfp:1;5vfq:1;5vfr:1;5vfs:1;5vft:1;5vfu:1;6avo:1;6e5b:1;6kwy:1;6msb:1;6msd:1;6msg:1;6msh:1;6msj:1;6msk:1;6r70:1;6rey:1;6rgq:1;6wjd:1;6wjn:1;6xmj:1;7awe:1;7b12:1;7lxv:1;7nan:1;7nao:1;7nap:1;7naq:1;7nht:1;7pg9:1;7qxn:1;7qxp:1;7qxu:1;7qxw:1;7qxx:1;7qy7:1;7qya:1;7qyb:1;7v5g:1;7v5m:1;7w37:1;7w38:1;7w39:1;7w3a:1;7w3b:1;7w3c:1;7w3f:1;7w3g:1;7w3h:1;7w3i:1;7w3j:1;7w3k:1;7w3m:1;8bzl:1;8cvr:1;8cvs:1;8cvt:1;8cxb:1;8jri:1;8jrt:1;8jti:1;8k0g:1;8qyj:1;8qyl:1;8qym:1;8qyn:1;8qyo:1;8qys:1;8qz9:1;8tm3:1;8tm4:1;8tm5:1;8tm6:1;8ud9:1;8usb:1;8usc:1;8yix:1;8yiy:1;8yiz:1;9bui:1;9bv1:1;9bv2:1;9bv3:1;9bw4:1;9e8g:1;9e8h:1;9e8i:1;9e8j:1;9e8k:1;9e8l:1;9e8n:1;9e8o:1;9e8q:1;9hmn:1;9m2w:1;9nkf:1;9nkg:1;9nki:1;9nkj:1;9uf8:1;9ug9:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0336	subunit_assembly	Q96NW4	4b93:1;4cym:1;4cym:2;4cym:3;4cym:4;4cym:5;4cym:6;4cz2:1;4cz2:2;4cz2:3;4cz2:4;4cz2:5;6tl0:1	SA2_author_defined_structure	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0337	subunit_assembly	O43920	5xtc:1;5xtd:1;5xth:1;5xti:1;9cwt:1;9i4i:1;9ti4:1	SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0338	subunit_assembly	Q03113	7ydj:1	SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0339	subunit_assembly	P54852		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0340	subunit_assembly	P33908		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0341	subunit_assembly	Q53F39		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0342	subunit_assembly	Q9Y5J7	2bsk:1;7cgp:1	SA1_direct_experimental		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0343	subunit_assembly	Q8N653	9mey:1;9mey:2;9mez:1;9mez:2;9mez:3;9mez:4;9mez:5;9mf0:1;9mf0:2;9mf0:3;9mf0:4;9mf0:5	SA1_direct_experimental	UniProt_vs_author_defined_PDBe	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0344	subunit_assembly	Q969V3	6w6l:1;9c7u:1;9c7v:1	SA2_author_defined_structure		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0345	subunit_assembly	Q99758	7w01:1;7w02:1	SA1_direct_experimental	UniProt_vs_author_defined_PDBe	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0346	subunit_assembly	P46063	2v1x:1;2v1x:2;2wwy:1;4u7d:1;4u7d:2;4u7d:3;6jtz:1;8yrs:1;9i22:1;9i22:2;9i23:1;9i23:2	SA1_direct_experimental	UniProt_vs_author_defined_PDBe;multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0347	subunit_assembly	Q8NGS2		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0348	subunit_assembly	Q15388	4apo:1;4apo:2;7vby:1;7vc9:1;8uy3:1;8uy3:2;8uy3:3;8uy3:4;8xva:1;9eih:1;9eii:1;9eij:1;9j79:1;9j7a:1;9j7b:1;9jce:1	SA1_direct_experimental	multiple_PDBe_target_states	pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0349	subunit_assembly	O00590	8go9:1;8j8v:1;8j8z:1	SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0350	subunit_assembly	Q9NYW6		SA0_unresolved		pass	evidence_grade_and_conflict_status_explicit
+V62-QA-0351	negative_identity	16244730	HMPD-CMPD-1848972	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0352	negative_identity	46195403	HMPD-CMPD-0386831	exact_full_inchikey_unique_form		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0353	negative_identity	777702	HMPD-CMPD-1654270	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0354	negative_identity	118755261	HMPD-CMPD-1681169	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0355	negative_identity	126467613		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0356	negative_identity	90483630		salt_or_multicomponent_review	salt_parent_not_already_curated_as_exact_form	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0357	negative_identity	807156	HMPD-CMPD-1833844	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0358	negative_identity	44504107	HMPD-CMPD-1109672	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0359	negative_identity	4842920		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0360	negative_identity	58857694	HMPD-CMPD-1619715	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0361	negative_identity	110119195		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0362	negative_identity	46902739	HMPD-CMPD-1180364	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0363	negative_identity	4401549	HMPD-CMPD-1712278	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0364	negative_identity	126468952		salt_or_multicomponent_review	salt_parent_not_already_curated_as_exact_form	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0365	negative_identity	45964049	HMPD-CMPD-1343367	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0366	negative_identity	54667949	HMPD-CMPD-1539920	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0367	negative_identity	20911324		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0368	negative_identity	1298517	HMPD-CMPD-1743890	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0369	negative_identity	126478747	HMPD-CMPD-1663314	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0370	negative_identity	3160329	HMPD-CMPD-1775404	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0371	negative_identity	2970011		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0372	negative_identity	54644903	HMPD-CMPD-1448818	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0373	negative_identity	53011877		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0374	negative_identity	1815507	HMPD-CMPD-1915345	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0375	negative_identity	2987224	HMPD-CMPD-1411320	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0376	negative_identity	2805241	HMPD-CMPD-1177693	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0377	negative_identity	134809512		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0378	negative_identity	134793376	HMPD-CMPD-1028946	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0379	negative_identity	51079568	HMPD-CMPD-1101513	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0380	negative_identity	3296205		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0381	negative_identity	24399356	HMPD-CMPD-1943458	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0382	negative_identity	2176257	HMPD-CMPD-1059990	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0383	negative_identity	42165543	HMPD-CMPD-1750592	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0384	negative_identity	4446461		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0385	negative_identity	132462897		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0386	negative_identity	821152	HMPD-CMPD-1213328	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0387	negative_identity	22515149	HMPD-CMPD-1651829	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0388	negative_identity	2950314	HMPD-CMPD-1015921	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0389	negative_identity	16824683	HMPD-CMPD-0964547	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0390	negative_identity	3949394		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0391	negative_identity	11838008		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0392	negative_identity	739875	HMPD-CMPD-0681024	exact_full_inchikey_unique_form		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0393	negative_identity	46370416	HMPD-CMPD-0977257	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0394	negative_identity	4206871	HMPD-CMPD-0409436	exact_full_inchikey_unique_form		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0395	negative_identity	5759013	HMPD-CMPD-1827125	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0396	negative_identity	2804949		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0397	negative_identity	91893037	HMPD-CMPD-1766090	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0398	negative_identity	4016095	HMPD-CMPD-1466084	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0399	negative_identity	652904		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0400	negative_identity	854008	HMPD-CMPD-1183897	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0401	negative_identity	9594172	HMPD-CMPD-1292165	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0402	negative_identity	71845423	HMPD-CMPD-1745850	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0403	negative_identity	889406	HMPD-CMPD-1922294	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0404	negative_identity	2236705	HMPD-CMPD-1680289	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0405	negative_identity	1139071	HMPD-CMPD-0987697	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0406	negative_identity	46959587		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0407	negative_identity	1488185	HMPD-CMPD-1300836	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0408	negative_identity	722139	HMPD-CMPD-1605501	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0409	negative_identity	22576104	HMPD-CMPD-1074292	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0410	negative_identity	210052	HMPD-CMPD-1279011	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0411	negative_identity	2962371		salt_or_multicomponent_review	salt_parent_not_already_curated_as_exact_form	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0412	negative_identity	46103680	HMPD-CMPD-1337989	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0413	negative_identity	16018223		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0414	negative_identity	2419988	HMPD-CMPD-1562334	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0415	negative_identity	70789611	HMPD-CMPD-1502240	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0416	negative_identity	2088706	HMPD-CMPD-1404359	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0417	negative_identity	3976929		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0418	negative_identity	5737178		salt_or_multicomponent_review	salt_parent_not_already_curated_as_exact_form	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0419	negative_identity	15988900	HMPD-CMPD-1969709	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0420	negative_identity	7131884	HMPD-CMPD-1372534	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0421	negative_identity	2362891	HMPD-CMPD-0977014	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0422	negative_identity	53161027	HMPD-CMPD-1497014	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0423	negative_identity	1051364	HMPD-CMPD-1856050	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0424	negative_identity	54668408	HMPD-CMPD-1476114	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0425	negative_identity	54626626	HMPD-CMPD-1173833	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0426	negative_identity	16015071	HMPD-CMPD-1480850	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0427	negative_identity	51360816		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0428	negative_identity	23656963	HMPD-CMPD-1833488	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0429	negative_identity	24819544		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0430	negative_identity	6162025	HMPD-CMPD-1679408	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0431	negative_identity	11463585		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0432	negative_identity	3437834	HMPD-CMPD-1309991	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0433	negative_identity	146177406	HMPD-CMPD-0382086	exact_full_inchikey_unique_form		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0434	negative_identity	731479	HMPD-CMPD-1627018	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0435	negative_identity	45181851		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0436	negative_identity	118663981	HMPD-CMPD-1044760	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0437	negative_identity	3139631		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0438	negative_identity	3160888	HMPD-CMPD-0491542	exact_full_inchikey_unique_form		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0439	negative_identity	5424606	HMPD-CMPD-1716745	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0440	negative_identity	3626750	HMPD-CMPD-1413167	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0441	negative_identity	7424818	HMPD-CMPD-1109813	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0442	negative_identity	122590549	HMPD-CMPD-0631710	exact_full_inchikey_unique_form		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0443	negative_identity	5299465	HMPD-CMPD-1325270	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0444	negative_identity	1112390	HMPD-CMPD-1498607	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0445	negative_identity	2146720	HMPD-CMPD-1522464	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0446	negative_identity	4428214	HMPD-CMPD-1774418	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0447	negative_identity	16019920	HMPD-CMPD-2004122	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0448	negative_identity	3974850	HMPD-CMPD-0297470	exact_full_inchikey_unique_form		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0449	negative_identity	132452738		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0450	negative_identity	46396159		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0451	negative_identity	134807976	HMPD-CMPD-1299743	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0452	negative_identity	45503189	HMPD-CMPD-0939677	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0453	negative_identity	60189092	HMPD-CMPD-1393524	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0454	negative_identity	45936626	HMPD-CMPD-1920376	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0455	negative_identity	54631591	HMPD-CMPD-0931500	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0456	negative_identity	291505	HMPD-CMPD-1791577	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0457	negative_identity	117084398	HMPD-CMPD-1709647	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0458	negative_identity	110196622	HMPD-CMPD-1274867	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0459	negative_identity	24282922	HMPD-CMPD-1200550	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0460	negative_identity	2867482		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0461	negative_identity	45233614		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0462	negative_identity	92423876	HMPD-CMPD-1302774	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0463	negative_identity	44758466	HMPD-CMPD-1101501	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0464	negative_identity	42528122	HMPD-CMPD-1398601	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0465	negative_identity	7420646	HMPD-CMPD-1200965	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0466	negative_identity	50756064		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0467	negative_identity	2933863	HMPD-CMPD-1370302	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0468	negative_identity	2992555		salt_or_multicomponent_review	salt_parent_not_already_curated_as_exact_form	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0469	negative_identity	6323709	HMPD-CMPD-0692955	exact_full_inchikey_unique_form		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0470	negative_identity	3745278		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0471	negative_identity	15988644	HMPD-CMPD-1652438	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0472	negative_identity	44778172	HMPD-CMPD-1043702	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0473	negative_identity	24732028	HMPD-CMPD-1866849	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0474	negative_identity	44483131		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0475	negative_identity	2282724	HMPD-CMPD-1630736	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0476	negative_identity	3234115	HMPD-CMPD-1715125	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0477	negative_identity	44505910	HMPD-CMPD-1643073	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0478	negative_identity	110199388	HMPD-CMPD-1073157	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0479	negative_identity	1487856	HMPD-CMPD-1165908	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0480	negative_identity	3509393	HMPD-CMPD-0918659	exact_full_inchikey_unique_form		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0481	negative_identity	789929	HMPD-CMPD-1001540	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0482	negative_identity	6616026	HMPD-CMPD-1023865	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0483	negative_identity	2191037	HMPD-CMPD-1963799	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0484	negative_identity	627678	HMPD-CMPD-1572436	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0485	negative_identity	134809741		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0486	negative_identity	1160878	HMPD-CMPD-1674476	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0487	negative_identity	4056098		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0488	negative_identity	155922834	HMPD-CMPD-0875524	exact_full_inchikey_unique_form		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0489	negative_identity	55054890		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0490	negative_identity	895771	HMPD-CMPD-0967825	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0491	negative_identity	2568871	HMPD-CMPD-1347986	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0492	negative_identity	45956918		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0493	negative_identity	8917283	HMPD-CMPD-1177120	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0494	negative_identity	45191456		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0495	negative_identity	4112011		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0496	negative_identity	3807453		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0497	negative_identity	1175620	HMPD-CMPD-1139494	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0498	negative_identity	2787257		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0499	negative_identity	3513132	HMPD-CMPD-1881157	new_unique_canonical_parent		pass	only_safe_full_structure_resolution_is_mapped
+V62-QA-0500	negative_identity	3209587		unassigned_stereochemistry_review	unassigned_stereochemistry	pass	only_safe_full_structure_resolution_is_mapped

@@ -1,0 +1,24 @@
+D2 top-level anatomical-system coverage: fields and derivation
+
+Protein–disease relation (read-only formal V7.2): protein_disease_relation_v72.tsv.gz
+- target_uniprot_id
+- canonical_disease_id
+
+Disease–anatomy assertion (read-only formal V7.2): disease_anatomy_v72.tsv.gz
+- canonical_disease_id
+- anatomy_id
+- anatomy_name
+- assertion_status
+- source_disease_id
+- hierarchy_distance
+- mapping_predicate
+- axiom_type
+- source_ontology
+- uberon_source
+
+Visualization-only ontology snapshot: uberon-basic_visualization_snapshot.obo
+- data-version: uberon/releases/2026-06-19/uberon-basic.owl
+- SHA-256: b27618d347df171d0dbbfc6178217487b98b96424641b8c8b4ece77256e67a14
+Projection: anatomy_id → all terminal direct is_a children of UBERON:0000467 reachable through is_a/part_of ancestors.
+Unit: unique canonical protein × canonical disease × harmonized top-level anatomical system.
+No disease names, keywords, or manual anatomical merges were used.

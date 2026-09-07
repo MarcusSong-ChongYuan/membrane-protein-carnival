@@ -1,0 +1,5 @@
+n: 7,800 formal membrane proteins
+filter: direct transparent dimensions; candidates require High/Very-High disease support, low non-zero chemistry and >=1 coordinate-ready site
+effect size: no composite score
+missingness: zero-chemistry disease proteins retained as a separate flag
+recommendation: MAIN FIGURE 5D

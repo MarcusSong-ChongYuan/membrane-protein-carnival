@@ -1,0 +1,16 @@
+{
+  "relation_universe": 6753,
+  "anatomy_mapped_relation_rows": 8811,
+  "mapped_disease_associated_proteins": 1989,
+  "mapped_diseases": 2926,
+  "all_anatomical_systems": 17,
+  "displayed_anatomical_systems": 15,
+  "displayed_roles": 11,
+  "excluded_from_inference_roles": [
+    "membrane_lipid_transfer"
+  ],
+  "keyword_classification_used_values": [
+    0
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,10 @@
+{
+  "interaction_linked_compounds": 240055,
+  "smiles_parse_failures": 2,
+  "unique_murcko_scaffolds_including_acyclic": 91977,
+  "chemical_umap_sample": 12000,
+  "butina_sample": 4000,
+  "butina_clusters": 3546,
+  "similarity_target_pairs": 29000,
+  "random_seed": 42
+}

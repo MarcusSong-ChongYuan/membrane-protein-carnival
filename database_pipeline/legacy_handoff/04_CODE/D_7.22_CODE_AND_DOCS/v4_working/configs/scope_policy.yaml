@@ -1,0 +1,58 @@
+policy_version: membrane-small-molecule-scope-v1
+species:
+  scientific_name: Homo sapiens
+  ncbi_taxonomy_id: 9606
+  uniprot_reference_proteome: UP000005640
+
+protein_record_unit:
+  primary_unit: canonical_uniprot_accession
+  count_isoforms_separately: false
+  include_reviewed: true
+  include_unreviewed: true
+
+membrane_scope:
+  accepted_core:
+    - integral_alpha_helical
+    - integral_beta_barrel
+  accepted_extended:
+    - lipid_anchored
+    - peripheral_membrane_associated
+  review_states:
+    - uncertain_membrane_scope
+    - conflicting_membrane_evidence
+  excluded:
+    - non_membrane
+
+small_molecule_scope:
+  accepted:
+    - approved_drug
+    - clinical_compound
+    - chemical_probe
+    - research_ligand
+    - endogenous_metabolite
+    - cofactor
+    - lipid
+    - sterol
+    - natural_product
+    - defined_structure_ligand
+  separate_not_core:
+    - inorganic_ion_or_metal
+  excluded:
+    - antibody
+    - protein
+    - nucleic_acid
+    - undefined_polymer
+    - biologic
+    - buffer
+    - solvent
+    - water
+    - undefined_mixture
+
+evidence_levels:
+  SM0: current_sources_no_small_molecule_evidence
+  SM1: annotation_or_structure_context
+  SM2: functional_activity
+  SM3: curated_pharmacological_target
+  SM4: direct_quantitative_binding
+  SM5: multi_source_validated_direct_evidence
+

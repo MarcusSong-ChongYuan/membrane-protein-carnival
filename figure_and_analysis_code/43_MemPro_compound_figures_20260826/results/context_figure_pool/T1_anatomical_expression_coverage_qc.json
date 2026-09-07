@@ -1,0 +1,8 @@
+{
+  "status": "NOT_RUN",
+  "reason": "No formal tissue-to-organ / organ hierarchy mapping in current release",
+  "formal_detection_criterion": "detection_status_v711 == DETECTED",
+  "eligible_measured_records": 2921389,
+  "eligible_detected_records": 2198528,
+  "eligible_standardized_tissues": 63
+}

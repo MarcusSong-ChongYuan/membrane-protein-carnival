@@ -1,0 +1,8 @@
+DISPLAY-ONLY REVISION: Fisher tests, odds ratios and BH-FDR values are read from the existing L1 statistics TSV and are not recalculated.
+Main-text figure rows: formal roles with >= 100 eligible canonical proteins with usable mapped localization annotations (8 roles).
+Supplementary figure rows: all 14 formal roles.
+Columns: the existing top 12 formal location_term categories, unchanged.
+Observed count = 0: neutral light grey, no number, no significance dot.
+Observed count 1-19: true log2 odds-ratio colour blended 54% toward white, no number, no significance dot.
+Observed count >=20: full log2 odds-ratio colour and observed protein count; * q<0.05, ** q<0.01, *** q<0.001 (BH-FDR).
+The full 48-category comparison family and original BH correction are unchanged.

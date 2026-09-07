@@ -1,0 +1,446 @@
+{
+  "release": "MemPro V7.2 derivative NAR analysis",
+  "count_checks": {
+    "proteins": {
+      "expected": 7800,
+      "actual": 7800,
+      "pass": true
+    },
+    "confirmed_e1_e2": {
+      "expected": 7374,
+      "actual": 7374,
+      "pass": true
+    },
+    "e3": {
+      "expected": 426,
+      "actual": 426,
+      "pass": true
+    },
+    "compound_registry": {
+      "expected": 646670,
+      "actual": 646670,
+      "pass": true
+    },
+    "interaction_compounds": {
+      "expected": 240055,
+      "actual": 240055,
+      "pass": true
+    },
+    "formal_pairs": {
+      "expected": 529168,
+      "actual": 529168,
+      "pass": true
+    },
+    "public_evidence": {
+      "expected": 942455,
+      "actual": 942455,
+      "pass": true
+    },
+    "formal_diseases": {
+      "expected": 3739,
+      "actual": 3739,
+      "pass": true
+    },
+    "disease_relations": {
+      "expected": 6753,
+      "actual": 6753,
+      "pass": true
+    },
+    "expression_records": {
+      "expected": 3046789,
+      "actual": 3046789,
+      "pass": true
+    },
+    "mapped_measured_expression": {
+      "expected": 2921389,
+      "actual": 2921389,
+      "pass": true
+    },
+    "site_assertions": {
+      "expected": 55610,
+      "actual": 55610,
+      "pass": true
+    },
+    "unknown_membrane_side": {
+      "expected": 48331,
+      "actual": 48331,
+      "pass": true
+    }
+  },
+  "all_counts_pass": true,
+  "file_checks": [
+    {
+      "file": "04_figures\\main\\png\\Figure1_resource_architecture.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\svg\\Figure1_resource_architecture.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\pdf\\Figure1_resource_architecture.pdf",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\png\\Figure2_membrane_functional_architecture.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\svg\\Figure2_membrane_functional_architecture.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\pdf\\Figure2_membrane_functional_architecture.pdf",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\png\\Figure3_chemical_target_landscape.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\svg\\Figure3_chemical_target_landscape.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\pdf\\Figure3_chemical_target_landscape.pdf",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\png\\Figure4_evidence_architecture.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\svg\\Figure4_evidence_architecture.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\pdf\\Figure4_evidence_architecture.pdf",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\png\\Figure5_disease_anatomy_context.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\svg\\Figure5_disease_anatomy_context.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\pdf\\Figure5_disease_anatomy_context.pdf",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\png\\Figure6_integrated_drug_discovery_insights.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\svg\\Figure6_integrated_drug_discovery_insights.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "04_figures\\main\\pdf\\Figure6_integrated_drug_discovery_insights.pdf",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Graphical_Abstract_MemPro_V72_internal_draft.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Graphical_Abstract_MemPro_V72_internal_draft.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Graphical_Abstract_MemPro_V72_internal_draft.pdf",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Protein.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Protein.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Protein.pdf",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Compound.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Compound.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Compound.pdf",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Evidence.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Evidence.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Evidence.pdf",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Disease.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Disease.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Disease.pdf",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Site_Complex.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Site_Complex.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Site_Complex.pdf",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Integrated.png",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Integrated.svg",
+      "exists": true,
+      "nonempty": true
+    },
+    {
+      "file": "05_graphics\\Section_Graphic_Integrated.pdf",
+      "exists": true,
+      "nonempty": true
+    }
+  ],
+  "all_files_pass": true,
+  "svg_editability": [
+    {
+      "file": "Figure1_resource_architecture.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Figure2_membrane_functional_architecture.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Figure3_chemical_target_landscape.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Figure4_evidence_architecture.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Figure5_disease_anatomy_context.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Figure6_integrated_drug_discovery_insights.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Supplementary_Figure_S1_chemical_umap.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Graphical_Abstract_MemPro_V72_internal_draft.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Section_Graphic_Compound.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Section_Graphic_Disease.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Section_Graphic_Evidence.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Section_Graphic_Integrated.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Section_Graphic_Protein.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    },
+    {
+      "file": "Section_Graphic_Site_Complex.svg",
+      "has_text": true,
+      "text_not_outlined": true
+    }
+  ],
+  "all_svg_editable": true,
+  "pdf_text_audits": [
+    {
+      "file": "Figure1_resource_architecture.pdf",
+      "auditable": true,
+      "minimum_found_pt": 5.0,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Figure2_membrane_functional_architecture.pdf",
+      "auditable": true,
+      "minimum_found_pt": 5.0,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Figure3_chemical_target_landscape.pdf",
+      "auditable": true,
+      "minimum_found_pt": 5.0,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Figure4_evidence_architecture.pdf",
+      "auditable": true,
+      "minimum_found_pt": 5.0,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Figure5_disease_anatomy_context.pdf",
+      "auditable": true,
+      "minimum_found_pt": 5.0,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Figure6_integrated_drug_discovery_insights.pdf",
+      "auditable": true,
+      "minimum_found_pt": 5.0,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Graphical_Abstract_MemPro_V72_internal_draft.pdf",
+      "auditable": true,
+      "minimum_found_pt": 5.8,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Section_Graphic_Compound.pdf",
+      "auditable": true,
+      "minimum_found_pt": 7.0,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Section_Graphic_Disease.pdf",
+      "auditable": true,
+      "minimum_found_pt": 6.5,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Section_Graphic_Evidence.pdf",
+      "auditable": true,
+      "minimum_found_pt": 7.0,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Section_Graphic_Integrated.pdf",
+      "auditable": true,
+      "minimum_found_pt": 7.0,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Section_Graphic_Protein.pdf",
+      "auditable": true,
+      "minimum_found_pt": 6.0,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Section_Graphic_Site_Complex.pdf",
+      "auditable": true,
+      "minimum_found_pt": 7.0,
+      "below_minimum_count": 0,
+      "pass": true
+    },
+    {
+      "file": "Supplementary_Figure_S1_chemical_umap.pdf",
+      "auditable": true,
+      "minimum_found_pt": 5.2,
+      "below_minimum_count": 0,
+      "pass": true
+    }
+  ],
+  "all_pdf_text_pass": true,
+  "presentation_slide_count": 16,
+  "manual_visual_review": "Required and performed on full-size main figures and contact sheets",
+  "overall_pass": true
+}

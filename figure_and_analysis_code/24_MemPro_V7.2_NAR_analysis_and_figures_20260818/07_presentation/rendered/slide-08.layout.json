@@ -1,0 +1,680 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ih6jjt",
+    "id": "ih6jjt",
+    "slide": 8,
+    "layoutId": "373abecd-5c99-4853-b721-4f54f74d4403",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "373abecd-5c99-4853-b721-4f54f74d4403",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "3eda69e2-a212-40f9-b7e5-40c93a0c5e52",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6hk3658",
+      "id": "1",
+      "bbox": [
+        64,
+        684,
+        700,
+        20
+      ],
+      "geometry": "rect",
+      "text": "MemPro V7.2 · NAR analysis narrative",
+      "textPreview": "MemPro V7.2 · NAR analysis narrative",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MemPro V7.2 · NAR analysis narrative"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MemPro V7.2 · NAR analysis narrative",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#69757D",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MemPro V7.2 · NAR analysis narrative",
+              "fontSize": 11,
+              "color": "#69757D",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k7qlwbmd",
+      "id": "2",
+      "bbox": [
+        1180,
+        684,
+        36,
+        20
+      ],
+      "geometry": "rect",
+      "text": "8",
+      "textPreview": "8",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#69757D",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "8"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "8",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#69757D",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "8",
+              "fontSize": 11,
+              "color": "#69757D",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l8z25wny",
+      "id": "3",
+      "bbox": [
+        64,
+        36,
+        460,
+        24
+      ],
+      "geometry": "rect",
+      "text": "FIGURE 3 · TECHNICAL BACKGROUND",
+      "textPreview": "FIGURE 3 · TECHNICAL BACKGROUND",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#7B95C6",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "FIGURE 3 · TECHNICAL BACKGROUND"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FIGURE 3 · TECHNICAL BACKGROUND",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#7B95C6",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FIGURE 3 · TECHNICAL BACKGROUND",
+              "fontSize": 13,
+              "color": "#7B95C6",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ahojqhob",
+      "id": "4",
+      "bbox": [
+        64,
+        62,
+        1152,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Chemical diversity needs structure-aware and target-aware summaries",
+      "textPreview": "Chemical diversity needs structure-aware and target-aware summaries",
+      "resolvedFontSize": 36,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 36,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Chemical diversity needs structure-aware and target-aware summaries"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Chemical diversity needs structure-aware and target-aware summaries",
+          "resolvedTextStyle": {
+            "fontSize": 36,
+            "color": "#26323A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Chemical diversity needs structure-aware and target-aware summaries",
+              "fontSize": 36,
+              "color": "#26323A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b2xkzm5w",
+      "id": "5",
+      "bbox": [
+        64,
+        126,
+        82,
+        5
+      ],
+      "geometry": "rect",
+      "fillColor": "#F47254",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/58ruh83e",
+      "id": "6",
+      "bbox": [
+        72,
+        160,
+        500,
+        430
+      ],
+      "alt": "Compound section graphic",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "asset": {
+        "assetId": "103f027a-2298-4ca4-8765-514726841133",
+        "contentType": "image/png",
+        "byteLength": 147437
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4z21wn2",
+      "id": "7",
+      "bbox": [
+        610,
+        175,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#F47254",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uds32l4v",
+      "id": "8",
+      "bbox": [
+        634,
+        165,
+        531,
+        79
+      ],
+      "geometry": "rect",
+      "text": "Bemis–Murcko scaffolds summarize reusable chemical cores.",
+      "textPreview": "Bemis–Murcko scaffolds summarize reusable chemical cores.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Bemis–Murcko scaffolds summarize reusable chemical cores."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Bemis–Murcko scaffolds summarize reusable chemical cores.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#26323A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Bemis–Murcko scaffolds summarize reusable chemical cores.",
+              "fontSize": 19,
+              "color": "#26323A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vy1kbq50",
+      "id": "9",
+      "bbox": [
+        610,
+        258,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#7B95C6",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rydobu94",
+      "id": "10",
+      "bbox": [
+        634,
+        248,
+        531,
+        79
+      ],
+      "geometry": "rect",
+      "text": "Morgan/Tanimoto measures local substructure similarity; UMAP is only a projection.",
+      "textPreview": "Morgan/Tanimoto measures local substructure similarity; UMAP is only a projection.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Morgan/Tanimoto measures local substructure similarity; UMAP is"
+          },
+          {
+            "index": 2,
+            "text": "only a projection."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Morgan/Tanimoto measures local substructure similarity; UMAP is only a projection.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#26323A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Morgan/Tanimoto measures local substructure similarity; UMAP is only a projection.",
+              "fontSize": 19,
+              "color": "#26323A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qx4729sz",
+      "id": "11",
+      "bbox": [
+        610,
+        341,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#7B95C6",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0f6d4ra",
+      "id": "12",
+      "bbox": [
+        634,
+        331,
+        531,
+        79
+      ],
+      "geometry": "rect",
+      "text": "Target breadth and membrane-role entropy separate selectivity from polypharmacology.",
+      "textPreview": "Target breadth and membrane-role entropy separate selectivity from polypharmacology.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Target breadth and membrane-role entropy separate selectivity"
+          },
+          {
+            "index": 2,
+            "text": "from polypharmacology."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Target breadth and membrane-role entropy separate selectivity from polypharmacology.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#26323A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Target breadth and membrane-role entropy separate selectivity from polypharmacology.",
+              "fontSize": 19,
+              "color": "#26323A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cz6p4zap",
+      "id": "13",
+      "bbox": [
+        610,
+        424,
+        12,
+        12
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#7B95C6",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2x8fe9g",
+      "id": "14",
+      "bbox": [
+        634,
+        414,
+        531,
+        79
+      ],
+      "geometry": "rect",
+      "text": "Physicochemical distributions are descriptive and are not a Lipinski pass/fail filter.",
+      "textPreview": "Physicochemical distributions are descriptive and are not a Lipinski pass/fail filter.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#26323A",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Physicochemical distributions are descriptive and are not a"
+          },
+          {
+            "index": 2,
+            "text": "Lipinski pass/fail filter."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Physicochemical distributions are descriptive and are not a Lipinski pass/fail filter.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#26323A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Physicochemical distributions are descriptive and are not a Lipinski pass/fail filter.",
+              "fontSize": 19,
+              "color": "#26323A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

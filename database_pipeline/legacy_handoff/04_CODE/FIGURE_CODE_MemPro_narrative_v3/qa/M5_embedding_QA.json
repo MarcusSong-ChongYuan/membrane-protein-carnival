@@ -1,0 +1,11 @@
+{
+  "ecfp4_n": 15000,
+  "ecfp4_knn_retention": 0.16422222222222221,
+  "ecfp4_cluster_purity": 0.5613975617568192,
+  "ecfp4_noise_fraction": 0.09033333333333333,
+  "pagtn_n": 2400,
+  "pagtn_knn_retention": 0.47850000000000004,
+  "pagtn_cluster_purity": 0.4291360010643509,
+  "pagtn_noise_fraction": 0.0,
+  "pagtn_boundary": "property-supervised pilot, not universal pretrained embedding"
+}

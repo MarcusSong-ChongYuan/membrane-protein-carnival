@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "run_type": "incremental_supplement_not_rebuild",
+  "generated_at_utc": "2026-07-27T09:02:30.547379+00:00",
+  "compound_policy": "name matches are candidates only; no merge performed",
+  "counts": {
+    "ambiguous_exact_name_candidates": 89,
+    "excluded_generic_or_common": 365,
+    "no_existing_name_candidate": 25402,
+    "unique_exact_name_candidate_unverified": 990
+  },
+  "queue_rows": 26846,
+  "output": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\brenda\\brenda_compound_identity_queue_v3.tsv.gz"
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\02_classification_tables\\V1A_chemical_taxonomy_ranked_bar.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\02_classification_tables\\\\V1A_chemical_taxonomy_ranked_bar.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 6.0,\n  \"text_run_count\": 28,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\02_classification_tables\\V1B_chemical_taxonomy_hierarchy.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\02_classification_tables\\\\V1B_chemical_taxonomy_hierarchy.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.5,\n  \"text_run_count\": 18,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\03_scaffold\\OPTIONAL_BUTINA_CLUSTER_SIZE.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\03_scaffold\\\\OPTIONAL_BUTINA_CLUSTER_SIZE.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.236,\n  \"text_run_count\": 16,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\03_scaffold\\V2A_exact_scaffold_rank_abundance.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\03_scaffold\\\\V2A_exact_scaffold_rank_abundance.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.236,\n  \"text_run_count\": 36,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\03_scaffold\\V2B_generic_scaffold_rank_abundance.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\03_scaffold\\\\V2B_generic_scaffold_rank_abundance.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.236,\n  \"text_run_count\": 34,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\03_scaffold\\V3_top_scaffold_gallery.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\03_scaffold\\\\V3_top_scaffold_gallery.pdf\",\n  \"auditable\": false,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": null,\n  \"text_run_count\": 0,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\04_heatmaps\\V4A_chemical_class_role_count_heatmap.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\04_heatmaps\\\\V4A_chemical_class_role_count_heatmap.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.48,\n  \"text_run_count\": 30,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\04_heatmaps\\V4B_chemical_class_role_profile_heatmap.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\04_heatmaps\\\\V4B_chemical_class_role_profile_heatmap.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.48,\n  \"text_run_count\": 32,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\04_heatmaps\\V5A_scaffold_role_heatmap_ordered.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\04_heatmaps\\\\V5A_scaffold_role_heatmap_ordered.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.48,\n  \"text_run_count\": 71,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\04_heatmaps\\V5B_scaffold_role_heatmap_rowclustered.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\04_heatmaps\\\\V5B_scaffold_role_heatmap_rowclustered.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.48,\n  \"text_run_count\": 71,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\04_heatmaps\\V5C_scaffold_role_heatmap_biclustered.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\04_heatmaps\\\\V5C_scaffold_role_heatmap_biclustered.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.48,\n  \"text_run_count\": 71,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\04_heatmaps\\V6_physchem_class_heatmap.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\04_heatmaps\\\\V6_physchem_class_heatmap.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 7.48,\n  \"text_run_count\": 30,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\05_chemical_space\\V7A_PCA_chemical_superclass.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\05_chemical_space\\\\V7A_PCA_chemical_superclass.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.5,\n  \"text_run_count\": 28,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\05_chemical_space\\V7B_PCA_target_role.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\05_chemical_space\\\\V7B_PCA_target_role.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.5,\n  \"text_run_count\": 30,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\05_chemical_space\\V7C_PCA_scaffold_family.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\05_chemical_space\\\\V7C_PCA_scaffold_family.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.5,\n  \"text_run_count\": 29,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\05_chemical_space\\V8A_UMAP_chemical_superclass.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\05_chemical_space\\\\V8A_UMAP_chemical_superclass.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.5,\n  \"text_run_count\": 22,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\05_chemical_space\\V8B_UMAP_scaffold_family.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\05_chemical_space\\\\V8B_UMAP_scaffold_family.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.5,\n  \"text_run_count\": 23,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\05_chemical_space\\V8C_UMAP_target_role.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\05_chemical_space\\\\V8C_UMAP_target_role.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.5,\n  \"text_run_count\": 24,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\06_target_breadth\\V9A_target_breadth_distribution.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\06_target_breadth\\\\V9A_target_breadth_distribution.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.236,\n  \"text_run_count\": 17,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\06_target_breadth\\V9B_target_breadth_by_class.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\06_target_breadth\\\\V9B_target_breadth_by_class.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.236,\n  \"text_run_count\": 16,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\06_target_breadth\\V9C_target_breadth_by_scaffold.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\06_target_breadth\\\\V9C_target_breadth_by_scaffold.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 5.0,\n  \"text_run_count\": 21,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  },
+  {
+    "file": "D:\\finale\\compound_classification_exploration\\08_contact_sheet\\COMPOUND_VISUAL_EXPLORATION_CONTACT_SHEET.pdf",
+    "result": "{\n  \"pdf\": \"D:\\\\finale\\\\compound_classification_exploration\\\\08_contact_sheet\\\\COMPOUND_VISUAL_EXPLORATION_CONTACT_SHEET.pdf\",\n  \"auditable\": true,\n  \"minimum_required_pt\": 5.0,\n  \"minimum_found_pt\": 6.7,\n  \"text_run_count\": 47,\n  \"below_minimum_count\": 0,\n  \"below_minimum\": [],\n  \"warnings\": []\n}"
+  }
+]

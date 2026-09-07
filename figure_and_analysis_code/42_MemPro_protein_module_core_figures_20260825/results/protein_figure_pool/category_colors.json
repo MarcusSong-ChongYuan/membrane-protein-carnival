@@ -1,0 +1,18 @@
+{
+  "primary_role": {
+    "membrane_associated_enzyme": "#7b95c6",
+    "receptor": "#49c2d9",
+    "family_defined_membrane_role_unresolved": "#a1d8e8",
+    "transporter": "#67a583",
+    "ion_channel": "#a2c986",
+    "signaling_regulator": "#d0e2c0",
+    "membrane_scaffold_or_linker": "#fded95",
+    "adhesion_recognition": "#ffc1a6",
+    "immune_or_cell_recognition": "#f59c7c",
+    "membrane_trafficking": "#f47254",
+    "membrane_organizer": "#c85e62",
+    "junction_or_adhesion": "#7b95c6",
+    "membrane_lipid_transfer": "#49c2d9",
+    "membrane_lipid_translocase": "#a1d8e8"
+  }
+}

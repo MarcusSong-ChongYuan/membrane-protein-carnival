@@ -1,0 +1,7 @@
+{
+  "disease_q75": 2.0,
+  "chemical_q25_among_nonzero": 2.0,
+  "candidate_count": 55,
+  "zero_chemistry_disease_proteins": 921,
+  "weighted_disease_score_used": false
+}

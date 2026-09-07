@@ -1,0 +1,16 @@
+module	source	version_or_snapshot	contribution	redistribution_note
+protein	UniProtKB	2026_02; released 2026-06-10	Canonical protein identity, sequence, topology, function and disease annotation	Check UniProt terms and attribution
+protein	HPA	25.1	Tissue, cell-type, cell-cluster, IHC and subcellular localization	Check HPA terms and attribution
+protein	Human Transmembrane Proteome (UniTmp/HTP)	d.2.2 snapshot 2026-07-24	Independent transmembrane-protein support	Check source terms
+protein	Membranome	snapshot 2026-07-24	Membrane topology/family support	Check source terms
+structure	PDBe	current/weekly snapshot 2026-07	Protein–ligand structure, chain and contact residues	Coordinate files remain under wwPDB terms
+structure	OPM	snapshot 2026-07-24	Membrane orientation and structure support	Check source terms
+structure	PDBTM	snapshot 2026-07-24	Transmembrane structure support	Check source terms
+structure	PDBbind	2020.R1; complexes reprocessed with 2024 workflow	Affinity and processed protein–ligand complexes	Restricted original package not redistributed here; verify license
+interaction	ChEMBL	37; released 2026-05-01	Targets, assays, activities and structures	Check ChEMBL license/attribution
+interaction	BindingDB	2026-07	Quantitative binding records	Check BindingDB terms/attribution
+interaction	PubChem BioAssay	current snapshot 2026-07	Active/inactive assay evidence, AID/SID/CID and quantitative outcomes	Check PubChem attribution
+interaction	BRENDA	2026.1	Enzyme substrates, products, inhibitors, activators, cofactors and kinetics	Internal derived use; verify current redistribution terms
+disease	Open Targets	26.06	Disease association and evidence channels	Check Open Targets license/attribution
+disease	UniProtKB disease annotation	2026_02	Curated protein–disease annotation	Check UniProt terms and attribution
+

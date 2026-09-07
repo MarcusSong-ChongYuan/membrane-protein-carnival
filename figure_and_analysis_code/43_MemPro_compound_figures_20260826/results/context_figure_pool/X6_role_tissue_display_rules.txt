@@ -1,0 +1,7 @@
+Analysis unit: one canonical protein.
+Protein × tissue aggregation: one row per target_uniprot_id × tissue_ontology_id, after filtering to formal mapped+measured HPA consensus tissue RNA; any stored DETECTED record sets protein detection to true and retained numeric values are summarized by median.
+Tissue selection: top 12 standardized tissues by unique canonical proteins with usable expression data; exact ties are resolved alphabetically by existing tissue_ontology_label. No manual tissue selection or clustering.
+Role selection: eight largest formal primary roles by total canonical protein count; all remaining formal roles are aggregated as Other low-frequency roles for display only.
+Colour: detected fraction = n_detected / n_with_expression_data. Annotation: n_with_expression_data.
+Blank: no usable mapped + measured expression information for that role × tissue; blank never means zero expression.
+RNA only: IHC, tissue proteomics/MS and cell-type RNA are excluded rather than combined.

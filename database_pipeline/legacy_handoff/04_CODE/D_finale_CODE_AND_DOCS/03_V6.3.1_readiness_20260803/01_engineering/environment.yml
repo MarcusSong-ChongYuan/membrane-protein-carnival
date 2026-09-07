@@ -1,0 +1,24 @@
+name: mempro-v631
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - adjustText==1.4.0
+    - duckdb==1.3.2
+    - lxml==6.0.2
+    - matplotlib==3.11.1
+    - networkx==3.6.1
+    - numpy==2.3.5
+    - openpyxl==3.1.5
+    - pandas==3.0.1
+    - pyarrow==25.0.0
+    - rdkit==2026.3.5
+    - scikit-learn==1.9.0
+    - scipy==1.18.0
+    - seaborn==0.13.2
+    - tqdm==4.70.0
+    - umap-learn==0.5.12
+    - UpSetPlot==0.9.0
+    - xlsxwriter==3.2.9

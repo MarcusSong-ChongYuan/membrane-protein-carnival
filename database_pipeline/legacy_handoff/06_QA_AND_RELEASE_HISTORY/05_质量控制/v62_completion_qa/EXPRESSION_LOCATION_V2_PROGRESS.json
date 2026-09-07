@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "stage": "complete",
+  "started_utc": "2026-07-29T09:12:15.015191+00:00",
+  "completed_utc": "2026-07-29T09:22:14.476019+00:00",
+  "report": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\qa\\EXPRESSION_LOCATION_V2_VALIDATION.json",
+  "source_rows": {
+    "rna_tissue_consensus.tsv.zip": 1026292,
+    "rna_tissue_hpa.tsv.zip": 806480,
+    "ms_tissue.tsv.zip": 385940,
+    "rna_single_cell_type.tsv.zip": 3087080,
+    "normal_ihc_data.tsv.zip": 1199675,
+    "rna_single_cell_cluster.tsv.zip": 23542642,
+    "subcellular_location.tsv.zip": 13603
+  },
+  "output_rows": {
+    "tissue": 2060458,
+    "cell_type": 1656976,
+    "ihc": 681469,
+    "cell_cluster": 12641815,
+    "localization": 30831
+  }
+}

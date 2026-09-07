@@ -1,0 +1,31 @@
+column_name	description
+source_evidence_id	stable source-derived row identifier
+source_database	source name
+source_version	source release or retrieval version
+source_record_id	native source record key
+source_url	native record URL
+retrieval_date	ISO retrieval date
+target_uniprot_id	canonical human UniProt accession
+target_mapping_status	single_human_uniprot; ambiguous; unmapped; nonhuman
+approved_symbol	HGNC-approved gene symbol when available
+compound_source_id	native compound identifier
+compound_name	native compound name
+compound_internal_id	MemProDB canonical parent identifier
+compound_form_id	MemProDB exact-form identifier
+compound_mapping_status	mapped_core; mapped_extended; unresolved; excluded
+evidence_tier	BE1; BE2; BE3; MECH; negative; nondefault
+evidence_type	source-specific evidence class
+activity_type	Kd; Ki; IC50; EC50; substrate; inhibitor; etc.
+activity_relation	numeric relation such as equals greater-than or less-than
+activity_value	original numeric value
+activity_unit	original unit
+standard_value_nM	standardized value when valid
+activity_outcome	active; inactive; inconclusive; unspecified
+assay_or_mechanism	source assay or mechanism description
+pdb_ids	PDB identifiers
+binding_site_residues	residue-level contact representation
+pubmed_ids	PubMed identifiers
+doi	DOI identifiers
+record_qc_status	ok; review; excluded
+default_release_inclusion	1 only when all default rules pass
+exclusion_reason	explicit reason for non-default or exclusion decision

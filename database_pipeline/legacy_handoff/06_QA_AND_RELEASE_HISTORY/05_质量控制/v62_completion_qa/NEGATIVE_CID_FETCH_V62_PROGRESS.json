@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "started_utc": "2026-07-29T08:59:52.345101+00:00",
+  "completed_utc": "2026-07-29T20:56:08.143816+00:00",
+  "batches_completed": 13585,
+  "counts": {
+    "resolved_cache": 274313,
+    "resolved_pubchem": 1348278,
+    "total": 1622591
+  },
+  "exported_rows": 1622591,
+  "output": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\negative_identity\\negative_cid_properties_v62.tsv.gz",
+  "database": "D:\\7.22\\evidence_expansion_v2_working\\runs\\v62_completion_20260729\\staging\\negative_identity\\negative_cid_identity_v62.sqlite"
+}

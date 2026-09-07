@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "candidate_views": 10,
+  "recommendations": {
+    "MAIN CANDIDATE": 4,
+    "SUPPLEMENTARY": 4,
+    "EXPLORATORY ONLY": 2
+  },
+  "contact_sheet_pdf": "D:\\finale\\compound_classification_exploration\\08_contact_sheet\\COMPOUND_VISUAL_EXPLORATION_CONTACT_SHEET.pdf"
+}

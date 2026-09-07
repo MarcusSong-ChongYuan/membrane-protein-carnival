@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "run_type": "incremental_supplement_not_rebuild",
+  "generated_at_utc": "2026-07-27T08:58:43.408452+00:00",
+  "baseline_policy": "read_only",
+  "source_manifest": "D:\\7.22\\evidence_expansion_v2_working\\intermediate\\pdbbind_2020r1_membrane_subset_manifest.tsv",
+  "source_version": "2020.R1 complexes reprocessed with PDBbind v2024 workflow",
+  "counts": {
+    "activity_type_IC50": 3312,
+    "activity_type_Kd": 2449,
+    "activity_type_Ki": 1753,
+    "default_0": 4020,
+    "default_1": 3494,
+    "docking_manifest_rows": 6924,
+    "evidence_rows": 7514,
+    "manifest_rows": 6926,
+    "mapping_method_ambiguous_same_pdb": 55,
+    "mapping_method_frozen_same_pdb": 182,
+    "mapping_method_frozen_same_pdb_target": 3619,
+    "mapping_method_frozen_unambiguous_het": 45,
+    "mapping_method_unresolved_structure_identity": 3613,
+    "redocking_candidate": 3383,
+    "redocking_noncandidate": 3541,
+    "unparsed_affinity_rows": 2
+  },
+  "unique_pdb_ids": 6924,
+  "unique_targets": 915,
+  "unique_mapped_compounds": 3182,
+  "unique_mapped_target_compound_pairs": 3545,
+  "failures_sample": [],
+  "outputs": {
+    "normalized_evidence": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\pdbbind\\pdbbind_normalized_evidence_v3.tsv.gz",
+    "docking_structure_manifest": "D:\\7.22\\evidence_expansion_v2_working\\runs\\incremental_20260727\\staging\\pdbbind\\pdbbind_docking_structure_manifest_v3.tsv.gz"
+  }
+}
