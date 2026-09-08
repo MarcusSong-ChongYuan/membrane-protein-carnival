@@ -7,6 +7,7 @@ from pathlib import Path
 
 from .paths import load_project_paths, release_preflight
 from .release import build_release_summary, verify_manifest
+from .recovery import recover_legacy_context, verify_legacy_context
 from .snapshots import audit_snapshots, write_snapshot_audit
 
 
@@ -69,6 +70,27 @@ def command_snapshot_audit(args: argparse.Namespace) -> int:
     return 0 if payload["status"] in {"PASS", "PASS_WITH_LIMITATIONS"} else 2
 
 
+def command_recover_legacy_context(args: argparse.Namespace) -> int:
+    """Create an immutable, checksum-indexed legacy source-context bundle."""
+    paths = load_project_paths(args.data_root)
+    payload = recover_legacy_context(
+        paths.repo_root,
+        Path(args.legacy_source_root).expanduser().resolve(),
+        Path(args.destination).expanduser().resolve(),
+    )
+    _write_json(Path(args.destination).expanduser().resolve() / "LEGACY_CONTEXT_RECOVERY_REPORT.json", payload)
+    print(json.dumps(payload, indent=2, ensure_ascii=False))
+    return 0 if payload["status"] in {"PASS", "PASS_WITH_LIMITATIONS"} else 2
+
+
+def command_verify_legacy_context(args: argparse.Namespace) -> int:
+    destination = Path(args.destination).expanduser().resolve()
+    payload = verify_legacy_context(destination)
+    _write_json(destination / "LEGACY_CONTEXT_VERIFICATION.json", payload)
+    print(json.dumps(payload, indent=2, ensure_ascii=False))
+    return 0 if payload["status"] == "PASS" else 2
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Portable MemPro FORMAL release tools")
     parser.add_argument("--data-root", help="Path to extracted 01_database_FORMAL directory")
@@ -88,6 +110,16 @@ def main() -> int:
         help="Historical snapshot root; default is <data-root>/06_scripts/legacy_handoff or MEMPRO_RAW_SNAPSHOT_ROOT",
     )
     snapshot_audit.set_defaults(func=command_snapshot_audit)
+    recovery = subparsers.add_parser(
+        "recover-legacy-context",
+        help="Copy retained pre-V7 source artifacts to a new checksum-indexed context bundle",
+    )
+    recovery.add_argument("--legacy-source-root", required=True, help="Root of an earlier MemPro pipeline checkout")
+    recovery.add_argument("--destination", required=True, help="New, empty destination directory")
+    recovery.set_defaults(func=command_recover_legacy_context)
+    verify_recovery = subparsers.add_parser("verify-legacy-context", help="Verify a recovered legacy-context bundle")
+    verify_recovery.add_argument("--destination", required=True, help="Recovered legacy-context directory")
+    verify_recovery.set_defaults(func=command_verify_legacy_context)
     args = parser.parse_args()
     return args.func(args)
 

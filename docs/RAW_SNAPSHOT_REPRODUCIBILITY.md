@@ -92,3 +92,24 @@ When an original raw input is recovered, do not overwrite a release table.
 
 Do not use a current live source to fill an unrecovered historic snapshot
 without creating a separately versioned future release.
+
+## Recovering legacy pre-V7 artifacts
+
+Some pre-V7 raw exports and API caches survived in an earlier pipeline backup.
+They may be gathered into a separate checksum-indexed package with:
+
+```powershell
+./run.ps1 recover-legacy-context `
+  -LegacySourceRoot 'D:\path\to\old\membrane_pipeline' `
+  -Destination 'D:\MemPro_Legacy_Source_Context_Recovery'
+./run.ps1 verify-legacy-context `
+  -Destination 'D:\MemPro_Legacy_Source_Context_Recovery'
+```
+
+The recovery plan includes HPA, GtoPdb, OPM, Membranome, Open Targets, PDBe,
+PDB metadata, AlphaFold metadata, ChEMBL, UniProt, InterPro, Pfam, Reactome
+and retained TCDB/TTD audit inputs when they exist in the old backup.
+
+Every recovered item is explicitly tagged `NOT_EQUIVALENT_TO_V72` (or
+`NOT_IN_V72_SOURCE_REGISTRY`). This preserves useful provenance without
+claiming it can regenerate the frozen V7.2 release.

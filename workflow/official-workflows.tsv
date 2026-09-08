@@ -1,5 +1,6 @@
 workflow_id	scope	entrypoint	status	input_contract	output_contract
 W00	Frozen upstream source-snapshot audit	./run.ps1 snapshot-audit	ACTIVE	MEMPRO_DATA_ROOT -> extracted 01_database_FORMAL; retained legacy_handoff snapshots	outputs/reproducibility/raw_snapshot_audit.{json,tsv}
+W00b	Legacy source-context recovery	./run.ps1 recover-legacy-context -LegacySourceRoot <old-pipeline> -Destination <new-empty-dir>; ./run.ps1 verify-legacy-context -Destination <new-empty-dir>	ACTIVE_ARCHIVAL	Preserved earlier MemPro source/artifact root; never a destination containing FORMAL data	LEGACY_CONTEXT_MANIFEST.tsv + LEGACY_CONTEXT_RECOVERY_REPORT.json + LEGACY_CONTEXT_VERIFICATION.json
 W01	FORMAL release integrity	./run.ps1 doctor; ./run.ps1 verify[-full]	ACTIVE	MEMPRO_DATA_ROOT -> extracted 01_database_FORMAL	outputs/reproducibility/release_verification.json
 W02	FORMAL release content summary	./run.ps1 summary	ACTIVE	MEMPRO_DATA_ROOT -> extracted 01_database_FORMAL	outputs/reproducibility/release_summary.json
 W03	NAR figure regeneration	figure_and_analysis_code/24_MemPro_V7.2_NAR_analysis_and_figures_20260818/01_scripts/run_formal_figures.py	ACTIVE_WITH_FIGURE_PROFILE	FORMAL + anatomy asset from migration package	new derived figure root only

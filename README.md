@@ -18,6 +18,10 @@ $env:MEMPRO_DATA_ROOT = 'E:\MemPro\MemPro_Complete_Migration_20260908\01_databas
 .\run.ps1 snapshot-audit
 ```
 
+If an older local pipeline backup exists, its surviving source exports can be
+recovered into a separate manifest-verified context package with
+`./run.ps1 recover-legacy-context`; this never modifies FORMAL tables.
+
 Read [reproducibility status](docs/REPRODUCIBILITY_STATUS.md) before using a
 figure workflow, website deployment or the Linux/HPC docking material.
 Read [frozen upstream-input reproducibility](docs/RAW_SNAPSHOT_REPRODUCIBILITY.md)
