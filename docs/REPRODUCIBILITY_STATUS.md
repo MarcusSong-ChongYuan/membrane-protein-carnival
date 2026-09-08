@@ -6,8 +6,10 @@ With the separately distributed, checksum-verified `MemPro_Complete_Migration_20
 
 1. Validate the extracted FORMAL release against its release manifest.
 2. Recount the main frozen tables and compare them with the FORMAL QA report.
-3. Start the website source after its static data bundle is present in `website/public/data`.
-4. Run the preserved, named analysis workflows after installing the figure dependency profile.
+3. Audit the 27-source registry and hash-check every historical raw snapshot
+   that is actually retained in the migration package.
+4. Start the website source after its static data bundle is present in `website/public/data`.
+5. Run the preserved, named analysis workflows after installing the figure dependency profile.
 
 ## What is deliberately not claimed yet
 
@@ -28,9 +30,16 @@ $env:MEMPRO_DATA_ROOT = 'E:\MemPro\MemPro_Complete_Migration_20260908\01_databas
 .\run.ps1 doctor
 .\run.ps1 verify
 .\run.ps1 summary
+.\run.ps1 snapshot-audit
 ```
 
 Use `.\run.ps1 verify-full` for a complete file-by-file SHA-256 verification. It can take several minutes for the multi-gigabyte release.
+
+`snapshot-audit` does not contact upstream APIs. It reports which of the 27
+historical inputs are physically retained and validates only those declared
+snapshots. See [RAW_SNAPSHOT_REPRODUCIBILITY.md](RAW_SNAPSHOT_REPRODUCIBILITY.md)
+for the distinction between an integrity error and an unavailable historical
+input.
 
 ## NAR figure workflow
 

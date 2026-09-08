@@ -15,10 +15,13 @@ $env:MEMPRO_DATA_ROOT = 'E:\MemPro\MemPro_Complete_Migration_20260908\01_databas
 .\run.ps1 doctor
 .\run.ps1 verify
 .\run.ps1 summary
+.\run.ps1 snapshot-audit
 ```
 
 Read [reproducibility status](docs/REPRODUCIBILITY_STATUS.md) before using a
 figure workflow, website deployment or the Linux/HPC docking material.
+Read [frozen upstream-input reproducibility](docs/RAW_SNAPSHOT_REPRODUCIBILITY.md)
+before claiming an exact rebuild from raw source snapshots.
 
 `database_pipeline/legacy_handoff/` is retained as a historical audit archive;
 it is not the default execution path.

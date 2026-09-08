@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory = $true, Position = 0)]
-    [ValidateSet('doctor', 'verify', 'verify-full', 'summary', 'figures', 'web')]
+    [ValidateSet('doctor', 'verify', 'verify-full', 'summary', 'snapshot-audit', 'figures', 'web')]
     [string]$Task,
     [string]$DataRoot,
     [string]$FigureOutputRoot,
@@ -22,6 +22,7 @@ switch ($Task) {
     'verify'      { & $VenvPython -m mempro_repro verify }
     'verify-full' { & $VenvPython -m mempro_repro verify --full }
     'summary'     { & $VenvPython -m mempro_repro summary }
+    'snapshot-audit' { & $VenvPython -m mempro_repro snapshot-audit }
     'figures' {
         if (-not $env:MEMPRO_DATA_ROOT) { throw 'Set MEMPRO_DATA_ROOT or pass -DataRoot before regenerating figures.' }
         $Runner = Join-Path $RepoRoot 'figure_and_analysis_code\\24_MemPro_V7.2_NAR_analysis_and_figures_20260818\\01_scripts\\run_formal_figures.py'

@@ -1,0 +1,3 @@
+snapshot_id	source_id	snapshot_relpath	bytes	sha256	acquisition_mode	status	note
+membranome_api_20260724	membranome	04_CODE/D_7.22_CODE_AND_DOCS/membrane_master_v5_working/raw/membranome_main.js	7874978	018395da0f04535e969beba7d8a030b1af1d964e1e0d429c642e90ffbc4539e0	frozen_local_api_export	PRESENT	Historical local API export retained under legacy_handoff; duplicate copies are not separately enumerated.
+opm_api_20260724	opm	04_CODE/D_7.22_CODE_AND_DOCS/membrane_master_v5_working/raw/opm_main.js	7231706	440e5363fc0180a43b041d58b43a0a5d4a80bae040e1b47201b2baaca2d26d1e	frozen_local_api_export	PRESENT	Historical local API export retained under legacy_handoff; duplicate copies are not separately enumerated.
