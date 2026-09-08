@@ -33,19 +33,9 @@ $checks = [ordered]@{
     v721_validation_pass = ((Get-Content -LiteralPath (Join-Path $formal '02_companion_v721\05_QA\V721_VALIDATION_REPORT.json') -Raw | ConvertFrom-Json).status -eq 'PASS')
 }
 
-$files = Get-ChildItem -LiteralPath $formal -Recurse -File |
-    Where-Object { $_.FullName -ne $manifestPath } |
-    Sort-Object FullName
-$manifest = foreach ($f in $files) {
-    [pscustomobject]@{
-        relative_path = $f.FullName.Substring($formal.Length + 1)
-        bytes = $f.Length
-        sha256 = (Get-FileHash -LiteralPath $f.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
-    }
-}
-$manifest | Export-Csv -LiteralPath $manifestPath -Delimiter "`t" -NoTypeInformation -Encoding utf8
-
 $failed = @($checks.GetEnumerator() | Where-Object { -not $_.Value })
+$manifestFileCount = @(Get-ChildItem -LiteralPath $formal -Recurse -File |
+    Where-Object { $_.FullName -ne $manifestPath }).Count
 $report = [ordered]@{
     release = 'MemPro FORMAL'
     generated_at = (Get-Date).ToString('o')
@@ -62,8 +52,24 @@ $report = [ordered]@{
     }
     checks = $checks
     failed_checks = @($failed | ForEach-Object Key)
-    manifest_files = $manifest.Count
+    manifest_files = $manifestFileCount
 }
 $report | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath (Join-Path $qaDir 'FORMAL_VALIDATION_REPORT.json') -Encoding utf8
+
+# Write all derived metadata before hashing it.  The earlier ordering wrote the
+# manifest first, then changed FORMAL_VALIDATION_REPORT.json, which made the
+# release appear corrupt on a full checksum verification.
+$files = Get-ChildItem -LiteralPath $formal -Recurse -File |
+    Where-Object { $_.FullName -ne $manifestPath } |
+    Sort-Object FullName
+$manifest = foreach ($f in $files) {
+    [pscustomobject]@{
+        relative_path = $f.FullName.Substring($formal.Length + 1)
+        bytes = $f.Length
+        sha256 = (Get-FileHash -LiteralPath $f.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+    }
+}
+if ($manifest.Count -ne $manifestFileCount) { throw 'Manifest file count changed during generation.' }
+$manifest | Export-Csv -LiteralPath $manifestPath -Delimiter "`t" -NoTypeInformation -Encoding utf8
 $report | ConvertTo-Json -Depth 6
 if ($failed.Count -gt 0) { exit 2 }
