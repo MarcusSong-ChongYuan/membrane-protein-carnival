@@ -1,0 +1,18 @@
+# Copy this file to config/release.local.toml only when a local override is needed.
+# Do not commit release.local.toml: it may contain machine-specific paths.
+
+[release]
+name = "MemPro FORMAL"
+version = "FORMAL"
+
+[paths]
+# Prefer setting MEMPRO_DATA_ROOT in the environment.  This value is only a
+# portable relative fallback for a checkout placed beside the extracted data.
+data_root = "../MemPro_Complete_Migration/01_database_FORMAL"
+output_root = "outputs"
+website_root = "website"
+
+[verification]
+manifest = "05_metadata/FORMAL_MANIFEST_SHA256.tsv"
+sample_size = 32
+

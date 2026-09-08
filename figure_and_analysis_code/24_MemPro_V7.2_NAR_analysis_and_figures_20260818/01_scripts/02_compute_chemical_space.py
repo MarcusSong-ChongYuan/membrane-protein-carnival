@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 from collections import Counter
 from pathlib import Path
 
@@ -14,7 +15,7 @@ from rdkit.Chem.Scaffolds import MurckoScaffold
 from rdkit.ML.Cluster import Butina
 
 
-ROOT = Path(r"D:\finale\24_MemPro_V7.2_NAR_analysis_and_figures_20260818")
+ROOT = Path(os.environ["MEMPRO_FIGURE_OUTPUT_ROOT"])
 ANALYSIS = ROOT / "02_analysis_data"
 SD = ROOT / "03_source_data"
 QA = ROOT / "08_QA"

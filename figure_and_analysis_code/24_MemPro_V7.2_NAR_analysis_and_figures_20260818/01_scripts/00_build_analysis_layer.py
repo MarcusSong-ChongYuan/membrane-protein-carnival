@@ -4,6 +4,7 @@ import csv
 import gzip
 import json
 import math
+import os
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -12,9 +13,9 @@ import numpy as np
 import pandas as pd
 
 
-SOURCE = Path(r"C:\Users\Administrator\Desktop\FINAL\MemPro_V7.2")
-ROOT = Path(r"D:\finale\24_MemPro_V7.2_NAR_analysis_and_figures_20260818")
-TABLES = SOURCE / "01_release_tables"
+SOURCE = Path(os.environ["MEMPRO_DATA_ROOT"])
+ROOT = Path(os.environ["MEMPRO_FIGURE_OUTPUT_ROOT"])
+TABLES = SOURCE / "01_core_v72" / "01_release_tables"
 ANALYSIS = ROOT / "02_analysis_data"
 SOURCE_DATA = ROOT / "03_source_data"
 QA = ROOT / "08_QA"

@@ -1,6 +1,7 @@
 from pathlib import Path
 import json
 import math
+import os
 
 import matplotlib
 matplotlib.use("Agg")
@@ -9,7 +10,7 @@ import matplotlib.patches as patches
 import numpy as np
 
 
-ROOT=Path(r"D:\finale\24_MemPro_V7.2_NAR_analysis_and_figures_20260818")
+ROOT=Path(os.environ["MEMPRO_FIGURE_OUTPUT_ROOT"])
 OUT=ROOT/"05_graphics"
 PALETTE=["#7b95c6","#49c2d9","#a1d8e8","#67a583","#a2c986","#d0e2c0","#fded95","#ffc1a6","#f59c7c","#f47254","#c85e62"]
 BLUE,CYAN,LTBLUE,GREEN,LTGREEN,PALEGREEN,YELLOW,PEACH,SALMON,ORANGE,RED=PALETTE

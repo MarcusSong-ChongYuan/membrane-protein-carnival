@@ -1,5 +1,28 @@
 # MemPro
 
+## Official reproducible entry point
+
+The repository now distinguishes the **FORMAL frozen release workflow** from
+historical development scripts.  The separately distributed migration archive
+contains the release data; GitHub intentionally contains code and lightweight
+documentation only.
+
+```powershell
+git clone https://github.com/MarcusSong-ChongYuan/membrane-protein-carnival.git mempro
+cd mempro
+.\setup.ps1
+$env:MEMPRO_DATA_ROOT = 'E:\MemPro\MemPro_Complete_Migration_20260908\01_database_FORMAL'
+.\run.ps1 doctor
+.\run.ps1 verify
+.\run.ps1 summary
+```
+
+Read [reproducibility status](docs/REPRODUCIBILITY_STATUS.md) before using a
+figure workflow, website deployment or the Linux/HPC docking material.
+
+`database_pipeline/legacy_handoff/` is retained as a historical audit archive;
+it is not the default execution path.
+
 MemPro is a membrane-protein–small-molecule knowledgebase project. This repository contains reproducible **code, configuration and documentation** for maintaining the data pipeline, reproducing analyses/figures, and developing the web application.
 
 ## Repository layout

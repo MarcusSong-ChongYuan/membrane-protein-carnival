@@ -1,10 +1,11 @@
 from __future__ import annotations
 from pathlib import Path
+import os
 import hashlib, json
 import pandas as pd
 from PIL import Image, ImageOps, ImageDraw
 
-ROOT=Path(r"D:\finale\24_MemPro_V7.2_NAR_analysis_and_figures_20260818")
+ROOT=Path(os.environ["MEMPRO_FIGURE_OUTPUT_ROOT"])
 QA=ROOT/"08_QA"
 
 def contact(paths:list[Path], out:Path, cols:int, thumb=(520,390)):

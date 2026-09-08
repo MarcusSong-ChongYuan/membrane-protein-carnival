@@ -9,9 +9,9 @@ outputs/
 coverage/
 __pycache__/
 *.py[cod]
+*.egg-info/
 .venv/
 venv/
-
 # Formal/raw database data and generated site data
 01_database_FORMAL/
 data/
@@ -30,7 +30,6 @@ public/downloads/
 *.zip
 *.tar.gz
 *.7z
-
 # Generated figures and static render products
 *.png
 *.jpg
@@ -39,15 +38,14 @@ public/downloads/
 *.tiff
 *.pdf
 *.svg
-
 # Credentials / environment
 .env
 .env.*
 !.env.example
 *.pem
 *.key
-
 # OS / editor files
 .DS_Store
 Thumbs.db
 .vscode/
+config/release.local.toml

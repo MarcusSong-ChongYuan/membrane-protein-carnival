@@ -1,11 +1,13 @@
 from collections import Counter
 from pathlib import Path
+import os
 
 import pandas as pd
 
 
-SOURCE = Path(r"C:\Users\Administrator\Desktop\FINAL\MemPro_V7.2\01_release_tables\positive_interaction_evidence_v72.tsv.gz")
-OUT = Path(r"D:\finale\24_MemPro_V7.2_NAR_analysis_and_figures_20260818\03_source_data\F1C_source_evidence_tier_flow.tsv")
+SOURCE = Path(os.environ["MEMPRO_DATA_ROOT"]) / "01_core_v72" / "01_release_tables" / "positive_interaction_evidence_v72.tsv.gz"
+OUT = Path(os.environ["MEMPRO_FIGURE_OUTPUT_ROOT"]) / "03_source_data" / "F1C_source_evidence_tier_flow.tsv"
+OUT.parent.mkdir(parents=True, exist_ok=True)
 
 
 def split_values(value):

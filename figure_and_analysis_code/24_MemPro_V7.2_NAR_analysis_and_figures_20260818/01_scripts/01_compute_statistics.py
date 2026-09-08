@@ -3,6 +3,7 @@ from __future__ import annotations
 import itertools
 import json
 import math
+import os
 import random
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -12,8 +13,8 @@ import pandas as pd
 from scipy.stats import chi2_contingency, fisher_exact, kruskal, mannwhitneyu
 
 
-SOURCE = Path(r"C:\Users\Administrator\Desktop\FINAL\MemPro_V7.2\01_release_tables")
-ROOT = Path(r"D:\finale\24_MemPro_V7.2_NAR_analysis_and_figures_20260818")
+SOURCE = Path(os.environ["MEMPRO_DATA_ROOT"]) / "01_core_v72" / "01_release_tables"
+ROOT = Path(os.environ["MEMPRO_FIGURE_OUTPUT_ROOT"])
 ANALYSIS = ROOT / "02_analysis_data"
 SD = ROOT / "03_source_data"
 QA = ROOT / "08_QA"

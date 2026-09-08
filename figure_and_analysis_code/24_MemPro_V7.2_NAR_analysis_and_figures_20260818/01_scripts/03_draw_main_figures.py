@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import math
+import os
 import textwrap
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -21,7 +22,7 @@ from rdkit import Chem
 from rdkit.Chem import Draw
 
 
-ROOT = Path(r"D:\finale\24_MemPro_V7.2_NAR_analysis_and_figures_20260818")
+ROOT = Path(os.environ["MEMPRO_FIGURE_OUTPUT_ROOT"])
 ANALYSIS = ROOT / "02_analysis_data"
 SD = ROOT / "03_source_data"
 FIG = ROOT / "04_figures"
